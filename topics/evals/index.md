@@ -11,7 +11,7 @@ language: zh-CN
 
 ## 2026-06-23
 
-- **P1** [评测信号：公开 coding benchmark 寿命缩短，安全闭环 benchmark 增多](../../items/2026/06/23/daily/top-06-coding-benchmark-benchmark-coding-benchmark.md)：评测信号：公开 coding benchmark 寿命缩短，安全闭环 benchmark 增多：OpenAI 表示不再评估 SWE-bench Verified 并建议转向 SWE-bench Pro（2026-02-23）；EVMbench（2026-02-18）强调发现、修...
+- **P1** [评测信号：公开 coding benchmark 寿命缩短，安全闭环 benchmark 增多](../../items/2026/06/23/daily/top-06-coding-benchmark-swe-bench-verified.md)：评测信号：公开 coding benchmark 寿命缩短，安全闭环 benchmark 增多：OpenAI 表示不再评估 SWE-bench Verified 并建议转向 SWE-bench Pro（2026-02-23）；EVMbench（2026-02-18）强调发现、修...
 
 ## 2026-06-22
 
