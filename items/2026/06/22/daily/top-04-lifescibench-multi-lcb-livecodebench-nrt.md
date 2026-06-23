@@ -15,9 +15,13 @@ window: daily
 
 **评测从单轮题库继续走向部署仿真、多轮红队、多语言和领域专家任务**：LifeSciBench 面向生命科学专家任务；Multi-LCB 扩展 LiveCodeBench 到多语言；NRT-Bench 用模拟核电站控制室测试安全关键 Agent 的多轮对抗鲁棒性。
 
+## P级别依据
+
+P1：命中 Agent / Coding Agent、推理 / Serving、评测 / Benchmarks，包含可直接核验的源链接；适合进入阅读、实验或技术储备队列。
+
 ## 工程影响
 
-检查 agent runtime、工具权限、状态管理、审计日志和失败恢复是否需要调整。
+把相关 benchmark 当作参考信号，优先沉淀内部私有回归集和真实任务评测。
 
 ## 来源
 

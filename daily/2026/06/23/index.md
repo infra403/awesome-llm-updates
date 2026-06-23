@@ -20,6 +20,8 @@ source: "../../../../archive/2026/06/23/digest/20260623-093039/daily.md"
 
 ## 今日主线
 
+> 本周期强信号较少：只保留具备当前窗口、明确来源链接和工程影响的条目，没有为了补足数量纳入旧来源或低证据内容。
+
 - **P0** 小模型/量化模型继续服务 coding、reasoning 与子代理负载
   - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-23) · [模型发布](../../../../topics/model-releases/index.md#2026-06-23)
   - 条目：[结构化记录](../../../../items/2026/06/23/daily/top-01-coding-reasoning-reecdev-vibethinker-3b.md)

@@ -15,6 +15,10 @@ window: daily
 
 **Coding/multi-agent 工具链升温**：GitHub P0 项目集中在本地并行 agent、meta-harness、终端 agent、AI gateway 与 agent-native UI：`superset-sh/superset`、`omnigent-ai/omnigent`、`gptme/gptme`、`envoyproxy/ai-gateway`、`CopilotKit/CopilotKit`。
 
+## P级别依据
+
+P0：命中 Agent / Coding Agent、推理 / Serving、LLM Infra，包含可直接核验的源链接；可能影响近期工程选型、架构约束或评测优先级。
+
 ## 工程影响
 
 检查 agent runtime、工具权限、状态管理、审计日志和失败恢复是否需要调整。

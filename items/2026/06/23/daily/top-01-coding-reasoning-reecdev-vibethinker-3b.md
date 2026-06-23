@@ -15,9 +15,13 @@ window: daily
 
 **小模型/量化模型继续服务 coding、reasoning 与子代理负载**：Hugging Face 今日高优先级候选包括 `reecdev/VibeThinker-3B-LQ8-GGUF`（2026-06-23T00:03:13Z，MIT，P0）与 `PGCodeLLM/AgenticRL-blackbox-260401_231502_cd7fb81c`（2026-06-22T21:05:33Z，Apache-2.0，P0）。
 
+## P级别依据
+
+P0：命中 Agent / Coding Agent、模型发布，包含可直接核验的源链接；可能影响近期工程选型、架构约束或评测优先级。
+
 ## 工程影响
 
-检查 agent runtime、工具权限、状态管理、审计日志和失败恢复是否需要调整。
+进入模型候选池前先验证 license、chat template、推理吞吐、显存、部署兼容性和内部 prompt regression。
 
 ## 来源
 

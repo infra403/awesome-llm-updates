@@ -15,6 +15,10 @@ window: daily
 
 **端侧/实时 Agent Serving 需要超越 KV cache 的状态复用**：2026-06-18 arXiv 的 Execution-State Capsules 将复用对象扩展到图绑定执行状态 checkpoint/restore，面向低延迟、小 batch、端侧物理 AI 的分支、重置、中断和重入场景。
 
+## P级别依据
+
+P0：命中 Agent / Coding Agent、推理 / Serving、论文，包含可直接核验的源链接；可能影响近期工程选型、架构约束或评测优先级。
+
 ## 工程影响
 
 检查 agent runtime、工具权限、状态管理、审计日志和失败恢复是否需要调整。
