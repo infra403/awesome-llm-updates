@@ -14,6 +14,9 @@
 - [news/20260623_061626/news.md](news/20260623_061626/news.md)
 - [news/20260623_061626/time.md](news/20260623_061626/time.md)
 - [news/20260623_061626/topic.md](news/20260623_061626/topic.md)
+- [news/20260623_210126/news.md](news/20260623_210126/news.md)
+- [news/20260623_210126/time.md](news/20260623_210126/time.md)
+- [news/20260623_210126/topic.md](news/20260623_210126/topic.md)
 
 ## 模型发布
 - [models/20260623-002548/models.md](models/20260623-002548/models.md)
