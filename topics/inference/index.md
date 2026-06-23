@@ -11,15 +11,21 @@ language: zh-CN
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 4 条，其中 P0/P1 4 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天自动归档 7 条，其中 P0/P1 7 条；优先打开带源链接的结构化记录二次核验。
 
 ## 今日新增信号
 
-- **P0** [Coding/multi-agent 工具链升温](../../items/2026/06/23/daily/top-02-coding-multi-agent-p0-meta.md)：Coding/multi-agent 工具链升温：GitHub P0 项目集中在本地并行 agent、meta-harness、终端 agent、AI gateway 与 agent-native UI：superset-sh/super...
+- **P0** [Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing](../../items/2026/06/23/daily/top-01-concordia-llm-agent-serving-gpu.md)：Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing：核心变化是 arXiv 2026-06-22 新增论文提出 JIT-compiled persistent-kern...
+- **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](../../items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)：Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent：核心变化是 Hugging Face 在当前 10 小时模型窗口出现...
+- **P1** [Litmus：用代码驱动、零标签 metric specification 评估 AI 系统](../../items/2026/06/23/daily/top-05-litmus-metric-specification-ai-arxiv.md)：Litmus：用代码驱动、零标签 metric specification 评估 AI 系统：核心变化是 arXiv 2026-06-22 新增论文提出 zero-label、code-driven metric specificatio...
+- **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](../../items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)：CUGA working examples：轻量 harness 上的 agentic app 样例集：核心变化是 Hugging Face Blog 2026-06-23 发布 IBM Research 文章，称基于 CUGA 提供 t...
 
 ## 值得实验
 
-- **P0** [Coding/multi-agent 工具链升温](../../items/2026/06/23/daily/top-02-coding-multi-agent-p0-meta.md)
+- **P0** [Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing](../../items/2026/06/23/daily/top-01-concordia-llm-agent-serving-gpu.md)
+- **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](../../items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)
+- **P1** [Litmus：用代码驱动、零标签 metric specification 评估 AI 系统](../../items/2026/06/23/daily/top-05-litmus-metric-specification-ai-arxiv.md)
+- **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](../../items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)
 - **P0** [OpenAI 将“上线前部署仿真”作为评测方向推到台前](../../items/2026/06/22/daily/top-01-2026-06-16-deployment-simulation.md)
 - **P0** [端侧/实时 Agent Serving 需要超越 KV cache 的状态复用](../../items/2026/06/22/daily/top-03-agent-serving-kv-cache-2026.md)
 - **P1** [评测从单轮题库继续走向部署仿真、多轮红队、多语言和领域专家任务](../../items/2026/06/22/daily/top-04-lifescibench-multi-lcb-livecodebench-nrt.md)
@@ -32,7 +38,10 @@ language: zh-CN
 
 ## 2026-06-23
 
-- **P0** [Coding/multi-agent 工具链升温](../../items/2026/06/23/daily/top-02-coding-multi-agent-p0-meta.md)：Coding/multi-agent 工具链升温：GitHub P0 项目集中在本地并行 agent、meta-harness、终端 agent、AI gateway 与 agent-native UI：superset-sh/superset、omnigent-ai/omni...
+- **P0** [Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing](../../items/2026/06/23/daily/top-01-concordia-llm-agent-serving-gpu.md)：Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing：核心变化是 arXiv 2026-06-22 新增论文提出 JIT-compiled persistent-kernel checkpointing，目标覆...
+- **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](../../items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)：Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent：核心变化是 Hugging Face 在当前 10 小时模型窗口出现多个 P0 模型更新，包括 tepira...
+- **P1** [Litmus：用代码驱动、零标签 metric specification 评估 AI 系统](../../items/2026/06/23/daily/top-05-litmus-metric-specification-ai-arxiv.md)：Litmus：用代码驱动、零标签 metric specification 评估 AI 系统：核心变化是 arXiv 2026-06-22 新增论文提出 zero-label、code-driven metric specification，用于评估 AI/Agent 系统；工...
+- **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](../../items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)：CUGA working examples：轻量 harness 上的 agentic app 样例集：核心变化是 Hugging Face Blog 2026-06-23 发布 IBM Research 文章，称基于 CUGA 提供 two dozen working exa...
 
 ## 2026-06-22
 

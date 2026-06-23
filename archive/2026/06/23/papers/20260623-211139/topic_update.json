@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "revision_id": 20,
+      "url": "https://my.feishu.cn/docx/OeMPdOXCSoG6JDxWU3qc5fcRn1c"
+    },
+    "result": "success",
+    "warnings": []
+  }
+}

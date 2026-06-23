@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" start-block-id=\"doxcnj9lZH3kEbmi3xbvNUqkyof\" hit-block-ids=\"doxcnj9lZH3kEbmi3xbvNUqkyof\" keyword=\"2026-06-23 21:11 论文主题条目\">\n## 2026-06-23 21:11 论文主题条目\n\n### 推理系统与工程工具\n\n- Concordia: JIT-Compiled Persistent-Kernel Checkpointing for Fault-Tolerant LLM Inference（P0）：如果团队在做长会话 Agent、超长任务或多 GPU serving，这篇值得今天优先看恢复模型和运行时插入点。为什么值得看：把“请求状态”和“GPU 执行上下文”视为一等可恢复对象；设计 SLA 时不只考虑吞吐/延迟，还要度量 GPU/communicator failure 后的恢复粒度、状态一致性和 replay 成本。详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc 原文：https://arxiv.org/abs/2606.23521v1\n</fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 20
+    }
+  }
+}

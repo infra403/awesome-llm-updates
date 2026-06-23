@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" end-block-id=\"doxcn9uWQS1JdMwZkWC946FUh8d\" hit-block-ids=\"doxcn2bKZPL0DM8AqtyWN6r4vPf\" keyword=\"Concordia: JIT-Compiled\">\n- 本次候选数：18\n- 入选数：8\n- P0/P1 数：8（P0：7，P1：1）\n- 时间窗口：候选报告标注为 last 36h；入选条目均为 2026-06-22 发布的 arXiv 论文，符合当天/前一天日期边界。\n- 选择原则：优先 P0/P1，且 reason_codes 显示具有 Agent、RAG、推理系统、评测、训练等工程价值；未使用候选外论文。\n\n### 1. Concordia: JIT-Compiled Persistent-Kernel Checkpointing for Fault-Tolerant LLM Inference\n\n- 来源：arXiv\n- 发布日期：2026-06-22\n- 重要性：P0：长运行 LLM Agent / serving 的 GPU 常驻状态容错，直接影响在线推理可靠性。\n- 主题标签：推理系统与工程工具\n- 核心变化：提出面向 LLM 推理的 JIT 编译 persistent-kernel checkpointing，把 KV cache、请求调度、通信状态等 GPU-resident 执行上下文纳入故障恢复，而不是依赖整栈重启或各组件手写 checkpoint。\n- 一句话结论：如果团队在做长会话 Agent、超长任务或多 GPU serving，这篇值得今天优先看恢复模型和运行时插入点。\n- 工程影响：对推理服务架构的启发是：把“请求状态”和“GPU 执行上下文”视为一等可恢复对象；设计 SLA 时不只考虑吞吐/延迟，还要度量 GPU/communicator failure 后的恢复粒度、状态一致性和 replay 成本。\n- 证据边界：当前候选只提供摘要级信息；具体恢复开销、吞吐损失、支持的 attention/runtime 组合、代码是否公开均未确认。\n- 建议动作：今天应阅读：P0 且与生产推理可靠性强相关，适合推理平台团队评估是否可迁移到 vLLM/Triton/自研 runtime。\n- 原文 URL：https://arxiv.org/abs/2606.23521v1\n\n### 2. When Confidence Takes the Wrong Path: Diagnosing Retrieval-State Lock-In in RAG\n</fragment>",
+      "document_id": "GFhOdA2KroFr74xc8eCc5fgbnDc",
+      "revision_id": 6
+    }
+  }
+}

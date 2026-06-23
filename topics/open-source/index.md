@@ -11,26 +11,23 @@ GitHub 项目、开源工具、工程框架和可落地 POC 候选。
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 1 条，其中 P0/P1 1 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天暂无高质量自动归档条目。
 
 ## 今日新增信号
 
-- **P0** [Coding/multi-agent 工具链升温](../../items/2026/06/23/daily/top-02-coding-multi-agent-p0-meta.md)：Coding/multi-agent 工具链升温：GitHub P0 项目集中在本地并行 agent、meta-harness、终端 agent、AI gateway 与 agent-native UI：superset-sh/super...
+- 今日暂无新增信号。
 
 ## 值得实验
 
-- **P0** [Coding/multi-agent 工具链升温](../../items/2026/06/23/daily/top-02-coding-multi-agent-p0-meta.md)
+- 暂无 P0/P1 条目进入实验候选。
 
 ## 持续观察
 
 - 暂无 P2 观察条目。
 
-## 历史条目
+## 最新条目
 
-## 2026-06-23
-
-- **P0** [Coding/multi-agent 工具链升温](../../items/2026/06/23/daily/top-02-coding-multi-agent-p0-meta.md)：Coding/multi-agent 工具链升温：GitHub P0 项目集中在本地并行 agent、meta-harness、终端 agent、AI gateway 与 agent-native UI：superset-sh/superset、omnigent-ai/omni...
-
+- 暂无自动提取条目；后续同步会在命中相关关键词后补充。
 
 ## 导航
 
