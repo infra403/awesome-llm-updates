@@ -1,0 +1,91 @@
+## 2026-06-22 22:37 北京时间 | 论文巡检
+
+摘要：本次候选论文 18 篇，入选 8 篇；P0/P1 共 6 篇（P0 0 篇，P1 6 篇）。整体看，本轮更偏工程机制与评测：上下文选择、流式 RAG、编码 Agent 仓库指导、低延迟端侧服务，以及 Agent 安全/评测方法值得重点跟踪。
+
+### 1. Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P1
+- 主题标签：推理系统与工程工具
+- 一句话结论：论文把复用对象从常见 KV cache 扩展到“图绑定执行状态”的 checkpoint/restore，瞄准低延迟、小 batch、端侧物理 AI 服务中的分支、重置、中断和重入场景。
+- 为什么值得看：候选摘要明确指出主流 serving 主要复用 prefix/KV，而端侧交互 Agent、语音系统、机器人策略的关键瓶颈在反复分支与恢复；这类场景和云端高并发吞吐优化不同。
+- 工程启发：如果团队在做端侧 Agent、机器人或实时语音助手，不能只按 vLLM/PagedAttention 的高并发假设设计缓存；需要把可恢复执行状态、会话分支和中断恢复纳入 runtime 抽象。
+- 原文 URL：https://arxiv.org/abs/2606.20537v1
+
+### 2. Probe-and-Refine Tuning of Repository Guidance for Coding Agents
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P1
+- 主题标签：Agent 与多智能体；推理系统与工程工具
+- 一句话结论：论文关注如何通过 probe-and-refine 调优 AGENTS.md/仓库指导，让 coding agents 获得代码之外的操作性知识。
+- 为什么值得看：候选摘要点出工程师维护 AGENTS.md 的核心争议：LLM 生成的仓库指导到底提升还是损害 Agent 表现。这个问题直接影响真实代码库里如何沉淀运行测试、子系统位置和历史踩坑。
+- 工程启发：不要把仓库指导当一次性 README；更可行的流程是用任务探测发现指导缺口，再迭代精炼 agent instructions，并用回归任务验证是否真的提升修复率。
+- 原文 URL：https://arxiv.org/abs/2606.20512v1
+
+### 3. When Does Streaming Tool Use Help? Characterizing Tool-Intent Stabilization in Streaming Retrieval-Augmented Generation
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P1
+- 主题标签：RAG 与知识工程；推理系统与工程工具
+- 一句话结论：论文把 Streaming RAG 的收益拆到 query 内在属性：只有当正确工具查询在用户输入结束前已经稳定时，提前发起工具调用才有意义。
+- 为什么值得看：很多流式 RAG 方案只报告平均延迟收益，但摘要指出关键机制是 tool-intent stabilization，即输入流中工具意图变得可确定的时间点。
+- 工程启发：上线“边听边搜/边打字边检索”前，应先离线标注或估计意图稳定点；对意图晚稳定的请求，过早检索会增加无效工具调用、成本和错误上下文。
+- 原文 URL：https://arxiv.org/abs/2606.20113v1
+
+### 4. PACMS: Submodular Context Selection as a Pluggable Engine for LLM Agents
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P1
+- 主题标签：Agent 与多智能体；RAG 与知识工程
+- 一句话结论：论文将 Agent 的上下文保留问题建模为可插拔的 submodular context selection，替代简单 recency truncation。
+- 为什么值得看：候选摘要准确描述了真实 Agent 上下文来源：对话、持久记忆、工具输出/API 结果同时挤占窗口；仅按最近截断会丢失任务关键证据。
+- 工程启发：Agent 框架需要显式的 context budget manager，把“工具输出、记忆、用户目标、最近步骤”的边际价值纳入选择，而不是靠固定 token 截断规则。
+- 原文 URL：https://arxiv.org/abs/2606.20047v1
+
+### 5. Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P1
+- 主题标签：评测与基准
+- 一句话结论：论文把 LiveCodeBench 从 Python 扩展到多编程语言，补齐代码生成模型跨语言泛化评估。
+- 为什么值得看：LiveCodeBench 因持续加入新题、按发布时间过滤而用于污染感知评测；但摘要指出它长期局限在 Python，无法回答模型是否能稳定迁移到多语言工程环境。
+- 工程启发：评测 coding LLM/Agent 时，不应只看 Python pass rate；企业代码库常含 Java、Go、TypeScript、Rust 等，多语言基准更接近真实选型风险。
+- 原文 URL：https://arxiv.org/abs/2606.20517v1
+
+### 6. LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P1
+- 主题标签：Agent 与多智能体；评测与基准
+- 一句话结论：论文提出 NRT-Bench，用模拟核电站控制室评估安全关键系统中 LLM Agent 在多轮自适应红队压力下的鲁棒性。
+- 为什么值得看：候选摘要强调的是持续、多轮、对抗式压力，而非单轮 jailbreak；对“LLM agent 作为监督组件”这类高风险部署更贴近真实威胁模型。
+- 工程启发：安全评测要覆盖多角色协同、状态演化和跨轮诱导；如果 Agent 能调用工具或操作系统，单轮静态安全题库不足以证明可部署。
+- 原文 URL：https://arxiv.org/abs/2606.20408v1
+
+### 7. AutoPass: Evidence-Guided LLM Agents for Compiler Performance Tuning
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P2
+- 主题标签：Agent 与多智能体；推理系统与工程工具
+- 一句话结论：论文提出使用编译器与运行时证据引导 LLM 多 Agent 做编译性能调优，而不是把编译器当黑盒自动调参。
+- 为什么值得看：它代表 Agent 从“写代码/调 API”进一步进入性能工程闭环：读取证据、提出优化、运行测量、迭代决策。
+- 工程启发：做性能调优 Agent 时，关键不是让模型凭经验猜 pass，而是把 compiler IR、profile、runtime noise 和测量置信度结构化喂给决策流程。
+- 原文 URL：https://arxiv.org/abs/2606.20373v1
+
+### 8. Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems
+
+- 来源：arXiv
+- 发布日期：2026-06-18
+- 重要性：P2
+- 主题标签：Agent 与多智能体；评测与基准
+- 一句话结论：论文提出 Contagion Networks，用于度量多 Agent 系统中 LLM 评价者偏差如何在交互网络中传播。
+- 为什么值得看：候选摘要显示作者在 3-agent 设置中测量 Cross-Agent Contagion Matrix，问题指向“模型作为 evaluator”在多 Agent 工作流里的系统性偏差扩散。
+- 工程启发：多 Agent 架构里的 judge/reviewer 不是中立组件；需要隔离评价器、做多样性/证据约束，并监控评审偏差是否在 agent chain 中放大。
+- 原文 URL：https://arxiv.org/abs/2606.20493v1

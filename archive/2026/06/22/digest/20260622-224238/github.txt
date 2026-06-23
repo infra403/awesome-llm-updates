@@ -1,0 +1,4 @@
+大模型 GitHub 项目追踪用途
+用于记录 GitHub Trending、GitHub Search、热门开源 Agent/RAG/MCP/推理框架/评测工具/数据工程项目。
+写入规范
+每次定时任务追加一个带北京时间的二级标题，包含仓库、stars、近期增长、项目成熟度、适用场景和来源 URL。

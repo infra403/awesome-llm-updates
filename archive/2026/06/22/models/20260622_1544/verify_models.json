@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" start-block-id=\"doxcn9tAzg3od31XqVrBlSZb1sf\" end-block-id=\"doxcn1LUqfYOEJSBD5AvkpLYMNd\" hit-block-ids=\"doxcn9tAzg3od31XqVrBlSZb1sf\" keyword=\"2026-06-22 15:44 北京时间 | 模型发布巡检\">\n## 2026-06-22 15:44 北京时间 | 模型发布巡检\n\n本次基于预运行脚本注入的 Hugging Face 候选列表筛选；未在候选信息中出现的参数规模、上下文长度、benchmark、license 均不补写。\n</fragment>",
+      "document_id": "MFSbdDfMToLX6MxBUb7ck3y5nJg",
+      "revision_id": 4
+    }
+  }
+}

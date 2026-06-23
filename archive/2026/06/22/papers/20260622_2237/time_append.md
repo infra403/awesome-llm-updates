@@ -1,0 +1,10 @@
+## 2026-06-22 22:37 论文
+
+- [P1] Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving | 推理系统与工程工具 | 将复用对象从 KV cache 扩展到图绑定执行状态，面向端侧小 batch 低延迟 Agent/语音/机器人服务。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20537v1
+- [P1] Probe-and-Refine Tuning of Repository Guidance for Coding Agents | Agent 与多智能体；推理系统与工程工具 | 用 probe-and-refine 调优 AGENTS.md/仓库指导，解决 coding agents 缺少代码外操作知识的问题。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20512v1
+- [P1] When Does Streaming Tool Use Help? Characterizing Tool-Intent Stabilization in Streaming Retrieval-Augmented Generation | RAG 与知识工程；推理系统与工程工具 | Streaming RAG 是否有收益取决于工具意图在输入结束前何时稳定。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20113v1
+- [P1] PACMS: Submodular Context Selection as a Pluggable Engine for LLM Agents | Agent 与多智能体；RAG 与知识工程 | 将 Agent 上下文保留建模为可插拔选择引擎，替代简单最近截断。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20047v1
+- [P1] Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages | 评测与基准 | 将 LiveCodeBench 扩展到多编程语言，补齐 coding LLM 跨语言泛化评测。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20517v1
+- [P1] LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems | Agent 与多智能体；评测与基准 | NRT-Bench 用模拟核电站控制室评估 LLM Agent 在多轮自适应红队下的鲁棒性。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20408v1
+- [P2] AutoPass: Evidence-Guided LLM Agents for Compiler Performance Tuning | Agent 与多智能体；推理系统与工程工具 | 用编译器和运行时证据引导多 Agent 做编译性能调优。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20373v1
+- [P2] Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems | Agent 与多智能体；评测与基准 | 度量 LLM 评价者偏差如何在多 Agent 网络中传播。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.20493v1
