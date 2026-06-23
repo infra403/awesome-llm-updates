@@ -25,14 +25,9 @@
 
 ## 最新更新
 
-最新日期：[**2026-06-23 LLM 工程情报 Radar**](daily/2026/06/23/index.md)
+最新日期：[**2026-06-24 LLM 工程情报 Radar**](daily/2026/06/24/index.md)
 
-- **P0** [Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing](items/2026/06/23/daily/top-01-concordia-llm-agent-serving-gpu.md)：Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing：核心变化是 arXiv 2026-06-22 新增论文提出 JIT-compiled persistent-kernel checkpointing，目标覆盖 KV cache、request s...
-- **P0** [RAG retrieval-state lock-in：一致答案不等于可信答案](items/2026/06/23/daily/top-02-rag-retrieval-state-lock-in.md)：RAG retrieval-state lock-in：一致答案不等于可信答案：核心变化是 arXiv 2026-06-22 新增论文指出 black-box uncertainty/多采样一致性在 RAG 中会被“同一个错误检索状态”锁定，空检索或错误邻域都可能产生稳定但错误的高一致回答；工程影响在于 RAG 评测...
-- **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)：Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent：核心变化是 Hugging Face 在当前 10 小时模型窗口出现多个 P0 模型更新，包括 tepirale/gemma-4-12B-agent...
-- **P0** [Opik / Mastra / Dify：Agent/RAG/LLMOps 工具链在同一窗口高活跃](items/2026/06/23/daily/top-04-opik-mastra-dify-agent-rag.md)：Opik / Mastra / Dify：Agent/RAG/LLMOps 工具链在同一窗口高活跃：核心变化是 GitHub 当前 8 小时窗口内多个 P0 工具仓库更新：comet-ml/opik（2026-06-23T13:35Z，19,731 stars，LLM/RAG/agent tracing、eval、m...
-- **P1** [Litmus：用代码驱动、零标签 metric specification 评估 AI 系统](items/2026/06/23/daily/top-05-litmus-metric-specification-ai-arxiv.md)：Litmus：用代码驱动、零标签 metric specification 评估 AI 系统：核心变化是 arXiv 2026-06-22 新增论文提出 zero-label、code-driven metric specification，用于评估 AI/Agent 系统；工程影响在评测平台和 CI gate：把评...
-- **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)：CUGA working examples：轻量 harness 上的 agentic app 样例集：核心变化是 Hugging Face Blog 2026-06-23 发布 IBM Research 文章，称基于 CUGA 提供 two dozen working examples；工程影响在 Agent 应用...
+- 暂无可提取 Top Picks；请先查看最近的 daily 或 archive。
 
 ## 主题索引
 
@@ -49,6 +44,7 @@
 
 ## 最近更新
 
+- [2026-06-24 Daily Radar](daily/2026/06/24/index.md) · [原始归档](archive/2026/06/24/README.md)
 - [2026-06-23 Daily Radar](daily/2026/06/23/index.md) · [原始归档](archive/2026/06/23/README.md)
 - [2026-06-22 Daily Radar](daily/2026/06/22/index.md) · [原始归档](archive/2026/06/22/README.md)
 

@@ -2,9 +2,10 @@
   "source": "/root/hermes-ai-intel/runs",
   "dates": [
     "2026-06-22",
-    "2026-06-23"
+    "2026-06-23",
+    "2026-06-24"
   ],
-  "latest_date": "2026-06-23",
+  "latest_date": "2026-06-24",
   "generated": [
     "README.md",
     "daily/",
