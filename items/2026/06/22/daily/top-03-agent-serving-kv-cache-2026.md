@@ -3,7 +3,7 @@ type: IntelItem
 title: "端侧/实时 Agent Serving 需要超越 KV cache 的状态复用"
 date: "2026-06-22"
 language: zh-CN
-importance: P1
+importance: P0
 tags: [agents, inference, papers]
 source: "../../../../../archive/2026/06/22/digest/20260622-224238/daily.md"
 window: daily
@@ -25,4 +25,4 @@ window: daily
 
 ## 来源链接
 
-- https://arxiv.org/abs/2606.20537v1
+- [arXiv: 2606.20537v1](https://arxiv.org/abs/2606.20537v1)

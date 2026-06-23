@@ -3,7 +3,7 @@ type: IntelItem
 title: "Coding/multi-agent 工具链升温"
 date: "2026-06-23"
 language: zh-CN
-importance: P1
+importance: P0
 tags: [agents, inference, llm-infra, open-source]
 source: "../../../../../archive/2026/06/23/digest/20260623-093039/daily.md"
 window: daily
@@ -25,8 +25,8 @@ window: daily
 
 ## 来源链接
 
-- https://github.com/superset-sh/superset
-- https://github.com/omnigent-ai/omnigent
-- https://github.com/gptme/gptme
-- https://github.com/envoyproxy/ai-gateway
-- https://github.com/CopilotKit/CopilotKit
+- [GitHub: superset-sh/superset](https://github.com/superset-sh/superset)
+- [GitHub: omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent)
+- [GitHub: gptme/gptme](https://github.com/gptme/gptme)
+- [GitHub: envoyproxy/ai-gateway](https://github.com/envoyproxy/ai-gateway)
+- [GitHub: CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)

@@ -25,6 +25,6 @@ window: daily
 
 ## 来源链接
 
-- https://openai.com/index/introducing-life-sci-bench
-- https://arxiv.org/abs/2606.20517v1
-- https://arxiv.org/abs/2606.20408v1
+- [OpenAI: Introducing Life Sci Bench](https://openai.com/index/introducing-life-sci-bench)
+- [arXiv: 2606.20517v1](https://arxiv.org/abs/2606.20517v1)
+- [arXiv: 2606.20408v1](https://arxiv.org/abs/2606.20408v1)

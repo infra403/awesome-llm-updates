@@ -3,7 +3,7 @@ type: IntelItem
 title: "Agent/RAG 的上下文管理与流式工具调用开始被拆解为可工程化机制"
 date: "2026-06-22"
 language: zh-CN
-importance: P1
+importance: P0
 tags: [agents, rag, llm-infra, papers]
 source: "../../../../../archive/2026/06/22/digest/20260622-224238/daily.md"
 window: daily
@@ -25,5 +25,5 @@ window: daily
 
 ## 来源链接
 
-- https://arxiv.org/abs/2606.20047v1
-- https://arxiv.org/abs/2606.20113v1
+- [arXiv: 2606.20047v1](https://arxiv.org/abs/2606.20047v1)
+- [arXiv: 2606.20113v1](https://arxiv.org/abs/2606.20113v1)

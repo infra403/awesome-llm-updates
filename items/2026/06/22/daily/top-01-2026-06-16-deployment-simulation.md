@@ -25,4 +25,4 @@ window: daily
 
 ## 来源链接
 
-- https://openai.com/index/deployment-simulation
+- [OpenAI: Deployment Simulation](https://openai.com/index/deployment-simulation)

@@ -25,5 +25,5 @@ window: daily
 
 ## 来源链接
 
-- https://huggingface.co/reecdev/VibeThinker-3B-LQ8-GGUF
-- https://huggingface.co/PGCodeLLM/AgenticRL-blackbox-260401_231502_cd7fb81c
+- [Hugging Face: reecdev/VibeThinker-3B-LQ8-GGUF](https://huggingface.co/reecdev/VibeThinker-3B-LQ8-GGUF)
+- [Hugging Face: PGCodeLLM/AgenticRL-blackbox-260401_231502_cd7fb81c](https://huggingface.co/PGCodeLLM/AgenticRL-blackbox-260401_231502_cd7fb81c)
