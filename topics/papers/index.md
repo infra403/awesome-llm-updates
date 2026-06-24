@@ -15,7 +15,7 @@ language: zh-CN
 
 ## 今日新增信号
 
-- **P0** [RAG retrieval-state lock-in：一致答案不等于可信答案](../../items/2026/06/23/daily/top-02-rag-retrieval-state-lock-in.md)：RAG retrieval-state lock-in：一致答案不等于可信答案：核心变化是 arXiv 2026-06-22 新增论文指出 black-box uncertainty/多采样一致性在 RAG 中会被“同一个错误检索状态”锁...
+- 今日暂无新增信号。
 
 ## 值得实验
 
