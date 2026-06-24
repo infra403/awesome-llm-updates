@@ -25,14 +25,9 @@
 
 ## 最新更新
 
-最新日期：[**2026-06-24 LLM 工程情报 Radar**](daily/2026/06/24/index.md)
+最新日期：[**2026-06-25 LLM 工程情报 Radar**](daily/2026/06/25/index.md)
 
-- **P1** [OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño](items/2026/06/24/daily/top-01-broadcom-llm-jalape-news-2026.md)：OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño：核心变化是 OpenAI News 在 2026-06-24 发布定制 AI 推理芯片消息，候选标记为 P1、quality_score=15，reason_codes 包含 recent_window、source_strong、engi...
-- **P0** [Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测](items/2026/06/24/daily/top-02-agent-native-memory-arxiv-2026.md)：Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测：核心变化是 arXiv 2026-06-23 论文 *Are We Ready For An Agent-Native Memory System?* 被标记为 P0、quality_score=18，提出把 Agent 记忆从...
-- **P0** [SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断](items/2026/06/24/daily/top-03-sherloc-agent-arxiv-2026-06.md)：SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断：核心变化是 arXiv 2026-06-23 论文 *SHERLOC: Structured Diagnostic Localization for Code Repair Agents* 被标记为 P0、quality_score=18，...
-- **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)：RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒：核心变化是两篇 arXiv 2026-06-23 P0 论文同时进入窗口：*Privacy-Preserving RAG via Multi-Agent Semantic Rewriting*（quality_score=18）关注用多 Agent 对检索内容...
-- **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)：Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选：核心变化是模型巡检在 10 小时窗口内发现多个 P0/P1 模型：osmapi/osmQwopus3.6-27B-Fable-Agentic（P0，quality_score=19，2...
-- **P0** [开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新](items/2026/06/24/daily/top-06-llm-agent-workflow-coding-p0.md)：开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新：核心变化是 GitHub 8 小时窗口内 P0 仓库包括 comet-ml/opik（quality_score=20，updated 2026-06-24T13:34:31Z，19,755 sta...
+- 暂无可提取 Top Picks；请先查看最近的 daily 或 archive。
 
 ## 主题索引
 
@@ -49,6 +44,7 @@
 
 ## 最近更新
 
+- [2026-06-25 Daily Radar](daily/2026/06/25/index.md) · [原始归档](archive/2026/06/25/README.md)
 - [2026-06-24 Daily Radar](daily/2026/06/24/index.md) · [原始归档](archive/2026/06/24/README.md)
 - [2026-06-23 Daily Radar](daily/2026/06/23/index.md) · [原始归档](archive/2026/06/23/README.md)
 - [2026-06-22 Daily Radar](daily/2026/06/22/index.md) · [原始归档](archive/2026/06/22/README.md)
