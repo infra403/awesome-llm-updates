@@ -3,8 +3,8 @@ type: DailyRadar
 date: "2026-06-24"
 language: zh-CN
 audience: "中文 LLM / Agent 工程师"
-tags: [agents, evals, inference, llm-infra, model-releases, open-source, rag, safety]
-source: "../../../../archive/2026/06/24/digest/20260624-0935/daily.md"
+tags: [agents, evals, inference, llm-infra, model-releases, rag, safety]
+source: "../../../../archive/2026/06/24/digest/20260624_213559/daily.md"
 ---
 
 # 2026-06-24 LLM 工程情报 Radar
@@ -20,49 +20,48 @@ source: "../../../../archive/2026/06/24/digest/20260624-0935/daily.md"
 
 ## 今日主线
 
-- **P0** Poisoned Playbooks：RAG 安全智能体的知识投毒风险被具体化
+- **P1** OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño
+  - 主题：[推理 / Serving](../../../../topics/inference/index.md#2026-06-24) · [LLM Infra](../../../../topics/llm-infra/index.md#2026-06-24)
+  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-01-broadcom-llm-jalape-news-2026.md)
+  - 源内容：[OpenAI: Openai Broadcom Jalapeno Inference Chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip)
+  - 摘要：OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño：核心变化是 OpenAI News 在 2026-06-24 发布定制 AI 推理芯片消息，候选标记为 P1、quality_score=15，reason_codes 包含 recent_window、source_s...
+- **P0** Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测
+  - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24) · [LLM Infra](../../../../topics/llm-infra/index.md#2026-06-24)
+  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-02-agent-native-memory-arxiv-2026.md)
+  - 源内容：[arXiv: 2606.24775v1](https://arxiv.org/abs/2606.24775v1)
+  - 摘要：Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测：核心变化是 arXiv 2026-06-23 论文 *Are We Ready For An Agent-Native Memory System?* 被标记为 P0、quality_score=18，提出把...
+- **P0** SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断
+  - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24) · [LLM Infra](../../../../topics/llm-infra/index.md#2026-06-24)
+  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-03-sherloc-agent-arxiv-2026-06.md)
+  - 源内容：[arXiv: 2606.24820v1](https://arxiv.org/abs/2606.24820v1)
+  - 摘要：SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断：核心变化是 arXiv 2026-06-23 论文 *SHERLOC: Structured Diagnostic Localization for Code Repair Agents* 被标记为 P0、quality...
+- **P0** RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒
   - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [推理 / Serving](../../../../topics/inference/index.md#2026-06-24) · [评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24)
-  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-01-poisoned-playbooks-rag-arxiv-published.md)
-  - 源内容：[arXiv: 2606.24402v1](https://arxiv.org/abs/2606.24402v1)
-  - 摘要：Poisoned Playbooks：RAG 安全智能体的知识投毒风险被具体化：arXiv 新论文（published: 2026-06-23，quality_score 18，P0）聚焦 AI security agents 使用 RAG 做漏洞分析/利用推理时，外部 write-up 被投毒后...
-- **P0** Privacy-Preserving RAG：用多 Agent 语义重写降低敏感信息泄漏
-  - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [推理 / Serving](../../../../topics/inference/index.md#2026-06-24) · [评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24)
-  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-02-privacy-preserving-rag-agent-arxiv.md)
-  - 源内容：[arXiv: 2606.24623v1](https://arxiv.org/abs/2606.24623v1)
-  - 摘要：Privacy-Preserving RAG：用多 Agent 语义重写降低敏感信息泄漏：arXiv 新论文（published: 2026-06-23，quality_score 18，P0）提出由隐私抽取、语义分析、重构三个 Agent 协作，对检索内容做语义重写，在保留上下文语义的同时去除敏...
-- **P0** OpenAI 参与 advanced AI shared standards：评测与安全标准化信号增强
-  - 主题：[评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24) · [安全 / Alignment](../../../../topics/safety/index.md#2026-06-24) · [LLM Infra](../../../../topics/llm-infra/index.md#2026-06-24)
-  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-03-advanced-ai-shared-standards-news.md)
-  - 源内容：[OpenAI: Helping Build Shared Standards For Advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai)
-  - 摘要：OpenAI 参与 advanced AI shared standards：评测与安全标准化信号增强：OpenAI News（published: 2026-06-23，quality_score 16，P0）称其支持 Appia Foundation 相关的先进 AI 共享标准、评测框架、安全...
-- **P0** 开源 Agent/LLM Infra 项目集中更新：workflow、memory、context budget 成为主线
-  - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [LLM Infra](../../../../topics/llm-infra/index.md#2026-06-24) · [开源项目](../../../../topics/open-source/index.md#2026-06-24)
-  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-04-agent-llm-infra-workflow-memory.md)
-  - 源内容：[GitHub: langgenius/dify](https://github.com/langgenius/dify) · [GitHub: melandlabs/openloomi](https://github.com/melandlabs/openloomi) · [GitHub: GlitterKill/sdl-mcp](https://github.com/GlitterKill/sdl-mcp) · 其余 1 个见结构化记录
-  - 摘要：开源 Agent/LLM Infra 项目集中更新：workflow、memory、context budget 成为主线：GitHub 当前窗口 P0 候选包括 Dify（updated: 2026-06-24T01:21:03Z，stars 146330，quality_score 20，P0...
-- **P1** Hugging Face CUGA examples：轻量 harness 的 agentic app 样例增加
-  - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [模型发布](../../../../topics/model-releases/index.md#2026-06-24) · [LLM Infra](../../../../topics/llm-infra/index.md#2026-06-24)
-  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-05-cuga-examples-harness-agentic-app.md)
-  - 源内容：[Hugging Face: blog/ibm-research](https://huggingface.co/blog/ibm-research/cuga-apps)
-  - 摘要：Hugging Face CUGA examples：轻量 harness 的 agentic app 样例增加：Hugging Face Blog（published: 2026-06-23，quality_score 15，P1）介绍 IBM Research 的 CUGA，两打 workin...
-- **P1** Transformers.js + proposed Cross-Origin Storage API：浏览器端模型缓存/共享存储值得关注
-  - 主题：[模型发布](../../../../topics/model-releases/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [推理 / Serving](../../../../topics/inference/index.md#2026-06-24) · [安全 / Alignment](../../../../topics/safety/index.md#2026-06-24)
-  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-06-transformers-js-proposed-cross-origin.md)
-  - 源内容：[Hugging Face: blog/cross-origin-storage](https://huggingface.co/blog/cross-origin-storage)
-  - 摘要：Transformers.js + proposed Cross-Origin Storage API：浏览器端模型缓存/共享存储值得关注：Hugging Face Blog（published: 2026-06-23，quality_score 15，P1）讨论在 Transformers.js...
+  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)
+  - 源内容：[arXiv: 2606.24623v1](https://arxiv.org/abs/2606.24623v1) · [arXiv: 2606.24402v1](https://arxiv.org/abs/2606.24402v1)
+  - 摘要：RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒：核心变化是两篇 arXiv 2026-06-23 P0 论文同时进入窗口：*Privacy-Preserving RAG via Multi-Agent Semantic Rewriting*（quality_score=18）关注用多 A...
+- **P0** Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选
+  - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [模型发布](../../../../topics/model-releases/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [推理 / Serving](../../../../topics/inference/index.md#2026-06-24)
+  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)
+  - 源内容：[Hugging Face: osmapi/osmQwopus3.6-27B-Fable-Agentic](https://huggingface.co/osmapi/osmQwopus3.6-27B-Fable-Agentic) · [Hugging Face: mradermacher/Fabliq-8B-Agent-Reasoning-GGUF](https://huggingface.co/mradermacher/Fabliq-8B-Agent-Reasoning-GGUF) · [Hugging Face: LLM-OS-Models/LFM2.5-8B-A1B-Raw-ECHO-RLVR-GRPO-Adapters](https://huggingface.co/LLM-OS-Models/LFM2.5-8B-A1B-Raw-ECHO-RLVR-GRPO-Adapters)
+  - 摘要：Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选：核心变化是模型巡检在 10 小时窗口内发现多个 P0/P1 模型：osmapi/osmQwopus3.6-27B-Fable-Agentic（P0，quality_...
+- **P0** 开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新
+  - 主题：[Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24) · [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24) · [评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24) · [安全 / Alignment](../../../../topics/safety/index.md#2026-06-24)
+  - 条目：[结构化记录](../../../../items/2026/06/24/daily/top-06-llm-agent-workflow-coding-p0.md)
+  - 源内容：[GitHub: comet-ml/opik](https://github.com/comet-ml/opik) · [GitHub: langgenius/dify](https://github.com/langgenius/dify) · [GitHub: can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)
+  - 摘要：开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新：核心变化是 GitHub 8 小时窗口内 P0 仓库包括 comet-ml/opik（quality_score=20，updated 2026-06-24T13:34:31Z，...
 
 ## 按主题阅读
 
-- [Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24)：4 条
-- [评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24)：3 条
+- [Agent / Coding Agent](../../../../topics/agents/index.md#2026-06-24)：5 条
+- [评测 / Benchmarks](../../../../topics/evals/index.md#2026-06-24)：4 条
 - [推理 / Serving](../../../../topics/inference/index.md#2026-06-24)：3 条
 - [LLM Infra](../../../../topics/llm-infra/index.md#2026-06-24)：3 条
-- [模型发布](../../../../topics/model-releases/index.md#2026-06-24)：2 条
-- [开源项目](../../../../topics/open-source/index.md#2026-06-24)：1 条
-- [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24)：4 条
-- [安全 / Alignment](../../../../topics/safety/index.md#2026-06-24)：2 条
+- [模型发布](../../../../topics/model-releases/index.md#2026-06-24)：1 条
+- [RAG / Knowledge](../../../../topics/rag/index.md#2026-06-24)：5 条
+- [安全 / Alignment](../../../../topics/safety/index.md#2026-06-24)：1 条
 
 ## 原始归档
 
 - [当日 archive index](../../../../archive/2026/06/24/README.md)
-- [每日 digest 原文](../../../../archive/2026/06/24/digest/20260624-0935/daily.md)
+- [每日 digest 原文](../../../../archive/2026/06/24/digest/20260624_213559/daily.md)

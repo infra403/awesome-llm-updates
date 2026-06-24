@@ -11,24 +11,25 @@ language: zh-CN
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 9 条，其中 P0/P1 9 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天自动归档 10 条，其中 P0/P1 10 条；优先打开带源链接的结构化记录二次核验。
 
 ## 今日新增信号
 
-- **P0** [Poisoned Playbooks：RAG 安全智能体的知识投毒风险被具体化](../../items/2026/06/24/daily/top-01-poisoned-playbooks-rag-arxiv-published.md)：Poisoned Playbooks：RAG 安全智能体的知识投毒风险被具体化：arXiv 新论文（published: 2026-06-23，quality_score 18，P0）聚焦 AI security agents 使用 RA...
-- **P0** [Privacy-Preserving RAG：用多 Agent 语义重写降低敏感信息泄漏](../../items/2026/06/24/daily/top-02-privacy-preserving-rag-agent-arxiv.md)：Privacy-Preserving RAG：用多 Agent 语义重写降低敏感信息泄漏：arXiv 新论文（published: 2026-06-23，quality_score 18，P0）提出由隐私抽取、语义分析、重构三个 Agen...
-- **P0** [OpenAI 参与 advanced AI shared standards：评测与安全标准化信号增强](../../items/2026/06/24/daily/top-03-advanced-ai-shared-standards-news.md)：OpenAI 参与 advanced AI shared standards：评测与安全标准化信号增强：OpenAI News（published: 2026-06-23，quality_score 16，P0）称其支持 Appia Fo...
+- **P0** [Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测](../../items/2026/06/24/daily/top-02-agent-native-memory-arxiv-2026.md)：Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测：核心变化是 arXiv 2026-06-23 论文 *Are We Ready For An Agent-Native Memory System?...
+- **P0** [SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断](../../items/2026/06/24/daily/top-03-sherloc-agent-arxiv-2026-06.md)：SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断：核心变化是 arXiv 2026-06-23 论文 *SHERLOC: Structured Diagnostic Localization for Code...
+- **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)：RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒：核心变化是两篇 arXiv 2026-06-23 P0 论文同时进入窗口：*Privacy-Preserving RAG via Multi-Agent Semantic Rewr...
+- **P0** [开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新](../../items/2026/06/24/daily/top-06-llm-agent-workflow-coding-p0.md)：开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新：核心变化是 GitHub 8 小时窗口内 P0 仓库包括 comet-ml/opik（quality_score=20...
 
 ## 值得实验
 
-- **P0** [Poisoned Playbooks：RAG 安全智能体的知识投毒风险被具体化](../../items/2026/06/24/daily/top-01-poisoned-playbooks-rag-arxiv-published.md)
-- **P0** [Privacy-Preserving RAG：用多 Agent 语义重写降低敏感信息泄漏](../../items/2026/06/24/daily/top-02-privacy-preserving-rag-agent-arxiv.md)
-- **P0** [OpenAI 参与 advanced AI shared standards：评测与安全标准化信号增强](../../items/2026/06/24/daily/top-03-advanced-ai-shared-standards-news.md)
+- **P0** [Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测](../../items/2026/06/24/daily/top-02-agent-native-memory-arxiv-2026.md)
+- **P0** [SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断](../../items/2026/06/24/daily/top-03-sherloc-agent-arxiv-2026-06.md)
+- **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)
+- **P0** [开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新](../../items/2026/06/24/daily/top-06-llm-agent-workflow-coding-p0.md)
 - **P0** [Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing](../../items/2026/06/23/daily/top-01-concordia-llm-agent-serving-gpu.md)
 - **P0** [RAG retrieval-state lock-in：一致答案不等于可信答案](../../items/2026/06/23/daily/top-02-rag-retrieval-state-lock-in.md)
 - **P0** [Opik / Mastra / Dify：Agent/RAG/LLMOps 工具链在同一窗口高活跃](../../items/2026/06/23/daily/top-04-opik-mastra-dify-agent-rag.md)
 - **P1** [Litmus：用代码驱动、零标签 metric specification 评估 AI 系统](../../items/2026/06/23/daily/top-05-litmus-metric-specification-ai-arxiv.md)
-- **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](../../items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)
 
 ## 持续观察
 
@@ -38,9 +39,10 @@ language: zh-CN
 
 ## 2026-06-24
 
-- **P0** [Poisoned Playbooks：RAG 安全智能体的知识投毒风险被具体化](../../items/2026/06/24/daily/top-01-poisoned-playbooks-rag-arxiv-published.md)：Poisoned Playbooks：RAG 安全智能体的知识投毒风险被具体化：arXiv 新论文（published: 2026-06-23，quality_score 18，P0）聚焦 AI security agents 使用 RAG 做漏洞分析/利用推理时，外部 wri...
-- **P0** [Privacy-Preserving RAG：用多 Agent 语义重写降低敏感信息泄漏](../../items/2026/06/24/daily/top-02-privacy-preserving-rag-agent-arxiv.md)：Privacy-Preserving RAG：用多 Agent 语义重写降低敏感信息泄漏：arXiv 新论文（published: 2026-06-23，quality_score 18，P0）提出由隐私抽取、语义分析、重构三个 Agent 协作，对检索内容做语义重写，在保留上...
-- **P0** [OpenAI 参与 advanced AI shared standards：评测与安全标准化信号增强](../../items/2026/06/24/daily/top-03-advanced-ai-shared-standards-news.md)：OpenAI 参与 advanced AI shared standards：评测与安全标准化信号增强：OpenAI News（published: 2026-06-23，quality_score 16，P0）称其支持 Appia Foundation 相关的先进 AI 共享...
+- **P0** [Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测](../../items/2026/06/24/daily/top-02-agent-native-memory-arxiv-2026.md)：Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测：核心变化是 arXiv 2026-06-23 论文 *Are We Ready For An Agent-Native Memory System?* 被标记为 P0、quality_sc...
+- **P0** [SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断](../../items/2026/06/24/daily/top-03-sherloc-agent-arxiv-2026-06.md)：SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断：核心变化是 arXiv 2026-06-23 论文 *SHERLOC: Structured Diagnostic Localization for Code Repair Agents* 被标记为...
+- **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)：RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒：核心变化是两篇 arXiv 2026-06-23 P0 论文同时进入窗口：*Privacy-Preserving RAG via Multi-Agent Semantic Rewriting*（quality_score...
+- **P0** [开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新](../../items/2026/06/24/daily/top-06-llm-agent-workflow-coding-p0.md)：开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新：核心变化是 GitHub 8 小时窗口内 P0 仓库包括 comet-ml/opik（quality_score=20，updated 2026-06-24T...
 
 ## 2026-06-23
 

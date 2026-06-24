@@ -11,17 +11,15 @@ language: zh-CN
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 5 条，其中 P0/P1 5 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天自动归档 4 条，其中 P0/P1 4 条；优先打开带源链接的结构化记录二次核验。
 
 ## 今日新增信号
 
-- **P1** [Hugging Face CUGA examples：轻量 harness 的 agentic app 样例增加](../../items/2026/06/24/daily/top-05-cuga-examples-harness-agentic-app.md)：Hugging Face CUGA examples：轻量 harness 的 agentic app 样例增加：Hugging Face Blog（published: 2026-06-23，quality_score 15，P1）介绍...
-- **P1** [Transformers.js + proposed Cross-Origin Storage API：浏览器端模型缓存/共享存储值得关注](../../items/2026/06/24/daily/top-06-transformers-js-proposed-cross-origin.md)：Transformers.js + proposed Cross-Origin Storage API：浏览器端模型缓存/共享存储值得关注：Hugging Face Blog（published: 2026-06-23，quality_s...
+- **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)：Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选：核心变化是模型巡检在 10 小时窗口内发现多个 P0/P1 模型：osmapi/osmQwopus3.6...
 
 ## 值得实验
 
-- **P1** [Hugging Face CUGA examples：轻量 harness 的 agentic app 样例增加](../../items/2026/06/24/daily/top-05-cuga-examples-harness-agentic-app.md)
-- **P1** [Transformers.js + proposed Cross-Origin Storage API：浏览器端模型缓存/共享存储值得关注](../../items/2026/06/24/daily/top-06-transformers-js-proposed-cross-origin.md)
+- **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)
 - **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](../../items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)
 - **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](../../items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)
 - **P0** [OpenAI 将“上线前部署仿真”作为评测方向推到台前](../../items/2026/06/22/daily/top-01-2026-06-16-deployment-simulation.md)
@@ -34,8 +32,7 @@ language: zh-CN
 
 ## 2026-06-24
 
-- **P1** [Hugging Face CUGA examples：轻量 harness 的 agentic app 样例增加](../../items/2026/06/24/daily/top-05-cuga-examples-harness-agentic-app.md)：Hugging Face CUGA examples：轻量 harness 的 agentic app 样例增加：Hugging Face Blog（published: 2026-06-23，quality_score 15，P1）介绍 IBM Research 的 CUGA...
-- **P1** [Transformers.js + proposed Cross-Origin Storage API：浏览器端模型缓存/共享存储值得关注](../../items/2026/06/24/daily/top-06-transformers-js-proposed-cross-origin.md)：Transformers.js + proposed Cross-Origin Storage API：浏览器端模型缓存/共享存储值得关注：Hugging Face Blog（published: 2026-06-23，quality_score 15，P1）讨论在 Trans...
+- **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)：Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选：核心变化是模型巡检在 10 小时窗口内发现多个 P0/P1 模型：osmapi/osmQwopus3.6-27B-Fable-Agentic（P...
 
 ## 2026-06-23
 
