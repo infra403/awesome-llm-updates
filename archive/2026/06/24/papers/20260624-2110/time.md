@@ -1,0 +1,10 @@
+## 2026-06-24 21:10 论文
+
+- [P0] Are We Ready For An Agent-Native Memory System? | Agent 与多智能体；RAG 与知识工程；评测与基准 | 将 Agent 记忆视为可拆解评测的数据管理系统，适合重做长期记忆 eval。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24775v1
+- [P0] SHERLOC: Structured Diagnostic Localization for Code Repair Agents | Agent 与多智能体；推理系统与工程工具；评测与基准 | 代码修复 Agent 的定位应输出结构化诊断，而不是仅做文件检索。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24820v1
+- [P0] Privacy-Preserving RAG via Multi-Agent Semantic Rewriting: Achieving Confidentiality Without Compromising Contextual Fidelity | RAG 与知识工程；Agent 与多智能体；产品与商业化 | 在 retrieved context 层用多 Agent 语义改写做隐私保护，适合敏感企业 RAG 验证。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24623v1
+- [P0] Poisoned Playbooks: Demystifying Knowledge Poisoning Effects on AI Security Agents | Agent 与多智能体；RAG 与知识工程；评测与基准 | RAG 知识投毒会影响安全 Agent 的实际操作链路，需要复查知识库供应链。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24402v1
+- [P0] AVOC: Enhancing Hour-Level Audio-Video Understanding in Omni-Modal LLMs via Retrieval-Inspired Token Compression | 多模态与生成媒体；推理系统与工程工具；RAG 与知识工程 | 用可学习 token 压缩应对小时级音视频理解的上下文和冗余问题。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24286v1
+- [P0] Grad Detect: Gradient-Based Hallucination Detection in LLMs | 推理系统与工程工具；评测与基准 | 用推理时梯度模式检测幻觉，方向有价值但需重点核查 backward pass 成本。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24790v1
+- [P0] Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System | 评测与基准；Agent 与多智能体；数据集与数据工程 | 数据分析 Agent 的自动 grader 会产生 artifact，评测链路需保留中间产物并复核争议样本。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24839v1
+- [P0] Qwen-AgentWorld: Language World Models for General Agents | 模型发布与模型能力；Agent 与多智能体；推理、训练与后训练 | 用语言世界模型模拟 Agent 环境，可能影响交互数据生成、规划训练和离线评测。 | 详情：https://my.feishu.cn/docx/GFhOdA2KroFr74xc8eCc5fgbnDc | 原文：https://arxiv.org/abs/2606.24597v1

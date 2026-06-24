@@ -27,11 +27,17 @@
 - [github/20260624_030627/github.md](github/20260624_030627/github.md)
 - [github/20260624_030627/time.md](github/20260624_030627/time.md)
 - [github/20260624_030627/topic.md](github/20260624_030627/topic.md)
+- [github/20260624_2105/github_doc.md](github/20260624_2105/github_doc.md)
+- [github/20260624_2105/time_index.md](github/20260624_2105/time_index.md)
+- [github/20260624_2105/topic_index.md](github/20260624_2105/topic_index.md)
 
 ## 论文
 - [papers/20260624-0912/paper.md](papers/20260624-0912/paper.md)
 - [papers/20260624-0912/time.md](papers/20260624-0912/time.md)
 - [papers/20260624-0912/topic.md](papers/20260624-0912/topic.md)
+- [papers/20260624-2110/paper.md](papers/20260624-2110/paper.md)
+- [papers/20260624-2110/time.md](papers/20260624-2110/time.md)
+- [papers/20260624-2110/topic.md](papers/20260624-2110/topic.md)
 
 ## 每日汇总
 - [digest/20260624-0935/daily.md](digest/20260624-0935/daily.md)
