@@ -21,6 +21,9 @@
 - [github/20260626-150620/github.md](github/20260626-150620/github.md)
 - [github/20260626-150620/time.md](github/20260626-150620/time.md)
 - [github/20260626-150620/topic.md](github/20260626-150620/topic.md)
+- [github/20260626-2105/github.md](github/20260626-2105/github.md)
+- [github/20260626-2105/time.md](github/20260626-2105/time.md)
+- [github/20260626-2105/topic.md](github/20260626-2105/topic.md)
 - [github/20260626_0906/github.md](github/20260626_0906/github.md)
 - [github/20260626_0906/time.md](github/20260626_0906/time.md)
 - [github/20260626_0906/topic.md](github/20260626_0906/topic.md)
@@ -29,6 +32,9 @@
 - [papers/20260626-0913/paper.md](papers/20260626-0913/paper.md)
 - [papers/20260626-0913/time.md](papers/20260626-0913/time.md)
 - [papers/20260626-0913/topic.md](papers/20260626-0913/topic.md)
+- [papers/20260626_2117/paper_update.md](papers/20260626_2117/paper_update.md)
+- [papers/20260626_2117/time_update.md](papers/20260626_2117/time_update.md)
+- [papers/20260626_2117/topic_update.md](papers/20260626_2117/topic_update.md)
 
 ## 每日汇总
 - [digest/20260626-0936/daily.md](digest/20260626-0936/daily.md)
