@@ -25,14 +25,9 @@
 
 ## 最新更新
 
-最新日期：[**2026-06-26 LLM 工程情报 Radar**](daily/2026/06/26/index.md)
+最新日期：[**2026-06-27 LLM 工程情报 Radar**](daily/2026/06/27/index.md)
 
-- **P0** [Temporal Validity in Retrieval Memory：RAG 记忆需要显式时间有效性](items/2026/06/26/daily/top-01-temporal-validity-in-retrieval-memory.md)：Temporal Validity in Retrieval Memory：RAG 记忆需要显式时间有效性：核心变化是论文指出传统 embedding 相似度无法可靠区分“重复事实”和“已过期/被推翻事实”，候选摘要给出 contradicted vs duplicated fact 的 AUROC 0.59（接近随...
-- **P0** [MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架](items/2026/06/26/daily/top-02-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架：核心变化是用 novelty-constrained memory-guided MCTS 生成更少重复的攻击样本，覆盖文本投毒、图像注入、direct-query attack 和 orchestrator-level tool manipul...
-- **P0** [OpenRCA 2.0 / PAVE：从结果标签转向因果过程监督的 RCA Agent 评测](items/2026/06/26/daily/top-03-openrca-pave-rca-agent-root.md)：OpenRCA 2.0 / PAVE：从结果标签转向因果过程监督的 RCA Agent 评测：核心变化是候选摘要指出现有 RCA 数据集只标 root cause，容易退化成模式匹配；新协议强调 fault propagation path 的逐步标签；工程影响是 AIOps/可观测性 Agent、日志分析 Agen...
-- **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)：Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支：核心变化是 HF 上新增/更新 FreedomAISVR 的 Qwen-AgentWorld-35B-A3B-NVFP4-GGUF 与 MXFP4-MOE-GGUF，标签包含 agent、world-mode...
-- **P1** [GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi](items/2026/06/26/daily/top-05-agent-rag-dify-ragflow-neo.md)：GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi：核心变化是 2026-06-26 20:51-21:34 北京时间窗口内，多条高星/明确工程元数据项目更新，覆盖 production-ready agentic workflow、Agentic RAG、...
-- **P1** [HF Jobs 一行命令运行 vLLM Server](items/2026/06/26/daily/top-06-hf-jobs-vllm-server-blog.md)：HF Jobs 一行命令运行 vLLM Server：核心变化是 Hugging Face Blog 发布 “Run a vLLM Server on HF Jobs in One Command”，把 vLLM server 与 HF Jobs 的启动流程包装为更短路径；工程影响是临时 benchmark、演示、短...
+- 暂无可提取 Top Picks；请先查看最近的 daily 或 archive。
 
 ## 主题索引
 
@@ -49,6 +44,7 @@
 
 ## 最近更新
 
+- [2026-06-27 Daily Radar](daily/2026/06/27/index.md) · [原始归档](archive/2026/06/27/README.md)
 - [2026-06-26 Daily Radar](daily/2026/06/26/index.md) · [原始归档](archive/2026/06/26/README.md)
 - [2026-06-25 Daily Radar](daily/2026/06/25/index.md) · [原始归档](archive/2026/06/25/README.md)
 - [2026-06-24 Daily Radar](daily/2026/06/24/index.md) · [原始归档](archive/2026/06/24/README.md)
