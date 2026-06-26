@@ -11,16 +11,15 @@ language: zh-CN
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 10 条，其中 P0/P1 10 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天自动归档 11 条，其中 P0/P1 11 条；优先打开带源链接的结构化记录二次核验。
 
 ## 今日新增信号
 
-- **P1** [OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño](../../items/2026/06/24/daily/top-01-broadcom-llm-jalape-news-2026.md)：OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño：核心变化是 OpenAI News 在 2026-06-24 发布定制 AI 推理芯片消息，候选标记为 P1、quality_score=15，reason_c...
-- **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)：RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒：核心变化是两篇 arXiv 2026-06-23 P0 论文同时进入窗口：*Privacy-Preserving RAG via Multi-Agent Semantic Rewr...
-- **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)：Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选：核心变化是模型巡检在 10 小时窗口内发现多个 P0/P1 模型：osmapi/osmQwopus3.6...
+- **P1** [Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server](../../items/2026/06/26/daily/top-04-hf-jobs-vllm-server-blog.md)：Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server：核心变化是 Hugging Face Blog 2026-06-26 新增 vLLM Jobs 教程，指向把 vLLM server 快速部署到 HF...
 
 ## 值得实验
 
+- **P1** [Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server](../../items/2026/06/26/daily/top-04-hf-jobs-vllm-server-blog.md)
 - **P1** [OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño](../../items/2026/06/24/daily/top-01-broadcom-llm-jalape-news-2026.md)
 - **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)
 - **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)
@@ -28,13 +27,16 @@ language: zh-CN
 - **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](../../items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)
 - **P1** [Litmus：用代码驱动、零标签 metric specification 评估 AI 系统](../../items/2026/06/23/daily/top-05-litmus-metric-specification-ai-arxiv.md)
 - **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](../../items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)
-- **P0** [OpenAI 将“上线前部署仿真”作为评测方向推到台前](../../items/2026/06/22/daily/top-01-2026-06-16-deployment-simulation.md)
 
 ## 持续观察
 
 - 暂无 P2 观察条目。
 
 ## 历史条目
+
+## 2026-06-26
+
+- **P1** [Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server](../../items/2026/06/26/daily/top-04-hf-jobs-vllm-server-blog.md)：Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server：核心变化是 Hugging Face Blog 2026-06-26 新增 vLLM Jobs 教程，指向把 vLLM server 快速部署到 HF Jobs 的更低门槛路径；工程影响是对临...
 
 ## 2026-06-24
 

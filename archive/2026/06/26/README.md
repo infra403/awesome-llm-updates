@@ -23,3 +23,8 @@
 - [papers/20260626-0913/paper.md](papers/20260626-0913/paper.md)
 - [papers/20260626-0913/time.md](papers/20260626-0913/time.md)
 - [papers/20260626-0913/topic.md](papers/20260626-0913/topic.md)
+
+## 每日汇总
+- [digest/20260626-0936/daily.md](digest/20260626-0936/daily.md)
+- [digest/20260626-0936/time.md](digest/20260626-0936/time.md)
+- [digest/20260626-0936/topic.md](digest/20260626-0936/topic.md)
