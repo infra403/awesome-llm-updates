@@ -15,13 +15,13 @@ language: zh-CN
 
 ## 今日新增信号
 
-- **P1** [Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server](../../items/2026/06/26/daily/top-04-hf-jobs-vllm-server-blog.md)：Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server：核心变化是 Hugging Face Blog 2026-06-26 新增 vLLM Jobs 教程，指向把 vLLM server 快速部署到 HF...
-- **P1** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters](../../items/2026/06/26/daily/top-06-llm-os-models-lfm2-8b.md)：LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：核心变化是 Hugging Face 2026-06-26T01:15:25Z 更新一个基于 LiquidAI/LFM2.5-...
+- **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](../../items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)：Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支：核心变化是 HF 上新增/更新 FreedomAISVR 的 Qwen-AgentWorld-35B-A3B-NVFP4-GGU...
+- **P1** [HF Jobs 一行命令运行 vLLM Server](../../items/2026/06/26/daily/top-06-hf-jobs-vllm-server-blog.md)：HF Jobs 一行命令运行 vLLM Server：核心变化是 Hugging Face Blog 发布 “Run a vLLM Server on HF Jobs in One Command”，把 vLLM server 与 HF...
 
 ## 值得实验
 
-- **P1** [Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server](../../items/2026/06/26/daily/top-04-hf-jobs-vllm-server-blog.md)
-- **P1** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters](../../items/2026/06/26/daily/top-06-llm-os-models-lfm2-8b.md)
+- **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](../../items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)
+- **P1** [HF Jobs 一行命令运行 vLLM Server](../../items/2026/06/26/daily/top-06-hf-jobs-vllm-server-blog.md)
 - **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)
 - **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](../../items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)
 - **P1** [CUGA working examples：轻量 harness 上的 agentic app 样例集](../../items/2026/06/23/daily/top-06-cuga-working-examples-harness-agentic.md)
@@ -35,8 +35,8 @@ language: zh-CN
 
 ## 2026-06-26
 
-- **P1** [Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server](../../items/2026/06/26/daily/top-04-hf-jobs-vllm-server-blog.md)：Hugging Face：一条命令在 HF Jobs 上运行 vLLM Server：核心变化是 Hugging Face Blog 2026-06-26 新增 vLLM Jobs 教程，指向把 vLLM server 快速部署到 HF Jobs 的更低门槛路径；工程影响是对临...
-- **P1** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters](../../items/2026/06/26/daily/top-06-llm-os-models-lfm2-8b.md)：LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：核心变化是 Hugging Face 2026-06-26T01:15:25Z 更新一个基于 LiquidAI/LFM2.5-8B-A1B 的 Agent/termi...
+- **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](../../items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)：Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支：核心变化是 HF 上新增/更新 FreedomAISVR 的 Qwen-AgentWorld-35B-A3B-NVFP4-GGUF 与 MXFP4-MOE-GGUF，标...
+- **P1** [HF Jobs 一行命令运行 vLLM Server](../../items/2026/06/26/daily/top-06-hf-jobs-vllm-server-blog.md)：HF Jobs 一行命令运行 vLLM Server：核心变化是 Hugging Face Blog 发布 “Run a vLLM Server on HF Jobs in One Command”，把 vLLM server 与 HF Jobs 的启动流程包装为更短路径；工程...
 
 ## 2026-06-24
 
