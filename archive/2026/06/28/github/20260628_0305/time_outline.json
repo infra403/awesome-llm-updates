@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"outline\"><outline><h2 id=\"doxcnqDJ7GOqO0i2vUGvCNsbhWb\">用途</h2><h2 id=\"doxcnhKN88JqUkjxpnQ8Wgifuve\">记录格式</h2><h2 id=\"doxcnLUiXhW2UqFyDX7U7NAdCYg\">当前索引</h2><h2 id=\"doxcn8PfncqRhn6pAbE0KJCdi1c\">2026-06-22 16:40:01 CST 可见文档修复测试</h2><h2 id=\"doxcnow96Ooaa0jVWcqZ3ePLv2b\">2026-06-22 18:03 新闻博客</h2><h2 id=\"doxcnIWzGecXuSyPXpafI2aVAKy\">2026-06-22 22:37 论文</h2><h2 id=\"doxcn5au4m0kXOWIxm6QjcMVGnh\">2026-06-22 22:42 每日汇总</h2><h2 id=\"doxcn4gH6lO0RIRGh4W9fGgd4Md\">2026-06-23 00:15 新闻博客</h2><h2 id=\"doxcnzAKVzbIOMR8sBfaN2BEOrb\">2026-06-23 06:16 新闻博客</h2><h2 id=\"doxcnhyxje9jWvCCATjCEVC51Js\">2026-06-23 00:26 模型发布</h2><h2 id=\"doxcnFwzLpzLVxXHhIuJXQXvgLg\">2026-06-23 08:27 模型发布</h2><h2 id=\"doxcntKZowU7mYsOrT66bbmFvLc\">2026-06-23 00:00 GitHub 项目</h2><h2 id=\"doxcn9aa8N53kCjJCJYUFyWjL7b\">2026-06-23 06:05 GitHub 项目</h2><h2 id=\"doxcngEREwbdeqD8n0U5kb3nJRF\">2026-06-23 09:13 论文</h2><h2 id=\"doxcnXEBfJVDrUdqjeFdPMJLXzg\">2026-06-23 09:32 每日汇总</h2><h2 id=\"doxcn1zhQBdrBHtMw64JqqhOw4d\">2026-06-23 12:16 新闻博客</h2><h2 id=\"doxcnubbXYhqEKBS5Q4pW027hDe\">2026-06-23 17:08 模型发布</h2><h2 id=\"doxcnD01E4MjfYKCd3m0TpNfElb\">2026-06-23 21:01 新闻博客</h2><h2 id=\"doxcnx6GWq41EkDIbomWRqtAGGx\">2026-06-23 21:06 GitHub 项目</h2><h2 id=\"doxcnq91JyMtw1zEyDL7Bu3MDsd\">2026-06-23 21:11 论文</h2><h2 id=\"doxcn4g884m9t1JHT5CYOuOgZng\">2026-06-23 21:36 每日汇总</h2><h2 id=\"doxcnFPO2n6A2eg3b2uUZF0fsSf\">2026-06-24 01:09 模型发布</h2><h2 id=\"doxcnb73VFaHRoAV1AS9j5S4ZHE\">2026-06-24 03:06 GitHub 项目</h2><h2 id=\"doxcnV8nfPAACH9sfY12nw3lhvc\">2026-06-24 09:00 新闻博客</h2><h2 id=\"doxcnfLbOPOoVGHy6hF629qrmng\">2026-06-24 09:06 GitHub 项目</h2><h2 id=\"doxcnIDe5JtV4CkduZrUzgoKpOb\">2026-06-24 09:12 论文</h2><h2 id=\"doxcnpvVGggP5Uhdi6jAOFTzXIe\">2026-06-24 09:13 模型发布</h2><h2 id=\"doxcn2ymC0hXaxsjcRN6wOivh4g\">2026-06-24 15:05 GitHub 项目</h2><h2 id=\"doxcnJG7IUo4ZdnvvjqW4UBdqOb\">2026-06-24 17:08 模型发布</h2><h2 id=\"doxcnAskeMg2xXbgVcofebKO5Le\">2026-06-24 21:05 GitHub 项目</h2><h2 id=\"doxcnkexTdA1D2fuLf1tcuvKBfd\">2026-06-24 21:35 每日汇总</h2><h2 id=\"doxcncujAvY7dZLh66BqtZotUNN\">2026-06-25 03:05 GitHub 项目</h2><h2 id=\"doxcnRUK95CsqmkGFPTmLwyyHFc\">2026-06-26 09:06 GitHub 项目</h2><h2 id=\"doxcnD9tHts4n8LqmaB5pichyZb\">2026-06-26 15:06 GitHub 项目</h2><h2 id=\"doxcnrdWgADn0sxtt2sNKjpzlkc\">2026-06-26 21:05 GitHub 项目</h2><h2 id=\"doxcnAylIyXNy7X3TAIlXL0xx1f\">2026-06-27 03:06 GitHub 项目</h2><h2 id=\"doxcnwVhnaUhePIF96UFa23Zc7d\">2026-06-27 09:06 GitHub 项目</h2><h2 id=\"doxcn79cqvp1PR24dxoKMMdQvkh\">2026-06-27 15:06 GitHub 项目</h2><h2 id=\"doxcnIElTpSaN1Xt9jwBy7Seiqg\">2026-06-27 21:05 GitHub 项目</h2></outline></fragment>",
+      "document_id": "QZjEdsjnRoDVGixlJTOcjx3Dn8b",
+      "revision_id": 39
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.59",
+      "message": "lark-cli 1.0.59 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

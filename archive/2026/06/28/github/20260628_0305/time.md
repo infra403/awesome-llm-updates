@@ -1,0 +1,12 @@
+## 2026-06-28 03:05 GitHub 项目
+
+- [P0] luckyPipewrench/pipelock | Agent 与多智能体 / 推理系统与工程工具 | 面向 MCP 与 Agent 出站流量的开源防火墙，把 HTTP、MCP、A2A、WebSocket 访问放到可扫描、可签名留痕的中介层。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/luckyPipewrench/pipelock
+- [P0] framerslab/agentos | Agent 与多智能体 / RAG 与知识工程 | TypeScript Agent 框架，强调 cognitive memory、runtime tool forging、多 Agent 编排和 11 个 LLM provider。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/framerslab/agentos
+- [P0] rivet-dev/agentos | Agent 与多智能体 / 推理系统与工程工具 | 用隔离 Linux VM 承载 coding agent，定位为比传统 sandbox 更轻、更快、更便宜，并内建 agent orchestration。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/rivet-dev/agentos
+- [P0] hwdsl2/self-hosted-ai-stack | 推理系统与工程工具 / RAG 与知识工程 | Docker Compose 一键部署本地 AI 栈：Ollama、LiteLLM、AnythingLLM、Whisper、Kokoro、Embeddings、Docling 与 MCP Gateway。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/hwdsl2/self-hosted-ai-stack
+- [P0] MakazhanAlpamys/Soup | 推理、训练与后训练 / 模型发布与模型能力 | 把 LLM fine-tuning 简化为一个配置、一个命令的 workflow，覆盖 LoRA/QLoRA、SFT/DPO、HF/Ollama/GGUF 相关生态。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/MakazhanAlpamys/Soup
+- [P0] Michael-OvO/obsidian-knowledge-agent | RAG 与知识工程 / Agent 与多智能体 | 把 PDF、slides、syllabi、papers、URL 等原始材料转成结构化、教学质量的 Obsidian notes，包含 ingest、compile、distribute 流程。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Michael-OvO/obsidian-knowledge-agent
+- [P0] mrwadams/attackgen | 评测与基准 / Agent 与多智能体 | 基于 LLM 和 MITRE ATT&CK，为组织生成定制化 incident response 测试场景。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/mrwadams/attackgen
+- [P0] callstack/agent-device | Agent 与多智能体 / 评测与基准 | 让 AI agents 控制 iOS 与 Android 设备的 CLI，覆盖模拟器、ADB、XCUITest、移动端 E2E 与 MCP 场景。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/callstack/agent-device
+- [P1] tobocop2/lilbee | RAG 与知识工程 / 推理系统与工程工具 | 本地 AI 搜索引擎，管理本地模型、搜索文件与代码、爬取网页，提供引用答案、TUI/CLI/REST/Python library 和 MCP server。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/tobocop2/lilbee
+- [P1] SlavaSexton/ComfyUI-Agent-Kit | 多模态与生成媒体 / Agent 与多智能体 | 为 Claude Code、Codex、Gemini CLI、Qwen Code 等 coding agents 提供一个 ComfyUI skill，包含模型提示 recipes、模板、硬件感知选择、自动启动和 workflow building。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/SlavaSexton/ComfyUI-Agent-Kit

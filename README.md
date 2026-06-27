@@ -25,14 +25,9 @@
 
 ## 最新更新
 
-最新日期：[**2026-06-27 LLM 工程情报 Radar**](daily/2026/06/27/index.md)
+最新日期：[**2026-06-28 LLM 工程情报 Radar**](daily/2026/06/28/index.md)
 
-- **P0** [MIRROR：面向 Agentic RAG 的跨表面红队框架](items/2026/06/27/daily/top-01-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨表面红队框架：核心变化是提出 novelty-constrained、memory-guided MCTS，用于覆盖文本投毒、图像注入、direct-query attack 和 orchestrator-level tool manipulation，并指出既有红队模...
-- **P0** [Temporal Validity in Retrieval Memory：RAG 记忆的时效性问题被单独建模](items/2026/06/27/daily/top-02-temporal-validity-in-retrieval-memory.md)：Temporal Validity in Retrieval Memory：RAG 记忆的时效性问题被单独建模：核心变化是把 stale-fact errors 明确为结构性检索问题：事实变更后，旧事实与新事实 embedding 相似度接近，候选摘要报告 cosine similarity 区分矛盾事实和重复事实...
-- **P0** [OpenRCA 2.0：从结果标签转向因果过程监督](items/2026/06/27/daily/top-03-openrca-root-cause-analysis-pattern.md)：OpenRCA 2.0：从结果标签转向因果过程监督：核心变化是针对 root cause analysis 任务，指出只标 root cause 容易退化成 pattern matching，并引入 PAVE step-wise labeling protocol 来标注从故障到症状的传播路径；工程影响是评测 LLM...
-- **P1** [Hugging Face Jobs 一行启动 vLLM Server](items/2026/06/27/daily/top-04-jobs-vllm-server-blog-hf.md)：Hugging Face Jobs 一行启动 vLLM Server：核心变化是 Hugging Face Blog 发布在 HF Jobs 中运行 vLLM server 的工程路径；工程影响是临时模型服务、benchmark、demo/评测环境可以更低摩擦地拉起 vLLM，而不必先维护长期 GPU 服务；建议动作...
-- **P1** [InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选](items/2026/06/27/daily/top-05-internscience-agents-a1-apache-agent.md)：InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选：核心变化是 Hugging Face 在 2026-06-26T22:18:39Z 更新 InternScience/Agents-A1，标签包含 qwen3_5_moe、image-text-to-text、text-...
-- **P0** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号](items/2026/06/27/daily/top-06-llm-os-models-lfm2-8b.md)：LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号：核心变化是 Hugging Face 在 2026-06-27T01:16:44Z 更新基于 LiquidAI/LFM2.5-8B-A...
+- 暂无可提取 Top Picks；请先查看最近的 daily 或 archive。
 
 ## 主题索引
 
@@ -49,6 +44,7 @@
 
 ## 最近更新
 
+- [2026-06-28 Daily Radar](daily/2026/06/28/index.md) · [原始归档](archive/2026/06/28/README.md)
 - [2026-06-27 Daily Radar](daily/2026/06/27/index.md) · [原始归档](archive/2026/06/27/README.md)
 - [2026-06-26 Daily Radar](daily/2026/06/26/index.md) · [原始归档](archive/2026/06/26/README.md)
 - [2026-06-25 Daily Radar](daily/2026/06/25/index.md) · [原始归档](archive/2026/06/25/README.md)
