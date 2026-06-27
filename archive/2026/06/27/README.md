@@ -22,6 +22,9 @@
 - [github/20260627_0306/github.md](github/20260627_0306/github.md)
 - [github/20260627_0306/time.md](github/20260627_0306/time.md)
 - [github/20260627_0306/topic.md](github/20260627_0306/topic.md)
+- [github/20260627_2105/github.md](github/20260627_2105/github.md)
+- [github/20260627_2105/time.md](github/20260627_2105/time.md)
+- [github/20260627_2105/topic.md](github/20260627_2105/topic.md)
 
 ## 论文
 - [papers/20260627_091105/paper_append.md](papers/20260627_091105/paper_append.md)
