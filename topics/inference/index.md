@@ -11,29 +11,38 @@ language: zh-CN
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 12 条，其中 P0/P1 12 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天自动归档 16 条，其中 P0/P1 16 条；优先打开带源链接的结构化记录二次核验。
 
 ## 今日新增信号
 
-- **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](../../items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)：Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支：核心变化是 HF 上新增/更新 FreedomAISVR 的 Qwen-AgentWorld-35B-A3B-NVFP4-GGU...
-- **P1** [HF Jobs 一行命令运行 vLLM Server](../../items/2026/06/26/daily/top-06-hf-jobs-vllm-server-blog.md)：HF Jobs 一行命令运行 vLLM Server：核心变化是 Hugging Face Blog 发布 “Run a vLLM Server on HF Jobs in One Command”，把 vLLM server 与 HF...
+- **P0** [OpenRCA 2.0：从结果标签转向因果过程监督](../../items/2026/06/27/daily/top-03-openrca-root-cause-analysis-pattern.md)：OpenRCA 2.0：从结果标签转向因果过程监督：核心变化是针对 root cause analysis 任务，指出只标 root cause 容易退化成 pattern matching，并引入 PAVE step-wise labe...
+- **P1** [Hugging Face Jobs 一行启动 vLLM Server](../../items/2026/06/27/daily/top-04-jobs-vllm-server-blog-hf.md)：Hugging Face Jobs 一行启动 vLLM Server：核心变化是 Hugging Face Blog 发布在 HF Jobs 中运行 vLLM server 的工程路径；工程影响是临时模型服务、benchmark、demo...
+- **P1** [InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选](../../items/2026/06/27/daily/top-05-internscience-agents-a1-apache-agent.md)：InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选：核心变化是 Hugging Face 在 2026-06-26T22:18:39Z 更新 InternScience/Agents-A1，标...
+- **P0** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号](../../items/2026/06/27/daily/top-06-llm-os-models-lfm2-8b.md)：LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号：核心变化是 Hugging Face 在 2026-0...
 
 ## 值得实验
 
+- **P0** [OpenRCA 2.0：从结果标签转向因果过程监督](../../items/2026/06/27/daily/top-03-openrca-root-cause-analysis-pattern.md)
+- **P1** [Hugging Face Jobs 一行启动 vLLM Server](../../items/2026/06/27/daily/top-04-jobs-vllm-server-blog-hf.md)
+- **P1** [InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选](../../items/2026/06/27/daily/top-05-internscience-agents-a1-apache-agent.md)
+- **P0** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号](../../items/2026/06/27/daily/top-06-llm-os-models-lfm2-8b.md)
 - **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](../../items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)
 - **P1** [HF Jobs 一行命令运行 vLLM Server](../../items/2026/06/26/daily/top-06-hf-jobs-vllm-server-blog.md)
 - **P1** [OpenAI 与 Broadcom 发布 LLM 推理芯片 Jalapeño](../../items/2026/06/24/daily/top-01-broadcom-llm-jalape-news-2026.md)
 - **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)
-- **P0** [Hugging Face 本周期集中出现 Agentic / terminal / reasoning 小模型与 GGUF 量化候选](../../items/2026/06/24/daily/top-05-agentic-terminal-reasoning-gguf-10.md)
-- **P0** [Concordia：面向长运行 LLM Agent/Serving 的 GPU 常驻状态容错 checkpointing](../../items/2026/06/23/daily/top-01-concordia-llm-agent-serving-gpu.md)
-- **P0** [Agentic local model release cluster：Gemma/Fabliq 系列强调 tool-use、terminal、coding-agent](../../items/2026/06/23/daily/top-03-agentic-local-model-release-cluster.md)
-- **P1** [Litmus：用代码驱动、零标签 metric specification 评估 AI 系统](../../items/2026/06/23/daily/top-05-litmus-metric-specification-ai-arxiv.md)
 
 ## 持续观察
 
 - 暂无 P2 观察条目。
 
 ## 历史条目
+
+## 2026-06-27
+
+- **P0** [OpenRCA 2.0：从结果标签转向因果过程监督](../../items/2026/06/27/daily/top-03-openrca-root-cause-analysis-pattern.md)：OpenRCA 2.0：从结果标签转向因果过程监督：核心变化是针对 root cause analysis 任务，指出只标 root cause 容易退化成 pattern matching，并引入 PAVE step-wise labeling protocol 来标注从故障...
+- **P1** [Hugging Face Jobs 一行启动 vLLM Server](../../items/2026/06/27/daily/top-04-jobs-vllm-server-blog-hf.md)：Hugging Face Jobs 一行启动 vLLM Server：核心变化是 Hugging Face Blog 发布在 HF Jobs 中运行 vLLM server 的工程路径；工程影响是临时模型服务、benchmark、demo/评测环境可以更低摩擦地拉起 vLLM，...
+- **P1** [InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选](../../items/2026/06/27/daily/top-05-internscience-agents-a1-apache-agent.md)：InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选：核心变化是 Hugging Face 在 2026-06-26T22:18:39Z 更新 InternScience/Agents-A1，标签包含 qwen3_5_moe、imag...
+- **P0** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号](../../items/2026/06/27/daily/top-06-llm-os-models-lfm2-8b.md)：LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号：核心变化是 Hugging Face 在 2026-06-27T01:16:44Z 更新基于...
 
 ## 2026-06-26
 

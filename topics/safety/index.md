@@ -11,15 +11,15 @@ Prompt injection、越权、防护、对齐、安全评测和 agent 行为监控
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 4 条，其中 P0/P1 4 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天自动归档 5 条，其中 P0/P1 5 条；优先打开带源链接的结构化记录二次核验。
 
 ## 今日新增信号
 
-- **P0** [MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架](../../items/2026/06/26/daily/top-02-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架：核心变化是用 novelty-constrained memory-guided MCTS 生成更少重复的攻击样本，覆盖文本投毒、图像注入、direct-query...
-- **P1** [GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi](../../items/2026/06/26/daily/top-05-agent-rag-dify-ragflow-neo.md)：GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi：核心变化是 2026-06-26 20:51-21:34 北京时间窗口内，多条高星/明确工程元数据项目更新，覆盖 produc...
+- **P0** [MIRROR：面向 Agentic RAG 的跨表面红队框架](../../items/2026/06/27/daily/top-01-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨表面红队框架：核心变化是提出 novelty-constrained、memory-guided MCTS，用于覆盖文本投毒、图像注入、direct-query attack 和 orche...
 
 ## 值得实验
 
+- **P0** [MIRROR：面向 Agentic RAG 的跨表面红队框架](../../items/2026/06/27/daily/top-01-mirror-agentic-rag-novelty-constrained.md)
 - **P0** [MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架](../../items/2026/06/26/daily/top-02-mirror-agentic-rag-novelty-constrained.md)
 - **P1** [GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi](../../items/2026/06/26/daily/top-05-agent-rag-dify-ragflow-neo.md)
 - **P0** [开源 LLM 工程栈继续围绕评测/观测、低代码 Agent workflow、终端 coding agent 活跃更新](../../items/2026/06/24/daily/top-06-llm-agent-workflow-coding-p0.md)
@@ -30,6 +30,10 @@ Prompt injection、越权、防护、对齐、安全评测和 agent 行为监控
 - 暂无 P2 观察条目。
 
 ## 历史条目
+
+## 2026-06-27
+
+- **P0** [MIRROR：面向 Agentic RAG 的跨表面红队框架](../../items/2026/06/27/daily/top-01-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨表面红队框架：核心变化是提出 novelty-constrained、memory-guided MCTS，用于覆盖文本投毒、图像注入、direct-query attack 和 orchestrator-level tool m...
 
 ## 2026-06-26
 

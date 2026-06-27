@@ -11,32 +11,40 @@ RAG、检索、知识库、长上下文、知识图谱和数据治理。
 
 ## 最近 7 天趋势
 
-- 最近 7 天自动归档 16 条，其中 P0/P1 16 条；优先打开带源链接的结构化记录二次核验。
+- 最近 7 天自动归档 21 条，其中 P0/P1 21 条；优先打开带源链接的结构化记录二次核验。
 
 ## 今日新增信号
 
-- **P0** [Temporal Validity in Retrieval Memory：RAG 记忆需要显式时间有效性](../../items/2026/06/26/daily/top-01-temporal-validity-in-retrieval-memory.md)：Temporal Validity in Retrieval Memory：RAG 记忆需要显式时间有效性：核心变化是论文指出传统 embedding 相似度无法可靠区分“重复事实”和“已过期/被推翻事实”，候选摘要给出 contradi...
-- **P0** [MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架](../../items/2026/06/26/daily/top-02-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架：核心变化是用 novelty-constrained memory-guided MCTS 生成更少重复的攻击样本，覆盖文本投毒、图像注入、direct-query...
-- **P0** [OpenRCA 2.0 / PAVE：从结果标签转向因果过程监督的 RCA Agent 评测](../../items/2026/06/26/daily/top-03-openrca-pave-rca-agent-root.md)：OpenRCA 2.0 / PAVE：从结果标签转向因果过程监督的 RCA Agent 评测：核心变化是候选摘要指出现有 RCA 数据集只标 root cause，容易退化成模式匹配；新协议强调 fault propagation pat...
-- **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](../../items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)：Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支：核心变化是 HF 上新增/更新 FreedomAISVR 的 Qwen-AgentWorld-35B-A3B-NVFP4-GGU...
-- **P1** [GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi](../../items/2026/06/26/daily/top-05-agent-rag-dify-ragflow-neo.md)：GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi：核心变化是 2026-06-26 20:51-21:34 北京时间窗口内，多条高星/明确工程元数据项目更新，覆盖 produc...
+- **P0** [MIRROR：面向 Agentic RAG 的跨表面红队框架](../../items/2026/06/27/daily/top-01-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨表面红队框架：核心变化是提出 novelty-constrained、memory-guided MCTS，用于覆盖文本投毒、图像注入、direct-query attack 和 orche...
+- **P0** [Temporal Validity in Retrieval Memory：RAG 记忆的时效性问题被单独建模](../../items/2026/06/27/daily/top-02-temporal-validity-in-retrieval-memory.md)：Temporal Validity in Retrieval Memory：RAG 记忆的时效性问题被单独建模：核心变化是把 stale-fact errors 明确为结构性检索问题：事实变更后，旧事实与新事实 embedding 相似度...
+- **P0** [OpenRCA 2.0：从结果标签转向因果过程监督](../../items/2026/06/27/daily/top-03-openrca-root-cause-analysis-pattern.md)：OpenRCA 2.0：从结果标签转向因果过程监督：核心变化是针对 root cause analysis 任务，指出只标 root cause 容易退化成 pattern matching，并引入 PAVE step-wise labe...
+- **P1** [InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选](../../items/2026/06/27/daily/top-05-internscience-agents-a1-apache-agent.md)：InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选：核心变化是 Hugging Face 在 2026-06-26T22:18:39Z 更新 InternScience/Agents-A1，标...
+- **P0** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号](../../items/2026/06/27/daily/top-06-llm-os-models-lfm2-8b.md)：LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号：核心变化是 Hugging Face 在 2026-0...
 
 ## 值得实验
 
+- **P0** [MIRROR：面向 Agentic RAG 的跨表面红队框架](../../items/2026/06/27/daily/top-01-mirror-agentic-rag-novelty-constrained.md)
+- **P0** [Temporal Validity in Retrieval Memory：RAG 记忆的时效性问题被单独建模](../../items/2026/06/27/daily/top-02-temporal-validity-in-retrieval-memory.md)
+- **P0** [OpenRCA 2.0：从结果标签转向因果过程监督](../../items/2026/06/27/daily/top-03-openrca-root-cause-analysis-pattern.md)
+- **P1** [InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选](../../items/2026/06/27/daily/top-05-internscience-agents-a1-apache-agent.md)
+- **P0** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号](../../items/2026/06/27/daily/top-06-llm-os-models-lfm2-8b.md)
 - **P0** [Temporal Validity in Retrieval Memory：RAG 记忆需要显式时间有效性](../../items/2026/06/26/daily/top-01-temporal-validity-in-retrieval-memory.md)
 - **P0** [MIRROR：面向 Agentic RAG 的跨模态/跨攻击面红队框架](../../items/2026/06/26/daily/top-02-mirror-agentic-rag-novelty-constrained.md)
 - **P0** [OpenRCA 2.0 / PAVE：从结果标签转向因果过程监督的 RCA Agent 评测](../../items/2026/06/26/daily/top-03-openrca-pave-rca-agent-root.md)
-- **P1** [Qwen-AgentWorld-35B-A3B GGUF 量化版本出现 NVFP4/MXFP4-MOE 分支](../../items/2026/06/26/daily/top-04-qwen-agentworld-35b-a3b-gguf.md)
-- **P1** [GitHub Agent/RAG 工程栈集中活跃：Dify、RAGFlow、Neo.mjs、OpenLoomi](../../items/2026/06/26/daily/top-05-agent-rag-dify-ragflow-neo.md)
-- **P0** [Agent-native memory 从“任务成功率黑盒”转向可拆解的数据管理系统评测](../../items/2026/06/24/daily/top-02-agent-native-memory-arxiv-2026.md)
-- **P0** [SHERLOC 把代码修复 Agent 的“定位”从文件检索推进到结构化诊断](../../items/2026/06/24/daily/top-03-sherloc-agent-arxiv-2026-06.md)
-- **P0** [RAG 安全今天出现两条互补信号：隐私语义重写与知识投毒](../../items/2026/06/24/daily/top-04-rag-arxiv-2026-06-23.md)
 
 ## 持续观察
 
 - 暂无 P2 观察条目。
 
 ## 历史条目
+
+## 2026-06-27
+
+- **P0** [MIRROR：面向 Agentic RAG 的跨表面红队框架](../../items/2026/06/27/daily/top-01-mirror-agentic-rag-novelty-constrained.md)：MIRROR：面向 Agentic RAG 的跨表面红队框架：核心变化是提出 novelty-constrained、memory-guided MCTS，用于覆盖文本投毒、图像注入、direct-query attack 和 orchestrator-level tool m...
+- **P0** [Temporal Validity in Retrieval Memory：RAG 记忆的时效性问题被单独建模](../../items/2026/06/27/daily/top-02-temporal-validity-in-retrieval-memory.md)：Temporal Validity in Retrieval Memory：RAG 记忆的时效性问题被单独建模：核心变化是把 stale-fact errors 明确为结构性检索问题：事实变更后，旧事实与新事实 embedding 相似度接近，候选摘要报告 cosine sim...
+- **P0** [OpenRCA 2.0：从结果标签转向因果过程监督](../../items/2026/06/27/daily/top-03-openrca-root-cause-analysis-pattern.md)：OpenRCA 2.0：从结果标签转向因果过程监督：核心变化是针对 root cause analysis 任务，指出只标 root cause 容易退化成 pattern matching，并引入 PAVE step-wise labeling protocol 来标注从故障...
+- **P1** [InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选](../../items/2026/06/27/daily/top-05-internscience-agents-a1-apache-agent.md)：InternScience/Agents-A1：Apache-2.0 的 Agent 向模型候选：核心变化是 Hugging Face 在 2026-06-26T22:18:39Z 更新 InternScience/Agents-A1，标签包含 qwen3_5_moe、imag...
+- **P0** [LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号](../../items/2026/06/27/daily/top-06-llm-os-models-lfm2-8b.md)：LLM-OS-Models/LFM2.5-8B-A1B Raw ECHO RLVR GRPO Adapters：面向 terminal-agent 的 LoRA/adapter 信号：核心变化是 Hugging Face 在 2026-06-27T01:16:44Z 更新基于...
 
 ## 2026-06-26
 
