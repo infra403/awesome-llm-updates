@@ -11,3 +11,5 @@
 - [github/20260628_0305/time_tail.md](github/20260628_0305/time_tail.md)
 - [github/20260628_0305/topic.md](github/20260628_0305/topic.md)
 - [github/20260628_0305/topic_tail.md](github/20260628_0305/topic_tail.md)
+- [github/20260628_0906/github.md](github/20260628_0906/github.md)
+- [github/20260628_0906/time.md](github/20260628_0906/time.md)
