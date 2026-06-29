@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"outline\"><outline><h1 id=\"doxcnE88uwLXS5xmeyKTdCCuQPb\">`Floom</h1></outline></fragment>",
+      "document_id": "IXZGdmtp2oCKKJxfWsXcrBbTn0g",
+      "revision_id": 26
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.59",
+      "message": "lark-cli 1.0.59 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}

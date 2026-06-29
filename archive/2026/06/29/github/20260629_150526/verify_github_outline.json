@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"outline\"><outline><h2 id=\"doxcnvRx34Xs6uxMng73OVRY9zh\">用途</h2><h2 id=\"doxcn9srqmTxqD6dtxMy8CEuocg\">写入规范</h2><h2 id=\"doxcnao94Gi5cPpFuZIffkijLUC\">2026-06-23 00:00 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnDE05tmAWrPZFv2nfNtBHhf\">2026-06-23 06:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnOT7oRla3y68zMPDBRChkib\">2026-06-23 21:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnBTh5MNzZEv7lDUeeIltY1g\">2026-06-24 03:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnibj0t0zDGnB7f7tsEjtSpc\">2026-06-24 09:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnq2dtmKP5Fi41uD9gOZef8g\">2026-06-24 15:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnZ4P5yZGc6xH4hVoNqAhbwg\">2026-06-24 21:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnazmu7nJnvwIAy2ynws1gJc\">2026-06-25 03:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnfuSTbjqfSRRCimewccihEh\">2026-06-26 09:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcn0cRG1VxrOtBEp5vmje5QTh\">2026-06-26 15:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnF5mb63vRJjycVeaDuIvKob\">2026-06-26 21:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnYsGmaUwMUbfYxxcy0AZ2bT\">2026-06-27 03:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnL1guPCkzt7ceMyeXAzNwRh\">2026-06-27 09:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnZmh2afWbyDKvbBfPVgvHee\">2026-06-27 15:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcniMKdmgTS97xCXCJjPYk5Pd\">2026-06-27 21:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnVprj8i3sYjRcWZyKN2vBhc\">2026-06-28 03:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcneig9VYYVemWGqbelLZiOlb\">2026-06-28 09:06 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnNun2u080INcykq9fHfsjAd\">2026-06-28 15:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnPPOLDYOSmXRlknTkR3kszU\">2026-06-28 21:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnfnt8307X28Pd0sZbGSNXid\">2026-06-29 03:05 北京时间 | GitHub 项目巡检</h2><h2 id=\"doxcnjMeAfdLmC4Ly0fQW0wOkYg\">2026-06-29 09:05 北京时间 | GitHub 项目巡检</h2><h1 id=\"doxcnE88uwLXS5xmeyKTdCCuQPb\">`Floom</h1><h2 id=\"doxcnNUAzCLMEBuAmoMEfc20pBe\">2026-06-29 15:05 北京时间 | GitHub 项目巡检</h2></outline></fragment>",
+      "document_id": "IXZGdmtp2oCKKJxfWsXcrBbTn0g",
+      "revision_id": 27
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.56",
+      "latest": "1.0.59",
+      "message": "lark-cli 1.0.59 available, current 1.0.56, run: lark-cli update"
+    }
+  }
+}
