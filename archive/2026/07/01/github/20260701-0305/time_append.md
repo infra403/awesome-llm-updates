@@ -1,0 +1,12 @@
+## 2026-07-01 03:05 GitHub 项目
+
+- [P0] 0xSteph/pentest-ai | Agent 与多智能体、评测与基准、推理系统与工程工具 | offensive-security MCP/CLI 工具链，把渗透测试工具、specialist agents 与 OWASP/SPA probes 接入 Agent 安全测试。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/0xSteph/pentest-ai
+- [P0] mohitagw15856/pm-claude-skills | Agent 与多智能体、产品与商业化、推理系统与工程工具 | 跨 Claude/ChatGPT/Gemini/Cursor/Codex 的专业 Agent Skills 集合，展示 skill marketplace 与多通道分发趋势。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/mohitagw15856/pm-claude-skills
+- [P0] osaurus-ai/osaurus | Agent 与多智能体、推理系统与工程工具、模型发布与模型能力 | macOS 本地 AI harness，将 agents、memory、tools、identity 放到端侧离线运行。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/osaurus-ai/osaurus
+- [P0] corezoid/corezoid-ai-plugin | Agent 与多智能体、推理系统与工程工具、产品与商业化 | Corezoid 面向 Claude Code/Codex 的 MCP + skills 插件，把流程平台操作接入自然语言开发工作流。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/corezoid/corezoid-ai-plugin
+- [P0] speakeasy-api/gram | Agent 与多智能体、推理系统与工程工具、产品与商业化 | Speakeasy AI Control Plane，面向组织级 agents/MCP/skills 的连接、安全、观测与分发治理。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/speakeasy-api/gram
+- [P0] chrisliu298/awesome-on-policy-distillation | 推理、训练与后训练、模型发布与模型能力、评测与基准 | On-Policy Distillation 资源索引，覆盖 LLM 蒸馏、RLHF、自蒸馏和 speculative decoding 方向。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/chrisliu298/awesome-on-policy-distillation
+- [P1] msu-denver/bili-core | Agent 与多智能体、RAG 与知识工程、评测与基准 | 研究型 LLM 框架，覆盖单 Agent、多 Agent、RAG 应用与对抗安全测试。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/msu-denver/bili-core
+- [P1] kochetkov-ma/claude-brewcode | Agent 与多智能体、推理系统与工程工具 | Claude Code 插件套件，关注长任务 context handoff、skills/agents/hooks 与开发工作流持久化。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/kochetkov-ma/claude-brewcode
+- [P1] GoogleCloudPlatform/db-context-enrichment | RAG 与知识工程、数据集与数据工程、评测与基准 | 数据库 Context Engineering Agent/MCP server，用 ContextSet 提升 NL2SQL 可靠性。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/GoogleCloudPlatform/db-context-enrichment
+- [P1] lidge-jun/opencodex | 推理系统与工程工具、Agent 与多智能体 | Codex CLI/App/SDK 的 universal provider proxy，用于接入非 OpenAI 模型 provider。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/lidge-jun/opencodex
