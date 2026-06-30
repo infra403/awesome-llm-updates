@@ -1,0 +1,12 @@
+## 2026-06-30 21:05 GitHub 项目
+
+- [P0] yoloshii/ClawMem | Agent 与多智能体；RAG 与知识工程；推理系统与工程工具 | 本地优先 Agent 记忆层，支持 hooks、MCP server、SQLite vault 与混合检索；建议今天实验。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/yoloshii/ClawMem
+- [P0] codeaholicguy/ai-devkit | Agent 与多智能体；推理系统与工程工具；评测与基准 | 多 AI 编码 Agent 控制平面，覆盖统一配置、TUI console、跨 agent 通信、本地记忆和工程技能；建议今天阅读。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/codeaholicguy/ai-devkit
+- [P0] tensorlakeai/tensorlake | Agent 与多智能体；推理系统与工程工具；推理、训练与后训练 | Agent sandbox-native compute 平台，提供 Firecracker MicroVM sandbox 与 serverless orchestration/fan-out runtime；建议今天阅读。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/tensorlakeai/tensorlake
+- [P0] Nayjest/ai-microcore | RAG 与知识工程；推理系统与工程工具 | 轻量 Python LLM 与向量/语义搜索 adapter 集合，可作小型 RAG/MCP 工具薄封装参考；建议持续观察。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Nayjest/ai-microcore
+- [P0] pakgik01/ask-expert-consult-mcp | Agent 与多智能体；推理系统与工程工具 | 面向开发咨询经验沉淀的 MCP/Agent 实验项目，但 README 偏营销且工具接口未确认；建议暂不跟进。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/pakgik01/ask-expert-consult-mcp
+- [P1] dream-num/skills | 数据集与数据工程；Agent 与多智能体；推理系统与工程工具 | Univer CLI 官方 workbook automation skill，强调表格 inspect、verify、rollback、import/export；建议今天阅读。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/dream-num/skills
+- [P1] hrygo/hotplex | Agent 与多智能体；推理系统与工程工具；产品与商业化 | Go 实现的 AI Coding Agent WebSocket/AEP gateway，桥接 Claude Code、OpenCode、ACP/Codex 与 Web/Slack/Feishu；建议持续观察。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/hrygo/hotplex
+- [P1] containers/kubernetes-mcp-server | 推理系统与工程工具；Agent 与多智能体 | Kubernetes/OpenShift MCP server，适合 Agentic DevOps 和推理服务运维自动化，但需严控权限；建议今天实验。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/containers/kubernetes-mcp-server
+- [P1] knows-cloud/paperless-iq | RAG 与知识工程；数据集与数据工程；产品与商业化 | Paperless-NGX 自托管 AI add-on，覆盖元数据建议、文档 RAG、Ollama/Anthropic/OpenAI/Bedrock 与混合检索；建议持续观察。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/knows-cloud/paperless-iq
+- [P1] Simon-He95/markstream-vue | 推理系统与工程工具；产品与商业化；多模态与生成媒体 | 面向 LLM token stream 的多框架流式 Markdown renderer，支持 Mermaid/KaTeX/Shiki/Monaco/安全 HTML；建议持续观察。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Simon-He95/markstream-vue
