@@ -1,0 +1,12 @@
+## 2026-07-02 21:06 GitHub 项目
+
+- [P0] yonatangross/orchestkit | Agent 与多智能体、RAG 与知识工程、推理系统与工程工具 | Claude Code toolkit，将 skills/agents/hooks 打包成可复用工程资产，适合阅读其 agent workflow 标准化方式。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/yonatangross/orchestkit
+- [P0] Gitlawb/zero | Agent 与多智能体、推理系统与工程工具 | 本地终端 coding agent，强调多模型端点、权限/sandbox 和可脚本化 exec，适合快速验证本地 agent 控制面。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Gitlawb/zero
+- [P0] AkaraChen/aghub | Agent 与多智能体、推理系统与工程工具 | 多 AI coding agent 配置管理 hub，覆盖 Claude Code/Cursor/Gemini CLI/OpenCode/Windsurf 等配置治理场景。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/AkaraChen/aghub
+- [P0] openinfer-project/openinfer | 推理系统与工程工具、模型发布与模型能力 | Rust + CUDA LLM inference engine，无 PyTorch runtime，值得用 Qwen3 最小路径验证 OpenAI API 兼容服务和性能。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/openinfer-project/openinfer
+- [P0] SemiAnalysisAI/InferenceX | 评测与基准、推理系统与工程工具 | 连续推理 benchmark/research platform，覆盖 vLLM/SGLang 与多硬件，适合推理容量规划和选型参考。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/SemiAnalysisAI/InferenceX
+- [P0] Windy3f3f3f3f/claude-code-from-scratch | Agent 与多智能体、推理系统与工程工具 | 用约 4300 行 TypeScript/Python 复现 Claude Code 核心机制，适合作为 agent loop、skills、MCP 的工程学习材料。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Windy3f3f3f3f/claude-code-from-scratch
+- [P0] sansan0/TrendRadar | 产品与商业化、数据集与数据工程、Agent 与多智能体 | AI 热点/RSS/多平台聚合和推送系统，适合观察 AI 情报流水线与 MCP 查询接口产品化。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/sansan0/TrendRadar
+- [P1] mrsladoje/sweet-search | RAG 与知识工程、Agent 与多智能体、推理系统与工程工具 | 面向 coding agent 的本地混合代码检索/MCP 工具，虽然 stars 低但适合小规模 POC 检验 repo RAG 增益。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/mrsladoje/sweet-search
+- [P1] majiayu000/harness | Agent 与多智能体、推理系统与工程工具、评测与基准 | Rust agent orchestration 平台，覆盖 policy、review、OTel、GitHub webhook 和 MCP server，适合提取多 agent 治理设计点。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/majiayu000/harness
+- [P1] benseverndev-oss/goldenmatch | 数据集与数据工程、RAG 与知识工程 | zero-config entity resolution/record linkage，适用于 GraphRAG ingestion 前的数据质量和实体对齐，但性能声明需复测。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/benseverndev-oss/goldenmatch
