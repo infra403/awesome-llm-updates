@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "revision_id": 37,
+      "url": "https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g"
+    },
+    "result": "failed",
+    "warnings": [
+      "degrade_code=1002,msg=Block ID transform failed: target block not found. Verify the referenced block ID exists in the document; try re-fetching the document structure"
+    ]
+  }
+}
