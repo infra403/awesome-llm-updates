@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" start-block-id=\"doxcnYeCdzZUKRq4Dvmtaeh2fDg\" end-block-id=\"doxcnaRTd5XvpLAHK29Fc0oBpvf\" hit-block-ids=\"doxcnYeCdzZUKRq4Dvmtaeh2fDg\" keyword=\"2026-07-03 15:06 GitHub 项目\">\n## 2026-07-03 15:06 GitHub 项目\n\n\\- [P0] hanyeol/model-compose | Agent 与多智能体；RAG 与知识工程；推理系统与工程工具 | 用类似 docker-compose 的 YAML 把 agent、RAG pipeline 与 MCP server 组合成可移植运行时。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/hanyeol/model-compose\n\n\\- [P0] trpc-group/trpc-agent-go | Agent 与多智能体；评测与基准；RAG 与知识工程 | 面向生产 Agent 系统的 Go 框架，覆盖图工作流、工具、记忆、A2A、MCP、评测与可观测性。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/trpc-group/trpc-agent-go\n\n\\- [P0] automagik-dev/genie | Agent 与多智能体；推理系统与工程工具 | “wishes in, PRs out”的 CLI coding agent，强调访谈需求、规划、隔离 worktree 并行派发 agent、提交前 review。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/automagik-dev/genie\n</fragment>",
+      "document_id": "QZjEdsjnRoDVGixlJTOcjx3Dn8b",
+      "revision_id": 64
+    }
+  }
+}
