@@ -1,0 +1,42 @@
+{
+  "cobusgreyling/loop-engineering": {
+    "ok": true,
+    "sample_or_error": "# Loop Engineering\n\n\n<p align=\"center\">\n  <a href=\"https://cobusgreyling.github.io/loop-engineering/\">\n    <img src=\"https://img.shields.io/badge/✨_Explore_the_Showcase-Design_systems_that_prompt_your_agents-0d1117?style=for-the-badge&labelColor=111a28&color=3ee8c5\" alt=\"Explore the Showcase\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/cobusgreyling/loop-engineering/stargazers\"><img src=\"https://img.shields.io/github/stars/cobusgreyling/loop-engineering?style=social\" alt=\"Gi"
+  },
+  "LING71671/open-reverselab": {
+    "ok": true,
+    "sample_or_error": "# ReverseLab\n\nOpen-source reverse engineering lab — 178-article knowledge base, 100+ MCP automation tools, covering CTF pentesting / APK reverse engineering / PE binary analysis / cryptography & protocol cracking / game cheating analysis. Agent-native, directory-as-convention.\n\n> [中文版](README.zh.md)\n\n## Routing\n\n```\nSignal → kb_router(board=) → kb_read_file → Attack chain → MCP tool mapping → Execution\n```\n\n| Signal Type | Board | KB Categories / Files | MCP Tool Family |\n|---|---|---|---|\n| HTT"
+  },
+  "shepsci/kaggle-skill": {
+    "ok": true,
+    "sample_or_error": "# kaggle-skill\n\n[![skills.sh](https://img.shields.io/badge/skills.sh-kaggle--skill-blue)](https://skills.sh/shepsci/kaggle-skill/kaggle)\n[![ClawHub](https://img.shields.io/badge/ClawHub-kaggle-green)](https://clawhub.ai/skills/kaggle)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![GitHub](https://img.shields.io/github/stars/shepsci/kaggle-skill?style=social)](https://github.com/shepsci/kaggle-skill)\n\n`kaggle-skill` is an agent skill"
+  },
+  "SapienXai/AgentOS": {
+    "ok": true,
+    "sample_or_error": "<div align=\"center\">\n  <img src=\"public/assets/screenshots/hero.jpeg\" alt=\"AgentOS control-plane interface\" width=\"100%\" />\n\n<h1 style=\"font-size:3.75rem; line-height:0.95; margin:0 0 0.25rem;\">\n  <strong>Agent<span style=\"color:#d7263d;\">OS</span></strong>\n</h1>\n\n<p style=\"font-size:1.4rem; line-height:1.15; margin:0 0 0.75rem;\"><strong>Run agents like a company.</strong></p>\n\n<p>AgentOS is the native control plane for OpenClaw — an operations layer for creating, coordinating, and supervising A"
+  },
+  "Brenonunesx/agent-pilot": {
+    "ok": true,
+    "sample_or_error": "![preview](https://raw.githubusercontent.com/Brenonunesx/agent-pilot/main/preview.svg)\n\n# EchoTether\n\n**CLI for Autonomous Device Orchestration & Human-in-the-Loop Telemetry**\n\nInspired by the concept of agent-device bridges, EchoTether extends the idea from simple device control to a full-duplex, multi-agent ecosystem where physical and virtual devices become first-class citizens in AI workflows. Instead of merely issuing commands to a phone, EchoTether enables any AI agent to lease, stream, an"
+  },
+  "hexagon-codes/hexclaw": {
+    "ok": true,
+    "sample_or_error": "<div align=\"center\">\n  <img src=\".github/assets/logo.jpg\" alt=\"HexClaw Logo\" width=\"180\" />\n  <h1>HexClaw 河蟹</h1>\n  <p><strong>企业级安全的个人 AI Agent</strong> — 安全 · 开源 · 自托管 · 易用 · 功能全面</p>\n\n  [![CI](https://github.com/hexagon-codes/hexclaw/workflows/CI/badge.svg)](https://github.com/hexagon-codes/hexclaw/actions)\n  [![Release](https://img.shields.io/github/v/release/hexagon-codes/hexclaw?include_prereleases)](https://github.com/hexagon-codes/hexclaw/releases)\n  [![License](https://img.shields.io/gi"
+  },
+  "hgsanyang/SoulTuner-Agent": {
+    "ok": true,
+    "sample_or_error": "# 🎵 SoulTuner Agent\n\n<p align=\"center\">\n  <img src=\"assets/logo.png\" alt=\"logo\" width=\"200\" />\n</p>\n\n<p align=\"center\">\n  <strong>多模态音乐推荐智能体 — Hybrid RAG × Knowledge Graph × Long-term Memory</strong>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Python-3.11+-blue?logo=python\" alt=\"Python\" />\n  <img src=\"https://img.shields.io/badge/LangGraph-Agent_Framework-orange?logo=langchain\" alt=\"LangGraph\" />\n  <img src=\"https://img.shields.io/badge/Neo4j-Graph_Database-008CC1?logo=neo4"
+  },
+  "hazel-js/hazeljs": {
+    "ok": true,
+    "sample_or_error": "<div align=\"center\">\n\n# HazelJS\n\n**One framework. AI built in. HCEL orchestration native. No glue code.**\n\n[![GitHub stars](https://img.shields.io/github/stars/hazel-js/hazeljs?style=social)](https://github.com/hazel-js/hazeljs)\n[![CI](https://github.com/hazel-js/hazeljs/actions/workflows/ci.yml/badge.svg)](https://github.com/hazel-js/hazeljs/actions/workflows/ci.yml)\n[![npm version](https://badge.fury.io/js/%40hazeljs%2Fcore.svg)](https://badge.fury.io/js/%40hazeljs%2Fcore)\n[![npm downloads](ht"
+  },
+  "paulasilvatech/specky": {
+    "ok": true,
+    "sample_or_error": "<div align=\"center\">\n  <br>\n  <img src=\"media/specky-brand-logo.svg\" alt=\"Specky\" height=\"80\">\n  <br><br>\n  <p><strong>13 agents. 58 MCP tools. 10-phase pipeline. One CLI.</strong></p>\n  <p>Agentic Spec-Driven Development</p>\n\n  <p>\n    <img src=\"https://img.shields.io/badge/agents-13-7c3aed?style=flat-square\" alt=\"13 Agents\"/>\n    <img src=\"https://img.shields.io/badge/tools-58_MCP-6d28d9?style=flat-square\" alt=\"58 Tools\"/>\n    <img src=\"https://img.shields.io/badge/phases-10_enforced-5b21b6?st"
+  },
+  "NVIDIA-NeMo/Automodel": {
+    "ok": true,
+    "sample_or_error": "<div align=\"center\">\n\n# 🚀 NeMo AutoModel\n\n</div>\n\n<div align=\"center\">\n\n<!-- [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) -->\n[![codecov](https://codecov.io/github/NVIDIA-NeMo/Automodel/graph/badge.svg?token=4NMKZVOW2Z)](https://codecov.io/github/NVIDIA-NeMo/Automodel)\n[![CICD NeMo](https://github.com/NVIDIA-NeMo/Automodel/actions/workflows/cicd-main.yml/badge.svg)](https://github.com/NVIDIA-NeMo/Automodel/actions/workflows/"
+  }
+}
