@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"section\" requested-start=\"doxcnv7JkwiT5hrMq7SxoZJuiwb\"><h3 id=\"doxcnv7JkwiT5hrMq7SxoZJuiwb\">数据集与数据工程</h3><ul><li id=\"doxcn8g6darNJo1abw6bOxwvxBf\">shepsci/kaggle-skill（P0）：适用场景：可影响数据集工程、评测数据获取、notebook 自动执行和 agent skill 分发；适合探索把外部数据平台封装成可复用 skill。 成熟度：早期到中等：70 stars，定位清晰；Kaggle API 权限、notebook 沙箱和安装细节需 README 复核。 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g 原文：https://github.com/shepsci/kaggle-skill</li></ul></fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 66
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.63",
+      "latest": "1.0.65",
+      "message": "lark-cli 1.0.65 available, current 1.0.63, run: lark-cli update"
+    }
+  }
+}

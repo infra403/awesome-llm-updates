@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"section\" requested-start=\"doxcnrNtggV77wbnkQogw1rKXFb\"><h3 id=\"doxcnrNtggV77wbnkQogw1rKXFb\">10. NVIDIA-NeMo/Automodel</h3><ul><li id=\"doxcnlDJIaOaBFl9wcqsM60ocGb\">仓库：<code>NVIDIA-NeMo/Automodel</code></li><li id=\"doxcnFYpYt1INgIhnuUHyFe6F9b\">stars：675</li><li id=\"doxcnEj96dy3rE6vbxmEdNmCVMh\">更新时间：2026-07-03T19:05:04Z</li><li id=\"doxcnw54R6sfNsA5oStKXYnOmEx\">topics：agent, deepseek-v3-2, deepseek-v4, finetuning, gemma3, gemma4, glm, gpt-oss, kimi-k2, llama, llama3, llm, minimax-m2, mistral, openai, qwen3, qwen3-6, qwen3-next, vlm</li><li id=\"doxcnmlstTSpoxvhAuviFHpEdRg\">重要性：P1</li><li id=\"doxcnm5YzRMISgDqTTFiQQA2U7g\">主题标签：推理、训练与后训练</li><li id=\"doxcnPhglTpg9WB3KnlW2btySTf\">核心变化：本窗口更新；675 stars，官方组织仓库；候选摘要确认 OOTB Hugging Face support 与 LLM/VLM 分布式训练定位。</li><li id=\"doxcniKBNYDZCarE64yKmK4XBtd\">一句话定位：NVIDIA NeMo 生态的 PyTorch Distributed 原生 LLM/VLM 训练库，带 Hugging Face 开箱支持。</li><li id=\"doxcnnsQLpCTRNW5pwUl8Sm6Nwh\">解决的问题：降低大模型/视觉语言模型分布式训练、微调和 Hugging Face 模型接入成本。</li><li id=\"doxcnlJuZ1SSSOcJIWWdNtXwjDf\">工程影响：对训练/后训练工程、模型适配、分布式训练栈和大模型实验平台有参考价值。</li><li id=\"doxcnIVPvK6loPnzXCfgZVrUfGF\">成熟度判断：较高：NVIDIA-NeMo 组织、675 stars；但具体支持的模型清单、性能数据和 API 兼容性需 README/文档复核。</li><li id=\"doxcnldisHKLJgJFJf5sMnT2vuf\">证据边界：README 已读取 GitHub API 内容片段；本文判断仍以候选摘要、stars、topics、更新时间为主，安装方式/API 细节未逐项验证。</li><li id=\"doxcnC9YmTMOBLUEG3uVTZYFHBf\">建议动作：今天应阅读：官方工程库且 P1，适合跟踪训练栈变化和 HF 集成方式。</li><li id=\"doxcnUVLwvGK4S5rCmDzaJuWIuh\">URL：https://github.com/NVIDIA-NeMo/Automodel</li></ul></fragment>",
+      "document_id": "IXZGdmtp2oCKKJxfWsXcrBbTn0g",
+      "revision_id": 45
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.63",
+      "latest": "1.0.65",
+      "message": "lark-cli 1.0.65 available, current 1.0.63, run: lark-cli update"
+    }
+  }
+}
