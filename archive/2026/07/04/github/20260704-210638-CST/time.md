@@ -1,0 +1,12 @@
+## 2026-07-04 21:06 GitHub 项目
+
+- [P0] agent-sh/agnix | Agent 与多智能体；推理系统与工程工具；评测与基准 | AI coding assistant 上下文、hooks、MCP 与 skills 的 lint/LSP/自动修复工具，适合验证 Agent 工程质量门禁。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/agent-sh/agnix
+- [P0] the-open-agent/openagent | Agent 与多智能体；RAG 与知识工程；产品与商业化 | 集成 RAG、agent loops、computer-use、browser-use 与 coding agent 的个人 AI assistant，适合研究产品化 Agent runtime。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/the-open-agent/openagent
+- [P0] NirDiamant/RAG_Techniques | RAG 与知识工程；评测与基准；数据集与数据工程 | 高星 RAG 技术 notebook 集合，可作为 RAG POC 技术菜单和实验模板来源。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/NirDiamant/RAG_Techniques
+- [P0] dmae97/open-multi-agent-kit | Agent 与多智能体；推理系统与工程工具；评测与基准 | 面向 Codex/Claude Code/OpenCode/local agents 的 evidence-gated DAG runner，关注可回放产物与多 Agent 编排。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/dmae97/open-multi-agent-kit
+- [P0] rrezartprebreza/spring-boot-skills | Agent 与多智能体；推理系统与工程工具 | Spring Boot/Java 方向 Claude Code skills，体现 AI coding 领域技能包化趋势。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/rrezartprebreza/spring-boot-skills
+- [P0] diillson/chatcli | 推理系统与工程工具；Agent 与多智能体；RAG 与知识工程 | 终端 LLM Chat CLI，通过 @history/@git/@env/@file/@command 聚合本地上下文，适合观察终端上下文工程。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/diillson/chatcli
+- [P0] Ambuj123-lab/agentic-rag-financial-parser | RAG 与知识工程；数据集与数据工程；Agent 与多智能体 | 金融文档 Agentic RAG 示例，组合混合解析、MRL 低维 embedding 与 Pinecone/FastAPI/LangGraph。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Ambuj123-lab/agentic-rag-financial-parser
+- [P0] NirDiamant/Agent_Memory_Techniques | Agent 与多智能体；RAG 与知识工程；评测与基准 | Agent memory notebook/模式库，覆盖 vector store、KG、episodic/semantic memory、Mem0/Letta/Zep/Graphiti 和 LoCoMo。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/NirDiamant/Agent_Memory_Techniques
+- [P1] Gindhar2112/frida-mcp | 推理系统与工程工具；Agent 与多智能体；评测与基准 | 将 Frida 动态分析包装为 MCP 工具接口，是安全 Agent 工具链 MCP 化的早期样本。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Gindhar2112/frida-mcp
+- [P1] r14dd/patent | 推理系统与工程工具；数据集与数据工程；产品与商业化 | 用 embedding/LLM 做开发工具 prior-art 语义搜索，可用于立项前同类项目检查。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/r14dd/patent
