@@ -1,0 +1,42 @@
+{
+  "onestardao/WFGY": {
+    "ok": true,
+    "snippet": "<!-- AI ROUTING NOTE (Homepage) This is the main landing page for the WFGY public ecosystem. Primary homepage priority: 1. WFGY 5.0 Polaris Protocol as the current flagship public route 2. Staged functional rollout for WFGY 5.0 3. Public evidence, portable protocol components, and reproducibility materials 4. Problem Map 3.0 as the fastest practical gate for broken AI workflows 5. WFGY 4.0 as the "
+  },
+  "ray-project/ray": {
+    "ok": true,
+    "snippet": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png .. image:: https://readthedocs.org/projects/ray/badge/?version=master :target: http://docs.ray.io/en/master/?badge=master .. image:: https://img.shields.io/badge/Ray-Join%20Slack-blue :target: https://www.ray.io/join-slack .. image:: https://img.shields.io/badge/Discuss-Ask%20Questions-blue :target: http"
+  },
+  "403errors/repomind": {
+    "ok": true,
+    "snippet": "# RepoMind <p align=\"center\"><strong>Stop reading code. Start talking to it.</strong></p> <p align=\"center\"> <a href=\"https://github.com/403errors/repomind\"><img src=\"https://img.shields.io/github/stars/403errors/repomind?style=social\" alt=\"GitHub stars\" /></a> <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" alt=\"MIT License\" /></a> <a h"
+  },
+  "1Panel-dev/MaxKB": {
+    "ok": true,
+    "snippet": "<p align=\"center\"><img src= \"https://github.com/1Panel-dev/maxkb/assets/52996290/c0694996-0eed-40d8-b369-322bf2a380bf\" alt=\"MaxKB\" width=\"300\" /></p> <h3 align=\"center\">Open-source platform for building enterprise-grade agents</h3> <h3 align=\"center\">强大易用的企业级智能体平台</h3> <p align=\"center\"><a href=\"https://trendshift.io/repositories/9113\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repo"
+  },
+  "ChatLab/ChatLab": {
+    "ok": true,
+    "snippet": "<div align=\"center\"> <picture> <source media=\"(prefers-color-scheme: light)\" srcset=\"https://github.com/ChatLab/ChatLab/raw/main/public/images/banner-light.png\"> <img src=\"https://github.com/ChatLab/ChatLab/raw/main/public/images/banner.png\" alt=\"ChatLab\" title=\"ChatLab\" width=\"500\" /> </picture> Your chat history, finally yours. English | [简体中文](./README.zh-CN.md) [Official Website](https://chatl"
+  },
+  "butterbase-ai/butterbase": {
+    "ok": true,
+    "snippet": "<p align=\"center\"> <img src=\".github/assets/logo.png\" alt=\"Butterbase\" width=\"420\" /> </p> <p align=\"center\"><strong>AI-native, open-source backend-as-a-service.</strong><br/>Postgres · Auth · Storage · Functions · AI Gateway · MCP server</p> <p align=\"center\"> <a href=\"./LICENSE\"><img alt=\"License: Apache 2.0\" src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\"></a> <a href=\"https://gi"
+  },
+  "Bike4Mind/bike4mind": {
+    "ok": true,
+    "snippet": "<div align=\"center\"> # Bike4Mind **Your bicycle for the mind in the age of AI.** An open-core AI knowledge platform — a multi-model workspace where notebooks, autonomous agents, and a RAG knowledge engine work together to augment any cognitive task. [![Chat on Bike4Mind](https://img.shields.io/badge/chat-Bike4Mind-6d28d9)](https://app.bike4mind.com) &nbsp; [![License: BUSL-1.1](https://img.shields"
+  },
+  "mishrasanjeev/grantex": {
+    "ok": true,
+    "snippet": "<div align=\"center\"> # Grantex ### Delegated Authorization Protocol for AI Agents **What OAuth 2.0 is to humans, Grantex is to agents.** <br/> [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Spec Version](https://img.shields.io/badge/spec-v1.0--final-green)](https://github.com/mishrasanjeev/grantex/blob/main/SPEC.m"
+  },
+  "Rich627/whatsapp-claude-plugin": {
+    "ok": true,
+    "snippet": "# WhatsApp MCP Server for Claude Code: Run AI Directly from WhatsApp [![Anthropic Published](https://img.shields.io/badge/Anthropic-Official%20Published-ff6b35?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkw0IDIwaDQuNUwxMiA4bDMuNSAxMkgyMEwxMiAyeiIgZmlsbD0id2hpdGUiLz48L"
+  },
+  "MarcelRoozekrans/roslyn-codelens-mcp": {
+    "ok": true,
+    "snippet": "# Roslyn CodeLens MCP Server [![NuGet](https://img.shields.io/nuget/v/RoslynCodeLens.Mcp?style=flat-square&logo=nuget&color=blue)](https://www.nuget.org/packages/RoslynCodeLens.Mcp) [![NuGet Downloads](https://img.shields.io/nuget/dt/RoslynCodeLens.Mcp?style=flat-square&color=green)](https://www.nuget.org/packages/RoslynCodeLens.Mcp) [![Build Status](https://img.shields.io/github/actions/workflow/"
+  }
+}
