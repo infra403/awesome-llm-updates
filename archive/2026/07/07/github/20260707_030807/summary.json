@@ -1,0 +1,27 @@
+{
+  "run_dir": "/root/hermes-ai-intel/runs/github/20260707_030807",
+  "selected": [
+    "KyaniteLabs/mcp-video",
+    "prime-radiant-inc/serf",
+    "googleapis/mcp-toolbox",
+    "freddy-schuetz/n8n-claw",
+    "garudust-org/garudust-agent",
+    "Brad-Edwards/aptl",
+    "Stunspot/stunspots-guide-to-ai-systems",
+    "writerslogic/scrivener-mcp",
+    "professorpalmer/Puppetmaster",
+    "nmbrthirteen/podcli"
+  ],
+  "readme_ok": {
+    "KyaniteLabs/mcp-video": true,
+    "prime-radiant-inc/serf": true,
+    "googleapis/mcp-toolbox": true,
+    "freddy-schuetz/n8n-claw": true,
+    "garudust-org/garudust-agent": true,
+    "Brad-Edwards/aptl": true,
+    "Stunspot/stunspots-guide-to-ai-systems": true,
+    "writerslogic/scrivener-mcp": true,
+    "professorpalmer/Puppetmaster": true,
+    "nmbrthirteen/podcli": true
+  }
+}
