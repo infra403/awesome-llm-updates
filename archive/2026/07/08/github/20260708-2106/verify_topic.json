@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"2026-07-08 21:06\"><h2 id=\"doxcn1U5DUvdP2ehIigAS9Vkeyd\">2026-07-08 21:06 GitHub 项目主题条目</h2><h3 id=\"doxcnKhi5PTjZp8QfyPpEon2vMc\">Agent 与多智能体</h3><ul><li id=\"doxcnsjD719FdH9rjlDb51ZOsUh\"><b>volcengine/SearchCLI</b>（P0）：适用场景：Agent 需要稳定接入搜索、推荐、conversational retrieval，并通过 dry-run、确认门禁、read-after-write 验证形成可审计工作流。成熟度：stars 999，README 已确认功能和依赖；实际 Volcengine 服务调用未验证。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/volcengine/SearchCLI</li><li id=\"doxcnrOL16HaVxVtqFl2elY90Ld\"><b>SepineTam/mcp-for-stata</b>（P0）：适用场景：让 Claude Code、Codex、OpenClaw 等 Agent 安全调用 Stata 执行计量 / 社科数据分析。成熟度：stars 217，有 PyPI、插件和多 Agent 指南；本地 Stata、沙箱和权限边界未验证。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/SepineTam/mcp-for-stata</li><li id=\"doxcnLKCHWNMCw2R8DhfdgH5vxV\"><b>PythonnotJava/RemindAI</b>（P1）：适用场景：桌面个人 Agent 工作台，整合本地执行器、文件操作、记忆、MCP 和技能系统。成熟度：stars 12，功能面广但社区验证弱，未运行 release。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/PythonnotJava/RemindAI</li><li id=\"doxcn0rSZ9AfDSPe1rDzmdYJMad\"><b>Hack23/European-Parliament-MCP-Server</b>（P1）：适用场景：把领域开放数据封装成 MCP 工具，供 Claude Desktop、VS Code、Cursor、GitHub Copilot 等客户端查询和分析。成熟度：stars 17，文档 / npm 信号存在，但工具输出质量未验证。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Hack23/European-Parliament-MCP-Server</li></ul></fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 81
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"2026-07-08 21:06\"><h2 id=\"doxcn18Opajow2PMXOcUNcK5EQg\">2026-07-08 21:06 GitHub 项目</h2><ul><li id=\"doxcn6HbuOLtatr60zI8U1po4df\">[P0] volcengine/SearchCLI | RAG 与知识工程；Agent 与多智能体；推理系统与工程工具 | Volcengine AI Search 的 Agent 友好 CLI，用于把搜索、推荐、conversational retrieval 和调优验证接入生产工作流。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/volcengine/SearchCLI</li><li id=\"doxcnQlA7RRBQf6PwcDeP90D5Yd\">[P0] SepineTam/mcp-for-stata | Agent 与多智能体；数据集与数据工程；推理系统与工程工具 | 面向 Claude Code、Codex、OpenClaw 等 Agent 的 Stata MCP server / CLI，把专业统计软件纳入可控工具调用链路。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/SepineTam/mcp-for-stata</li><li id=\"doxcnudzBBOp8T126uixGHYhoQd\">[P1] kekzl/imp | 推理系统与工程工具；推理、训练与后训练；Agent 与多智能体 | 专门面向 RTX 5090 / sm_120a 的 C++/CUDA LLM 推理引擎，聚焦 native NVFP4、单流 decode 和 Agentic inference。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/kekzl/imp</li><li id=\"doxcn0XdDQ3XU4hsmzDIrXCeUOg\">[P1] PythonnotJava/RemindAI | Agent 与多智能体；产品与商业化；推理系统与工程工具 | 桌面 AI 工作台，整合本地执行器、文件操作、持久记忆、MCP、技能系统和 API Server。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/PythonnotJava/RemindAI</li><li id=\"doxcnz3mYlHQov3OqoI13uBSMvh\">[P1] vanthree31/PaperLens | RAG 与知识工程；数据集与数据工程；产品与商业化 | 面向中文研究者的本地优先论文检索 / 分析工作台，组合自然语言检索、35 个学术数据库、CARSI、论文分析与引用图谱。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/vanthree31/PaperLens</li><li id=\"doxcnR8ILZ8WVWWtj2o58lUBU4f\">[P1] Hack23/European-Parliament-MCP-Server | Agent 与多智能体；数据集与数据工程；评测与基准 | 将 European Parliament Open Data 封装为 MCP Server，并提供政治情报 / OSINT 分析工具。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Hack23/European-Parliament-MCP-Server</li></ul></fragment>",
+      "document_id": "QZjEdsjnRoDVGixlJTOcjx3Dn8b",
+      "revision_id": 81
+    }
+  }
+}
