@@ -18,3 +18,6 @@
 - [github/20260708-0306/wesleysimplicio_simplicio-loop.README.md](github/20260708-0306/wesleysimplicio_simplicio-loop.README.md)
 - [github/20260708-0306/zcweah1981_awesome-hermes-agent-zh.README.md](github/20260708-0306/zcweah1981_awesome-hermes-agent-zh.README.md)
 - [github/20260708-0306/zerkerlabs_treeship.README.md](github/20260708-0306/zerkerlabs_treeship.README.md)
+- [github/20260708-0905/github.md](github/20260708-0905/github.md)
+- [github/20260708-0905/time.md](github/20260708-0905/time.md)
+- [github/20260708-0905/topic.md](github/20260708-0905/topic.md)
