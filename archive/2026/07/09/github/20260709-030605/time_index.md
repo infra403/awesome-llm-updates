@@ -1,0 +1,10 @@
+## 2026-07-09 03:06 GitHub 项目
+
+- [P0] rocketride-org/rocketride-server | Agent 与多智能体；推理系统与工程工具；数据集与数据工程 | IDE/CLI 一体化 AI pipeline engine，值得优先阅读其节点编排、SDK、MCP 与部署边界。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/rocketride-org/rocketride-server
+- [P0] ChatLunaLab/chatluna | Agent 与多智能体；产品与商业化；推理系统与工程工具 | 多模型 Bot 插件式 LLM 接入层，README 未确认，适合继续观察 provider abstraction 与 MCP client 设计。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/ChatLunaLab/chatluna
+- [P0] tailcallhq/forgecode | Agent 与多智能体；推理系统与工程工具 | 终端多模型 AI coding agent，关注度高，建议今天用小仓库实测模型路由、执行安全与代码修改质量。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/tailcallhq/forgecode
+- [P0] us/crw | RAG 与知识工程；数据集与数据工程；推理系统与工程工具；评测与基准 | 面向 Agent/RAG 的 Firecrawl/Tavily 替代抓取与搜索 API，建议用内部 URL 集合复现 scrape/crawl/search 效果。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/us/crw
+- [P0] frontman-ai/frontman | Agent 与多智能体；产品与商业化；推理系统与工程工具 | 嵌入前端框架/浏览器的视觉化 AI coding agent，适合作为设计到代码闭环的观察对象。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/frontman-ai/frontman
+- [P0] tianma-if/edgeever | RAG 与知识工程；Agent 与多智能体；产品与商业化 | Cloudflare serverless 笔记与知识库系统，带 Remote MCP endpoint，可跟踪其作为轻量 Agent memory/RAG source 的潜力。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/tianma-if/edgeever
+- [P1] huggingface/text-embeddings-inference | 推理系统与工程工具；RAG 与知识工程 | Hugging Face 官方 embedding 推理服务，建议核对本次更新是否影响 RAG embedding serving 选型。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/huggingface/text-embeddings-inference
+- [P1] TristanBrotherton/openclaw-voice-call-realtime | 多模态与生成媒体；Agent 与多智能体；产品与商业化 | OpenClaw + Twilio + OpenAI Realtime 电话 Agent 插件，适合观察实时语音工具调用和通话摘要链路。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/TristanBrotherton/openclaw-voice-call-realtime

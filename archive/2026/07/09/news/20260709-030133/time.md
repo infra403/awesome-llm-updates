@@ -1,0 +1,6 @@
+## 2026-07-09 03:01 新闻博客
+
+- [P0] NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness | NVIDIA AI Blog | 模型发布与模型能力、Agent 与多智能体、评测与基准、推理系统与工程工具、产品与商业化 | LangChain 针对 Nemotron 3 Ultra 的 Deep Agents harness 调整可能改变 Agent 模型选型与成本评估，但 benchmark 细节需读原文和自测确认。 | 详情：https://my.feishu.cn/docx/P16idvuAgo3u8ixAacXcmfXSn6R | 原文：https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/
+- [P1] Data for Agents | Hugging Face Blog | Agent 与多智能体、数据集与数据工程、推理、训练与后训练 | 主题指向 Agent 数据工程，值得检查 trace、工具调用样本和评测数据闭环；具体数据集与许可证未在候选中确认。 | 详情：https://my.feishu.cn/docx/P16idvuAgo3u8ixAacXcmfXSn6R | 原文：https://huggingface.co/blog/nvidia/open-data-for-agents
+- [P1] Flint: A visualization language for the AI era | Microsoft Research | Agent 与多智能体、推理系统与工程工具、多模态与生成媒体 | Flint 提供面向 AI agents 的可编辑图表 specification，可能改善报告/图表生成的可审查性和稳定性。 | 详情：https://my.feishu.cn/docx/P16idvuAgo3u8ixAacXcmfXSn6R | 原文：https://www.microsoft.com/en-us/research/blog/flint-a-visualization-language-for-the-ai-era/
+- [P1] Native-speed vLLM transformers modeling backend | Hugging Face Blog | 推理系统与工程工具、模型发布与模型能力、推理、训练与后训练 | vLLM 与 transformers backend 的变化可能降低模型服务适配成本；支持范围和性能数据需读原文验证。 | 详情：https://my.feishu.cn/docx/P16idvuAgo3u8ixAacXcmfXSn6R | 原文：https://huggingface.co/blog/native-speed-vllm-transformers-backend
