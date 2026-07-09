@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" start-block-id=\"doxcnBSnbxYkarRc7VZCkOTWfqd\" hit-block-ids=\"doxcnBSnbxYkarRc7VZCkOTWfqd\" keyword=\"2026-07-09 09:05\">\n## 2026-07-09 09:05 GitHub 项目主题条目\n\n### Agent 与多智能体\n\n- ohdearquant/lionagi（P0）：适用场景：Agent workflow、任务拆解、工具调用链路与编排抽象。成熟度：399 stars，中等关注度；安装方式、稳定 API、生产案例未确认。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/ohdearquant/lionagi\n- agentrq/agentrq（P0）：适用场景：多 Agent 任务调度、人工审批、队列可观测性、MCP/ACP gateway 设计。成熟度：1012 stars；协议实现深度、部署方式和多租户能力未确认。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/agentrq/agentrq\n- abundantbeing/hermes-browser-extension（P0）：适用场景：本地 Agent 的网页上下文采集、浏览器 Copilot 入口和 local-first 工具链。成熟度：759 stars；维护方、权限模型、Hermes 版本兼容性未确认。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/abundantbeing/hermes-browser-extension\n- Vinix24/vnx-orchestration（P1）：适用场景：AI coding agent 并行任务分配、审计追踪、质量门禁、可观测性和 tmux 工作流。成熟度：45 stars，早期；CLI 稳定性和集成成本未确认。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/Vinix24/vnx-orchestration\n- costajohnt/oss-autopilot（P1）：适用场景：GitHub automation、PR follow-up、issue triage、开源维护工作流。成熟度：11 stars，早期；GitHub 写操作安全边界和插件安装方式未确认。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/costajohnt/oss-autopilot\n- SoftBacon-Software/mycelium（P1）：适用场景：本地多 Agent 共享记忆、边缘网络协调、MCP substrate 和无云部署方案。成熟度：12 stars，早期；数据模型、持久化、安全隔离和冲突处理未确认。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/SoftBacon-Software/mycelium\n</fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 83
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.65",
+      "latest": "1.0.67",
+      "message": "lark-cli 1.0.67 available, current 1.0.65, run: lark-cli update"
+    }
+  }
+}
