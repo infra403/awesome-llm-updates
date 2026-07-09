@@ -1,0 +1,12 @@
+## 2026-07-10 03:06 GitHub 项目
+
+- [P0] kstevica/captain-claw | Agent 与多智能体；推理系统与工程工具 | 自托管多智能体 command center，覆盖 specialist teams、编排模式、共享记忆和 agentic coding pipeline。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/kstevica/captain-claw
+- [P0] juspay/neurolink | 推理系统与工程工具；RAG 与知识工程；多模态与生成媒体 | TypeScript 统一 AI integration layer，把 provider、stream、tool calls、memory、voice 和 documents 抽成一致 API。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/juspay/neurolink
+- [P0] samchon/nestia | Agent 与多智能体；RAG 与知识工程；推理系统与工程工具 | NestJS API/SDK/e2e 工具链与 LLM function-calling 生态相连，适合研究 TypeScript 工具 schema 生成。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/samchon/nestia
+- [P0] QuintinShaw/pi-dynamic-workflows | Agent 与多智能体；推理系统与工程工具 | Pi 的 Claude Code-style dynamic workflows，用 JS orchestration script 并行调度 subagents 并隔离中间上下文。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/QuintinShaw/pi-dynamic-workflows
+- [P0] Protocol-Lattice/go-agent | Agent 与多智能体；RAG 与知识工程；推理系统与工程工具 | Go agent runtime，覆盖 provider adapter、memory、guardrails、UTCP 工具编排、multi-agent 和 checkpoint/restore。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/Protocol-Lattice/go-agent
+- [P0] khromov/svelte-bench | 评测与基准 | 面向 Svelte 5 组件生成的 LLM benchmark，用测试套件和 pass@k 评估前端代码生成能力。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/khromov/svelte-bench
+- [P0] adbar/trafilatura | RAG 与知识工程；数据集与数据工程 | 成熟网页正文/元数据抽取工具，可作为 RAG ingestion 和语料清洗的默认候选之一。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/adbar/trafilatura
+- [P0] agentgateway/agentgateway | Agent 与多智能体；推理系统与工程工具 | 面向 MCP/A2A 的 agentic proxy/gateway，提供 agent-to-LLM/tool/agent 通信治理、安全和观测。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/agentgateway/agentgateway
+- [P1] cniska/acolyte | Agent 与多智能体；推理系统与工程工具 | 终端优先 AI coding agent，强调透明执行、single-pass lifecycle、on-demand memory 和开发者控制。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/cniska/acolyte
+- [P1] nuwax-ai/nuwax-backend | Agent 与多智能体；RAG 与知识工程；产品与商业化 | Java/Spring Boot 企业 Agent 开发与运营平台后端，覆盖知识库、模型代理、记忆、插件和 workflow。 | 详情：`https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g` | 原文：https://github.com/nuwax-ai/nuwax-backend
