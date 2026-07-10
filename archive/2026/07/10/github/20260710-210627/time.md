@@ -1,0 +1,10 @@
+## 2026-07-10 21:06 GitHub 项目
+
+- [P0] WenyuChiou/awesome-agentic-ai-zh | Agent 与多智能体；RAG 与知识工程；推理系统与工程工具 | 三语 Agentic AI 学习地图，覆盖 LLM、MCP、RAG、多智能体与 Claude Code/CLI 资源，适合补齐技术雷达与 POC 候选库。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/WenyuChiou/awesome-agentic-ai-zh
+- [P0] CelestoAI/agentor | Agent 与多智能体；推理系统与工程工具；产品与商业化 | 开源版 Claude Managed Agents 定位，面向 Agent、MCP tools 与 A2A 部署链路，值得做最小 Agent+MCP POC。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/CelestoAI/agentor
+- [P0] Rheosoph/flow-like | Agent 与多智能体；推理系统与工程工具；数据集与数据工程 | 强类型企业 workflow/数据流平台，带 MCP client/server 与自托管信号，适合评估 Agent workflow 编排。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/Rheosoph/flow-like
+- [P0] rudrankriyam/Foundation-Models-Framework-Lab | 模型发布与模型能力；RAG 与知识工程；多模态与生成媒体；推理系统与工程工具 | Apple Foundation Models 实验库，覆盖端侧 AI、RAG、tool-calling、语音与 Swift 应用样例。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/rudrankriyam/Foundation-Models-Framework-Lab
+- [P0] cactus-compute/cactus | 推理系统与工程工具；模型发布与模型能力；RAG 与知识工程；多模态与生成媒体 | 面向移动/可穿戴设备的低延迟 AI engine，涉及 llama.cpp、端侧 LLM、量化、RAG 与 speech/Whisper。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/cactus-compute/cactus
+- [P1] ezBuilder/chatgpt2codex | Agent 与多智能体；推理系统与工程工具；评测与基准 | macOS-first 本地 MCP/Actions runtime，让 ChatGPT/Codex 操作受信项目并支持截图/E2E 测试上下文。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/ezBuilder/chatgpt2codex
+- [P1] netresearch/agent-rules-skill | Agent 与多智能体；推理系统与工程工具 | 生成符合 agents.md convention 的 AGENTS.md 的 Agent Skill，可用于仓库级 coding-agent 规则沉淀。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/netresearch/agent-rules-skill
+- [P1] netresearch/skill-repo-skill | Agent 与多智能体；推理系统与工程工具 | Agent Skill 仓库结构与多渠道分发指南，适合观察技能资产标准化方向。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g | 原文：https://github.com/netresearch/skill-repo-skill
