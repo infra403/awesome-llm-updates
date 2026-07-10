@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"codexu/note-gen\"><h3 id=\"doxcn316BMpx56ZQUgcwYxbjp3y\">RAG 与知识工程</h3><ul><li id=\"doxcnIWycVXqoSsYjNu6j3ipLCg\">codexu/note-gen（P0）：适用场景：个人/团队 Markdown 知识库、AI 笔记、知识库问答、向量/混合检索和 MCP 上下文入口。成熟度：偏高，12k+ stars，README 有下载入口、多端状态、同步方式和知识库能力；企业权限、索引质量和 MCP 细节需 POC。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g 原文：https://github.com/codexu/note-gen</li><li id=\"doxcnhnbCxoGoxxx0WRTn7WYIYb\">n24q02m/better-notion-mcp（P1）：适用场景：把 Notion 页面、数据库、blocks、comments 作为 Agent/RAG 知识源，通过 Markdown-first MCP 降低上下文拼装成本。成熟度：中低，README 有 CI、codecov、npm、Docker、Node.js &gt;= 24、stdio/OAuth 双传输；复杂数据库和权限保真需实验。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g 原文：https://github.com/n24q02m/better-notion-mcp</li></ul><h3 id=\"doxcnCyqslTy32NFD0MW8RYBPDb\">产品与商业化</h3></fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 87
+    }
+  }
+}
