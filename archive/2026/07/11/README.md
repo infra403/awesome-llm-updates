@@ -11,3 +11,4 @@
 - [github/20260711_0308/github_update.md](github/20260711_0308/github_update.md)
 - [github/20260711_0308/time_update.md](github/20260711_0308/time_update.md)
 - [github/20260711_0308/topic_update.md](github/20260711_0308/topic_update.md)
+- [github/20260711_090540/selection.md](github/20260711_090540/selection.md)
