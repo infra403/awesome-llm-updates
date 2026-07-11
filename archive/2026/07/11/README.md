@@ -8,6 +8,9 @@
 - [news/20260711-030038/no_new_candidates.md](news/20260711-030038/no_new_candidates.md)
 
 ## GitHub 项目
+- [github/20260711-1506/github.md](github/20260711-1506/github.md)
+- [github/20260711-1506/time.md](github/20260711-1506/time.md)
+- [github/20260711-1506/topic.md](github/20260711-1506/topic.md)
 - [github/20260711_0308/github_update.md](github/20260711_0308/github_update.md)
 - [github/20260711_0308/time_update.md](github/20260711_0308/time_update.md)
 - [github/20260711_0308/topic_update.md](github/20260711_0308/topic_update.md)
