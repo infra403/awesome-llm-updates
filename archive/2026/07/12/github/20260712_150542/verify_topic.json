@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" end-block-id=\"doxcnGTeMIGpSowAM4qgzuemwLz\" hit-block-ids=\"doxcnpjZDoJWocRmAIgejSKLRzh\" keyword=\"2026-07-12 15:05 GitHub 项目主题条目\">\n- `ChuckHend/pg_vectorize`（P1）｜适用场景：Postgres 数据栈内的检索与 RAG 数据工程。｜成熟度：832 stars；生产使用边界 README 未确认。｜详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g｜原文：https://github.com/ChuckHend/pg_vectorize\n\n## 2026-07-12 15:05 GitHub 项目主题条目\n\n### 模型发布与模型能力\n\n- **dwgx/WindsurfAPI**（P1）：适用场景为评估 Windsurf/Devin 模型作为 OpenAI/Anthropic/Gemini 兼容模型供给的可行性；成熟度为 star 高、接口描述清晰，但 reverse proxy/逆向接入带来合规和稳定性风险，未做本地验证。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/dwgx/WindsurfAPI\n\n### Agent 与多智能体\n</fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 96
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"section\" requested-start=\"doxcnlzjxCwplIEJhRzE2diXaLb\"><h3 id=\"doxcnlzjxCwplIEJhRzE2diXaLb\">数据集与数据工程</h3><ul><li id=\"doxcnFx5Y0oJnfGzJMRWutEJhfh\"><code>ChuckHend/pg_vectorize</code>（P1）｜适用场景：Postgres 数据栈内的检索与 RAG 数据工程。｜成熟度：832 stars；生产使用边界 README 未确认。｜详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g｜原文：https://github.com/ChuckHend/pg_vectorize</li></ul></fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 95
+    }
+  }
+}
