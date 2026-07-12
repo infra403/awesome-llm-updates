@@ -5,6 +5,9 @@
 - [返回当日 Radar](../../../../daily/2026/07/12/index.md)
 
 ## GitHub 项目
+- [github/20260712-0906/github.md](github/20260712-0906/github.md)
+- [github/20260712-0906/time.md](github/20260712-0906/time.md)
+- [github/20260712-0906/topic.md](github/20260712-0906/topic.md)
 - [github/20260712_0307/github.md](github/20260712_0307/github.md)
 - [github/20260712_0307/time.md](github/20260712_0307/time.md)
 - [github/20260712_0307/topic.md](github/20260712_0307/topic.md)
