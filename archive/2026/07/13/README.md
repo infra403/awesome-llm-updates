@@ -8,3 +8,6 @@
 - [github/20260713-0306/github_projects.md](github/20260713-0306/github_projects.md)
 - [github/20260713-0306/time_index.md](github/20260713-0306/time_index.md)
 - [github/20260713-0306/topic_index.md](github/20260713-0306/topic_index.md)
+- [github/20260713-0906/github.md](github/20260713-0906/github.md)
+- [github/20260713-0906/time.md](github/20260713-0906/time.md)
+- [github/20260713-0906/topic.md](github/20260713-0906/topic.md)
