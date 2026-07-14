@@ -1,0 +1,287 @@
+h2	doxcnkf0SdFiB35yFw1eKn2u7cf	2026-07-14 09:06 北京时间 | GitHub 项目巡检
+p	doxcns1SteXwVpo425jOph78A7e	本次依据 8 小时 GitHub updated 巡检窗口筛选；仅纳入候选中明确有更新时间、来源链接与 P0/P1 工程信号的仓库。整体看，Agent Memory、本地 RAG/MCP、Coding Agent 工具治理和 LLM gat
+h3	doxcnJzkPVEAJRqTu6Fixb75rJg	1. MarcoPorcellato/matryca-plumber（P0）
+li	doxcnfyZ0bklnIQPQ6EsjGFm8of	仓库：MarcoPorcellato/matryca-plumber
+li	doxcnRbLf2aQbqYHeA5catLG49d	stars：81
+li	doxcn0RevDkrFSMqECYBsSknB6g	更新时间：2026-07-14T01:04:19Z
+li	doxcnKxbr5WmOAk8OPx85YvZMHe	topics：agentic-memory, ai-agents, fastmcp, knowledge-graph, llm, local-first, logseq, markdown, mcp, model-context-proto
+li	doxcnL5Hatw49pMEI535SEiv4Ub	重要性：Watch / 今天应阅读
+li	doxcnpgy7pbpnZE6EMNLB85xcSg	主题标签：RAG 与知识工程
+li	doxcnJel8nXR4tQ7ouThbbjYHUc	核心变化：本周期内仓库更新；候选证据显示其是面向 Logseq/Markdown 的 local-first AI daemon，做后台语义索引、链接清理，并暴露 Agent-ready CLI/MCP。
+li	doxcn5Hep5EBeoeLEEu1KgGDA6f	一句话定位：把个人知识库里的 Markdown/Logseq 内容变成可被 Agent 调用和维护的本地 RAG/知识图谱层。
+li	doxcnQs9gIsomKEdE4cKeaep8Hg	解决的问题：不用云服务、不依赖 Logseq API，直接在磁盘 Markdown 上做语义索引、link hygiene 和 Agent 入口。
+li	doxcnA9icINFOUFsiTmvy5HiMId	工程影响：对本地优先 RAG、PKM 到 Agent Memory 的接入路径有参考价值，尤其是本地文件编辑、MCP 暴露和知识库自动维护的组合。
+li	doxcnxEBYqsSKkNiJVvROhVYqOr	成熟度判断：stars 81；README 已确认，包含 PyPI、release、CI、Python >=3.12、tests 974+ passing 等徽章，成熟度信号强于一般新项目。
+li	doxcnTbKgnsDTohs7zJCQ08TYIh	证据边界：已确认 README 首页信号、stars、topics、更新时间；未实际安装、未验证 Logseq 数据兼容性、索引质量、MCP 工具行为和长期增量同步稳定性。
+li	doxcnoSArjEt6SKm2MmqfysqVEf	建议动作：今天应阅读：P0 且同时覆盖本地 RAG、MCP、知识图谱和 Agent CLI，适合评估是否能作为个人/团队知识库 Agent 底座。
+li	doxcnHrx1cOZSSsIMFuCQ1AUIpb	URL：https://github.com/MarcoPorcellato/matryca-plumber
+h3	doxcnrs9KxrvecjxnDUBpoAGvLf	2. antflydb/antfly（P0）
+li	doxcnilgi86NfMcAGvXwgrKrqDb	仓库：antflydb/antfly
+li	doxcnzj9wkn6ynMAZkGQgFhqIqh	stars：415
+li	doxcn0BtY1VkYZhGMre62rEzpex	更新时间：2026-07-14T00:51:12Z
+li	doxcn0Yu6pYyhMOByD9NBH2GUGc	topics：ai-agents, autoscaling, elasticsearch, information-retrieval, ml, multimodal, rag, semantic-search
+li	doxcnVbLnl5NvTVocn0ieYckilc	重要性：POC / 今天应实验
+li	doxcnLbDtIHmtHG5Gp45lkMlwTh	主题标签：RAG 与知识工程
+li	doxcnJBMtHxiMLvgGQSHSwpLvNc	核心变化：本周期内仓库更新；README 显示 Antfly 是基于 etcd raft library 的 distributed search engine，组合 BM25、向量相似度、图遍历和多模态数据，并内置 RAG agents。
+li	doxcnrqJTC3zRjxzRQCxnRnJKQg	一句话定位：面向多模态数据的分布式 RAG/语义搜索引擎。
+li	doxcn8EQFLWceiGqTfD8qEpzjre	解决的问题：在同一检索层里统一全文检索、向量召回、图遍历、自动 embedding/chunking/graph edge 生成，以及 RAG Agent 调用。
+li	doxcnhyEb13oA1Vr6AOqqOwRw4e	工程影响：可能影响 RAG 检索层选型、弹性扩缩容、多模态召回与 ES 替代/互补策略；适合做检索基础设施 POC。
+li	doxcnKvn9eHf0WOV1QiSJP1u4bh	成熟度判断：stars 415，是本轮关注度最高项目；README 已确认并有 Quick Start 入口，但未验证部署复杂度、集群一致性和查询性能。
+li	doxcnmKDtqs4I5NNW3Smhazp6DS	证据边界：已确认 README 首页描述、stars、topics、更新时间；未实际跑 Quick Start，未验证 raft 集群稳定性、数据导入链路、RAG agent 质量和与 Elasticsearch 的兼容边界。
+li	doxcnRcgvK7KBYYeBPEsNdgLqtc	建议动作：今天应实验：关注度和工程相关性都强，建议先跑一个文本+向量+图查询的最小样例。
+li	doxcnCMIEFlmQW65zYmmtSOMxEj	URL：https://github.com/antflydb/antfly
+h3	doxcno5gdEaxlmU4HqO8A8x8W3b	3. nambok/mentedb（P0）
+li	doxcnODBcdKJUuyOtzdqvOjcZdf	仓库：nambok/mentedb
+li	doxcndNt4QNFMgd9Iimr3b8AKyg	stars：106
+li	doxcnWMufK7u61eQwz2Xkqxpx3c	更新时间：2026-07-14T00:47:34Z
+li	doxcn1Q42hF9OPmyVB4en4ZMO7d	topics：agent-memory, ai, ai-agents, cognitive-architecture, context-window, database, knowledge-graph, langchain, llm, m
+li	doxcnZOjdPMEgZp4wpi653S6Esb	重要性：Watch / 今天应阅读
+li	doxcnW8M3IvhKP8mAPW4n2nbtTc	主题标签：Agent 与多智能体
+li	doxcnUslbK2GrSuhWyWRM0NOUjc	核心变化：本周期内仓库更新；候选证据与 README 均显示其定位为 “The Mind Database for AI Agents”，是 Rust 实现的 Agent Memory/认知数据库，带 WAL、HNSW、知识图谱和 spec
+li	doxcnT4KG9Db2sHIepWT9gXJsRf	一句话定位：面向 AI Agent 长期记忆和上下文装配的底层数据库引擎。
+li	doxcn9Nu6efjO0lIsbpLciXhyI0	解决的问题：把 Agent 长期记忆、向量索引、知识图谱和上下文预组装做成独立存储引擎，而不是在通用 DB 外层再包一层工具。
+li	doxcn51fdnoW6M2Z4JqGMjJY50b	工程影响：对 Agent Memory 的数据层设计有直接参考，尤其影响持久化可靠性、召回延迟、上下文窗口填充策略和多语言 SDK 接入。
+li	doxcnE1fgdmYe8u8VdBNq0I9Oxd	成熟度判断：stars 106；README 已确认并明确标注 Beta，带 crates.io、docs.rs、CI、npm、PyPI 等发布信号；API 可能变动。
+li	doxcn0vqDxcRndOeBxSukqjCeMe	证据边界：已确认 README Beta 状态与发布渠道；未验证 WAL 恢复、HNSW 性能、KG 查询语义、LangChain 接入质量和生产可用性。
+li	doxcndX8F7jC0ZmKMioiXneU4eb	建议动作：今天应阅读：P0 且定位是底层存储引擎，优先确认 API、持久化语义和最小可运行样例。
+li	doxcnGZMo3NFFCIcwXtK5NweB2c	URL：https://github.com/nambok/mentedb
+h3	doxcnxctjhM31loM9OVU8eyttWh	4. LeandroPG19/cuba-memorys（P1）
+li	doxcn9nDC0LLtZc7IvgxYwsYmHX	仓库：LeandroPG19/cuba-memorys
+li	doxcn6AAqgjuvpbCaxgJKIDiVkd	stars：26
+li	doxcnHl8oxR4xWW1RneCzbd2D3f	更新时间：2026-07-14T01:03:10Z
+li	doxcnfJnxBDbCCdnTWYnGuBuV6n	topics：ai-memory, ai-tools, anti-hallucination, episodic-memory, graph-database, graphrag, hebbian-learning, knowledge-g
+li	doxcnAS3dJS6FJy3FzqVxAx0gDD	重要性：POC / 持续观察
+li	doxcnHnCOdPUxaB4OOfUrOi8Rdf	主题标签：Agent 与多智能体
+li	doxcnMYK6Bwby9UdJHc6BdlIYof	核心变化：本周期内仓库更新；候选显示它是 persistent memory MCP server，README 首页已确认 MCP 标识、PyPI/npm、MCP Registry published 和 Rust 1.93+ 信号。
+li	doxcnt6MqKsKyI2AY5FXBvL786b	一句话定位：以 MCP server 形式提供 AI Agent 持久记忆、图谱记忆和多种记忆工具。
+li	doxcnWDmE6VFBrE3x1w7J1h0vwf	解决的问题：让 Agent 通过 MCP 调用情景记忆、知识图谱、矛盾检测、prospective triggers、Bayesian calibration 等记忆能力。
+li	doxcnUMZqQIe316K65XhOZlPQYf	工程影响：适合评估 MCP 记忆工具接口如何设计，也可对比现有 Agent Memory 是否需要触发器、矛盾检测和校准机制。
+li	doxcnA3MATOatyfcxgOYgr4VdH9	成熟度判断：stars 26，仍偏早期；README 已确认存在 PyPI/npm/MCP Registry 发布信号，但未验证 19 个工具的完整性和后端依赖。
+li	doxcn6w7o13oCXbFl65DqXO98vc	证据边界：已确认 README 首页发布信号、stars、topics、更新时间；未验证 Docker、PostgreSQL/向量库依赖、工具 schema、记忆一致性和冲突检测准确率。
+li	doxcnLutDRsipJRFoH1A7uQkOKb	建议动作：持续观察：工程点丰富但关注度低，先验证 Docker/工具列表，再决定是否 POC。
+li	doxcnVHKhW89neDjTR3bDpopikh	URL：https://github.com/LeandroPG19/cuba-memorys
+h3	doxcno4OVAjJgvY5epmV3FLDuje	5. the-open-engine/opcore（P1）
+li	doxcnWl6a2BPfEmxCIqJmfGdY5c	仓库：the-open-engine/opcore
+li	doxcncROyIZ1v2pZkymnXcJpu3e	stars：11
+li	doxcnHCd6WXr26Dbe3KHeriTlMf	更新时间：2026-07-14T01:05:44Z
+li	doxcn892k7lXRQeL7CQSpbV8UDb	topics：agentic-coding, ai-agents, ai-coding, cli, code-analysis, code-graph, coding-agent, developer-tools, git-hooks, l
+li	doxcng7vxZjd7DkG2gwexUqIY7g	重要性：POC / 今天应阅读
+li	doxcnIiI3E6wmdYAgIBOyqLBdtc	主题标签：推理系统与工程工具
+li	doxcnzRfDgtnaexSdxads7xUaKg	核心变化：本周期内仓库更新；候选显示它是 AI coding agents 的 robustness engine，提供本地 Rust 代码图、编辑前验证门禁和符号级安全编辑。
+li	doxcnQNsCbdttamKQeTHqFfQIsb	一句话定位：给 Coding Agent 增加 repo-wide understanding、quality gate 和安全 refactor/edit 的本地工程层。
+li	doxcnJenmrUc0S7stlmNl9jncGf	解决的问题：降低 AI 编程 Agent 在大型仓库里误改、漏理解和缺少验证门禁的问题。
+li	doxcnGvtroloo7qUXynZe7qj2Sh	工程影响：对代码 Agent 的“写前理解、写中约束、写后验证”链路有直接价值，尤其适合接入 pre-commit 或 MCP 作为防误改层。
+li	doxcnym7G6IaZ8iS5FkyZsUjmOR	成熟度判断：stars 11，早期；README 已确认可访问但首页主要是视觉/品牌内容，具体安装方式和支持矩阵需继续阅读。
+li	doxcnStI3gIFwsrdzlo4hEEE6gd	证据边界：已确认 README 可访问、stars、topics、更新时间；未验证 TypeScript/Rust 支持深度、代码图准确率、编辑安全性、git hooks 集成和 MCP 工具接口。
+li	doxcnxGOptMLD8GzBDn8415KK8f	建议动作：今天应阅读：虽然 stars 低，但工程命中 Agent coding 安全编辑痛点，应确认 TypeScript/Rust 支持深度。
+li	doxcn30I6bKSSVqP6l5diPcoG3g	URL：https://github.com/the-open-engine/opcore
+h3	doxcnpneAKfB9lQ038iVzsiieIh	6. sssstwee/switch-plus-plus（P1）
+li	doxcnDTgV8Dz9fVHqhCCkFDbkOc	仓库：sssstwee/switch-plus-plus
+li	doxcnQICNdq4qgqPdygJH0E5zWf	stars：12
+li	doxcnMdbIcGnmNOzUnZEGebZH8b	更新时间：2026-07-14T01:01:34Z
+li	doxcnYRQPlQUxmR2868ObLARZSg	topics：agent-switch, ai-agent, ai-coding-agent, anthropic, claude-code, codex, config-switcher, hermes, llm-gateway, loc
+li	doxcnPH7Ea0yt621fV04Z1RTmSe	重要性：Watch / 持续观察
+li	doxcnZ9w82r9wEa72ZRcuD2lsQh	主题标签：推理系统与工程工具
+li	doxcnQSlMrmJSoWaiepEa3MD1oh	核心变化：本周期内仓库更新；README 已确认它是面向 Claude Code、Claude Desktop、Codex CLI/Desktop 和常见本地 AI coding agent 的配置切换、模型路由和本地兼容网关工具。
+li	doxcnqySgi6wb8bTvMSHHJdnfOc	一句话定位：多 Agent/多模型工具链的配置切换器、model router 和本地 OpenAI/Anthropic 兼容 gateway。
+li	doxcnEci05qdgCo3EyLGi42DHZc	解决的问题：减少多个 Coding Agent、第三方模型和本地网关并存时的配置漂移、切换成本和兼容层重复建设。
+li	doxcnlQWqAf8Pw1NDqIUrng8E7e	工程影响：可能影响 LLM gateway、模型路由、桌面端配置管理和开发者工作流治理；也涉及凭据/配置安全边界。
+li	doxcnOUidlCRRUFBZ6rCRcHhVTf	成熟度判断：stars 12，早期；README 已确认有 release 下载地址和使用指南链接，但未验证桌面应用稳定性与配置写入安全性。
+li	doxcn7syolNZbaXeGIPrgYmSKud	证据边界：已确认 README 首页、stars、topics、更新时间；未验证安装包、跨平台行为、是否改写敏感凭据、OpenAI/Anthropic 兼容完整性和 Hermes/OpenCode 接入效果。
+li	doxcn4ixmYXmlhOCL67bmazw1hd	建议动作：持续观察：适用面广但 stars 低，先看配置模型和凭据处理方式，不建议直接放入主力环境。
+li	doxcnEs7ioSfIQ49DO3fUpQ6U1B	URL：https://github.com/sssstwee/switch-plus-plus
+h3	doxcnhWlSHibgb9nnGUBSECgRxb	7. Aploide/spettro（P1）
+li	doxcn2cYB4qsfskMiNmpf7AV1lg	仓库：Aploide/spettro
+li	doxcnusGKNiw7HHcKfWusdHUSge	stars：26
+li	doxcnmv0SX6hAX5Dk6lkFqAm0Te	更新时间：2026-07-14T01:02:21Z
+li	doxcnjKCWblbvwJ5lcuiwVTkSmg	topics：ai, ai-agent, ai-agents, bubbletea, cli, coding-agent, go, local, multi-agent, terminal, tui
+li	doxcn4UGcAVof5BKab81Izq2Ikd	重要性：Watch / 持续观察
+li	doxcnHck5dZaxCtkK8jzdzdnlIh	主题标签：Agent 与多智能体
+li	doxcnj8Nmg4oK3y5FpX9xcFC0Ug	核心变化：本周期内仓库更新；候选显示它是 Go 编写的终端 coding assistant，支持规划、编码、测试、多智能体 workflow、模型选择和本地/远端 provider。README 已确认 Go 1.26+、Bubble T
+li	doxcnLGYsVJNzmc7vlx38JYNSie	一句话定位：terminal-native 的多智能体 Coding Agent/TUI。
+li	doxcnutXb0LhmuUtT263vdNkWRc	解决的问题：在终端中把 planning、coding、testing 和 provider 选择组合成一个交互式 Agent 工作台。
+li	doxcnZXgtCZAFERYbM1eXMh5sK2	工程影响：可作为 terminal-native coding Agent 形态参考，重点观察 multi-agent workflow、测试闭环、TUI 操作和 provider 抽象。
+li	doxcnuijPJ4kbeJ73o6lab28Hsd	成熟度判断：stars 26，README 明示 experimental；适合学习设计，不宜直接依赖生产任务。
+li	doxcn6UowaCJT89tRs37HAqLuye	证据边界：已确认 README 首页状态、stars、topics、更新时间；未验证任务执行可靠性、测试闭环、模型切换、上下文管理和会话历史持久化。
+li	doxcnaWHtsSVtN1fS7apWPlnW9g	建议动作：持续观察：定位清晰但成熟度信号有限，关注是否有稳定任务执行和测试验证能力。
+li	doxcnnedfgXI68QzgLjIPszZKIe	URL：https://github.com/Aploide/spettro
+h3	doxcnDUeV8R7YT2aL2rk5G6VrXd	8. jeremylongshore/claude-code-slack-channel（P1）
+li	doxcnjPYG4Z9w5I3NPtPU3QdIYb	仓库：jeremylongshore/claude-code-slack-channel
+li	doxcnLLdKPHDaOF8bsEi5xoec0f	stars：35
+li	doxcnUpqIah8XLGh5JGEZMdCUth	更新时间：2026-07-14T01:05:06Z
+li	doxcnLs1mjzLlomZbR6FYH9nmqc	topics：anthropic, channel, chatops, claude, claude-code, mcp, slack, socket-mode
+li	doxcno5nk5jeJdbLxqo524BBhIn	重要性：Watch / 今天应阅读
+li	doxcnOGhXiq6mJbQJ1y0ZlAunJc	主题标签：Agent 与多智能体
+li	doxcnkvP67jZZKyuEklLFzAPL0d	核心变化：本周期内仓库更新；README 已确认版本 v0.12.0，定位为 Claude Code 的 Slack-native governance substrate，工具调用经过 declarative tier-aware pol
+li	doxcnvfzoviEGjEN3ZuZD6J2hhg	一句话定位：把 Claude Code/同类 Agent 放进 Slack ChatOps 治理通道，并提供策略门禁和可验证审计。
+li	doxcnSnOkI9oy578gkgFHFfm7Xd	解决的问题：解决企业场景中 Agent 工具调用缺少审批、审计、身份隔离、prompt injection 防护和多 Agent loop 控制的问题。
+li	doxcnNOnZ6IpW3d7PoIfHaRk14g	工程影响：对企业 Agent 安全治理、ChatOps 审批、审计不可抵赖性有参考价值，可影响工具调用风控与合规链路。
+li	doxcnW2Wjl0b7AHFJGXiZOMiHbh	成熟度判断：stars 35，关注度仍低；README 信号较强，包含 CI、Apache 2.0、OpenSSF Scorecard、policy/journal/relay kernel 等描述。
+li	doxcngSlNHrcq1kOz6whDOEc0Kh	证据边界：已确认 README 首页、stars、topics、更新时间；未验证 Slack Socket Mode 部署、策略引擎粒度、签名日志格式、跨 channel 审批和 AGP 兼容性。
+li	doxcninAYgR93oMnhnCHVhoF4Hd	建议动作：今天应阅读：Agent governance 是高风险刚需，建议确认策略引擎粒度、签名日志格式和部署边界。
+li	doxcnaol9euPh5s2PdqQ7oVuDvb	URL：https://github.com/jeremylongshore/claude-code-slack-channel
+h3	doxcnfs8gQT2o0BHiCCVwmgwVub	9. SuperBruceJia/Awesome-Mixture-of-Experts（P1）
+li	doxcnGpVXSx45gCHDSDH19Hll6f	仓库：SuperBruceJia/Awesome-Mixture-of-Experts
+li	doxcnICgiQQ1axpT95GynNug41g	stars：67
+li	doxcnNAHiLSvzJVWg9wLL1wsZSd	更新时间：2026-07-13T23:54:25Z
+li	doxcnQhkz9vj2fwtgsJTYvT7Fot	topics：artificial-intelligence, foundation-models, large-language-model, large-vision-language-models, llms, llms-benchm
+li	doxcnRL4jw1YoAIrXGDumQbj2yb	重要性：Watch / 持续观察
+li	doxcnHe2iREe1HUuXM4s6Nig3dd	主题标签：模型发布与模型能力
+li	doxcnuIUfa0BMjOHmLPWL2w9OCh	核心变化：本周期内仓库更新；README 已确认它是 MoE/MoME 资源与论文 curated list，不是直接可集成的工程系统。
+li	doxcnoK94br9AMmyG1sNCWMV7Le	一句话定位：Mixture of Experts 与 Mixture of Multimodal Experts 的资料索引。
+li	doxcnLkIqSmaMIWvnVAxyxadKYg	解决的问题：为模型能力、MoE 架构、稀疏专家、multimodal experts 和 benchmark 追踪提供入口。
+li	doxcnl7lOiAopLX0nxg7AlyraBb	工程影响：对模型能力跟踪、MoE 推理/训练方案选型和 benchmark 线索有信息索引价值，但不直接改变工程栈。
+li	doxcnhzEVpTp3gBIXEabsgAW5Vg	成熟度判断：stars 67；README 已确认是 awesome list，MIT license；actionability 低于工具型仓库。
+li	doxcn8T1GxahsLjJqLGHo76u6Fe	证据边界：已确认 README 首页、stars、topics、更新时间；未验证列表完整性、更新质量、论文筛选标准和工程实现可复现性。
+li	doxcnnkvJkyv6ndaCX5JHUDmqig	建议动作：持续观察：适合做资料索引，不建议今天 POC；只在需要 MoE 选型或评测时深入。
+li	doxcnpLrTFhthl6zEzFzad4lybd	URL：https://github.com/SuperBruceJia/Awesome-Mixture-of-Experts
+h3	doxcn0Xql1DANrFFu7Df4lQkNJh	10. rajkripal/cashew（P1）
+li	doxcnbkf5KBvlvnTovZ5kQ3wqT1	仓库：rajkripal/cashew
+li	doxcn7QFugqoBcwob7nnwxDTkBd	stars：24
+li	doxcnoQ6J8B2KmgmK56yxalRYCf	更新时间：2026-07-14T01:04:11Z
+li	doxcnQuzMrb7IYJDDFAY1Ria4Zd	topics：agent-memory, ai-agents, claude-code, graph-memory, knowledge-graph, llm, llm-harness, long-term-memory, memory, 
+li	doxcnhCUpIbhgyzuzEDJpFgrolc	重要性：Watch / 持续观察
+li	doxcnMoXPIxwjgzHMA6FA6pN4Vh	主题标签：Agent 与多智能体
+li	doxcnB97qSg6aUhPWl1m5gRREkh	核心变化：本周期内仓库更新；README 已确认其定位为 “Persistent thought-graph memory for AI agents”，并有 PyPI cashew-brain、下载量和 MIT license 徽章。
+li	doxcnzMCGM5MAXm4JEPX0DWlE3f	一句话定位：面向 AI Agent 的持久 thought-graph memory。
+li	doxcnPjsyEqPIOu9yYaUUEdirUb	解决的问题：为 Agent 提供长期记忆抽取与召回，结合图记忆、SQLite/向量搜索和个人知识图谱方向。
+li	doxcnEMBVTGz1ijsORwzUzgu4Ef	工程影响：可作为轻量 Agent Memory/second-brain 方案备选，适合与 MCP server 型记忆项目对比接口和存储复杂度。
+li	doxcnyGl1LuZrRKOel2AoTV1Nmc	成熟度判断：stars 24，早期；README 已确认 PyPI 发布信号，但未验证数据模型、召回质量和 Claude Code 集成方式。
+li	doxcnSzYRjQV74QZG6xyjVXb7Ic	证据边界：已确认 README 首页、stars、topics、更新时间；未验证安装成功、API 稳定性、图记忆 schema、向量搜索后端和生产持久化可靠性。
+li	doxcnZmPZ7dGYd7idIy9CkTc2Vf	建议动作：持续观察：证据显示功能方向明确但 actionability 需要验证，先确认 README 的安装和数据模型。
+li	doxcnJlpmS9ZizYP7iBdXQLlAte	URL：https://github.com/rajkripal/cashew
+p	doxcnTKq6WctP8w8GCPJ9tXHsoe	本次依据候选报告的 8 小时窗口筛选，优先写入 priority_hint=P0/P1 且具备工程价值解释的仓库；katelouie/stellium 虽在窗口内更新，但主题偏占星计算，LLM 相关性与 actionability 弱，本次
+h3	doxcnoKn02fduinlCLzuuovchyh	1. cordum-io/cordum
+li	doxcnFUs5OfeaDs0r5wBdc5mwld	仓库：cordum-io/cordum
+li	doxcnBNysMe1ReUuEbsEe4Y5DVD	stars：490
+li	doxcnp00BOKBb0pzFNPqlUYMAAb	更新时间：2026-07-13T19:04:59Z
+li	doxcnEm8Yi3ThKeZ0hlHKvlrJdd	topics：agent-framework, agentic-ai, ai-agent, ai-governance, ai-orchestration, ai-safety, audit-trail, autonomous-agents
+li	doxcnfZBdTplOgKgM8Q7CR4N7Ig	重要性：P0
+li	doxcn4b3xo4ets2Ym3MyZ9E5TXg	主题标签：Agent 与多智能体；推理系统与工程工具
+li	doxcnOYKE0CfMIYAcN8Sl1LYJqe	核心变化：仓库在本窗口内更新，定位为 AI Agent 的 action firewall，将策略评估、人类审批、安全门禁和审计证据放在 Agent 工具调用 / shell 命令 / workflow / 生产变更之前；README 已确
+li	doxcn1JrWomGFwA6a68RRSPmn8d	一句话定位：面向高风险 Agent 行为的策略控制面与审批网关。
+li	doxcnSnKGzbG05ruBmJi4FEDG9d	解决的问题：Agent 越来越多地接入真实工具链后，单靠 prompt 约束难以控制生产变更、命令执行和敏感 workflow；该项目试图把风险动作前置成可审计、可审批、可策略化的控制层。
+li	doxcn8Yfms1eD0wxhU25wJ1WaF3	工程影响：适合评估为 Agent 平台的安全内核或工具调用代理层，可能影响 MCP server、CI/CD agent、DevOps 自动化和内部 LLM gateway 的高风险动作管控方案。
+li	doxcnf89F0o3keayHJqOzJo5lne	成熟度判断：490 stars，中等关注度；README 显示有 Docker/镜像/quickstart 线索，但生产稳定性、策略语言覆盖度、审计后端和多租户能力仍需实测确认。
+li	doxcn2sWYD3ZVcY78kDCKu5EM2e	证据边界：证据来自候选更新时间、stars、topics、GitHub URL 与 README 片段；具体安装成功率、策略 DSL 完整性、审批流可扩展性、性能开销未确认。
+li	doxcnzRKfIc8MDuRG2XTWP4QDMf	建议动作：今天应实验。理由：P0 且直接触及 Agent 安全与生产动作审批，建议用一个模拟 shell/MCP risky call 做最小 POC。
+li	doxcnzDbCaFLqXdaklwaNK7DiTe	URL：https://github.com/cordum-io/cordum
+h3	doxcnPHG89NWZoEAygQ0LbvR6Ze	2. universal-tool-calling-protocol/go-utcp
+li	doxcnpO2WFsvwcHkUELlB7BK36f	仓库：universal-tool-calling-protocol/go-utcp
+li	doxcnKAKj3FpJ4042IFEz5BGtAd	stars：119
+li	doxcnxfNHmuRALTN16ei4830qEc	更新时间：2026-07-13T19:02:02Z
+li	doxcnH4d9nrEBsGHrBK2kcQHu6e	topics：ai, ai-agent, ai-agent-tools, developer-tools, golang, llm, mcp, model-context-protocol, utcp
+li	doxcnLrwdFckWfgvec8l4BYucvi	重要性：P0
+li	doxcnHASFMgYCw4sdoAAZpKBRP6	主题标签：Agent 与多智能体；推理系统与工程工具
+li	doxcn4zJFDoCY9KJj9hshA8lP8d	核心变化：仓库在本窗口内更新，是 UTCP 的官方 Go 实现；README 已确认包含 Install、Quick start、Features、provider configuration、in-memory tool reposito
+li	doxcnZPfScmAmki6IVHJ59bVNje	一句话定位：Go 生态的通用工具调用协议实现，用于探索 MCP 之外的工具接入路径。
+li	doxcnAvSdQGAlREaCHMzEJRt4Pe	解决的问题：多 Agent / 多模型环境下，工具调用协议、provider 配置、工具仓库和检索策略容易被各框架割裂；UTCP 试图提供统一抽象，Go 实现对后端服务和 gateway 集成更友好。
+li	doxcn6kfCHqe4ReOzoXfzRWA0xx	工程影响：适合纳入 LLM gateway、Agent runtime、工具注册中心和 MCP 兼容层的技术储备，尤其适合 Go 服务栈评估协议抽象成本。
+li	doxcnt3Lsn7NHAPBJXnlqEP1wdv	成熟度判断：119 stars，关注度尚早期；官方实现身份增强可信度，但生态采用率、与 MCP 的互操作边界、生产案例未确认。
+li	doxcnbeUZ8PBaquStNVDoEf8fwb	证据边界：证据来自候选更新时间、stars、topics、GitHub URL 与 README 片段；API 稳定性、兼容矩阵、实际 provider 数量和版本承诺未确认。
+li	doxcnalGkyN0m0Asy2U0VuBPVgd	建议动作：今天应阅读。理由：P0 且可能影响工具调用协议选型，先阅读 spec/API，再决定是否做 Go demo。
+li	doxcn028r0Gr4M03UaB46Cwakjh	URL：https://github.com/universal-tool-calling-protocol/go-utcp
+h3	doxcnVm2QXPIxY9qN3MG6MS4DFe	3. xalgord/xalgorix
+li	doxcnkbQboSRUwQHkIQ2YahYsKc	仓库：xalgord/xalgorix
+li	doxcno2IyFaTagleQQtjNgyUbIf	stars：738
+li	doxcn2RGe3fpb6Mvbkb22z85WJb	更新时间：2026-07-13T18:59:54Z
+li	doxcnftKuQVG01MdUygLjQNSeFb	topics：ai-agent, ai-security, automation, autonomous-pentesting, bug-bounty, cybersecurity, ethical-hacking, golang, pen
+li	doxcn7ECkLqIiMQOr8eLytMjVhh	重要性：P0
+li	doxcnwZhCddnR6X8ebodTDBlfmf	主题标签：Agent 与多智能体；推理系统与工程工具
+li	doxcnJ3WOy7GAj5ddMNP2YzVB9b	核心变化：仓库在本窗口内更新，定位为 autonomous AI pentesting agents；README 已确认项目 banner 标注 AI Autonomous Penetration Testing Platform，并显示
+li	doxcn7syDzwQbCS3US0W32FPT6d	一句话定位：把侦察、漏洞检测和利用编排 agent 化的安全测试平台。
+li	doxcnYYL0ivg7JRsA9Y2UO5Ficb	解决的问题：传统漏洞扫描和渗透测试工具链分散，AI agent 化后可把 recon、检测、利用决策和编排放入更连续的流程；同时也带来权限、审计和滥用风险。
+li	doxcnBs1AwBCIAgekfAJ0l3uK2e	工程影响：对安全评测、红队自动化、Agent 工具安全边界和 sandbox 策略有参考价值；若内部有代码/系统安全 agent，可借鉴其任务编排与风险控制方式。
+li	doxcnXgCsG25R60BKjFyfAcHTUb	成熟度判断：738 stars，候选中关注度较高；但攻击面覆盖、误报率、合法授权流程、运行隔离和安全责任边界必须严格验证。
+li	doxcnHHCJs8foS2wL5geqt1yJId	证据边界：证据来自候选更新时间、stars、topics、GitHub URL 与 README 片段；安装方式、实测能力、漏洞库来源、默认安全护栏未确认。
+li	doxcnbt70usTl4qKqAnp8DwuoTr	建议动作：今天应阅读。理由：P0 且安全 Agent 方向敏感，先做架构和安全边界审查，不建议直接联网实测攻击能力。
+li	doxcnodn5ye6f80pP6sNy9cjF9f	URL：https://github.com/xalgord/xalgorix
+h3	doxcnjDH5Cab1YEwk3BlXTtGlsf	4. eric-cielo/moflo
+li	doxcndhKoAOV386GUR2JbCReAvh	仓库：eric-cielo/moflo
+li	doxcnljCUUd31TElAViGQEZxJRd	stars：14
+li	doxcn6fehgZInqe637EOTBBLY5d	更新时间：2026-07-13T19:03:21Z
+li	doxcnQsPz26cVSK0VIUmFUvGHPc	topics：agent-orchestration, ai-agents, anthropic, claude, claude-code, cli, developer-tools, local-first, mcp, model-con
+li	doxcnFLqY956eY0ZvQZDud9eule	重要性：P1
+li	doxcnh7zKciWYdVGxaY1gs0ELfe	主题标签：Agent 与多智能体；推理系统与工程工具
+li	doxcnTYOoagLacq6085cPVDYZ4d	核心变化：仓库在本窗口内更新，定位为 Claude Code 的本地优先 Agent orchestration toolkit；README 已确认 npm install、Quickstart、Features、localhost da
+li	doxcnGIUBFPv9QY1ka74tyM0Prg	一句话定位：给 Claude Code 加本地记忆、路由、门禁和工作流编排的开发者工具。
+li	doxcnnZvN5PEW9zNGldXdzsiMfh	解决的问题：CLI coding agent 在长期项目中缺少稳定的本地记忆、路由和安全门禁；MoFlo 尝试通过本地 daemon 与配置来降低多任务开发时的上下文和流程管理成本。
+li	doxcnxdFdhD6w4zQNibgu9vy4Mj	工程影响：可作为 coding agent 工作流增强层参考，尤其是本地 memory、learned routing、gates 和 MCP 集成方式；也可反向启发 Hermes/Codex/Claude Code 的本地编排体验。
+li	doxcnVozqNsV90omGYqctnTzGCe	成熟度判断：14 stars，早期项目；README 信息较完整，但社区验证、跨平台稳定性、与 Claude Code 版本兼容性未确认。
+li	doxcnQSUsMw421RhQljYJJgw38f	证据边界：证据来自候选更新时间、stars、topics、GitHub URL 与 README 片段；实际安装体验、daemon 资源占用、数据格式和失败恢复能力未确认。
+li	doxcn5fDUSjmvvrPOsDiBBMwJ4c	建议动作：持续观察。理由：P1 且方向相关，但 stars 低，先跟踪设计和更新节奏，不急于引入。
+li	doxcn7IYChgv0AXmShf4f9OOXbb	URL：https://github.com/eric-cielo/moflo
+h3	doxcnsc3YxqSRZBnNdRVLIOPk8d	5. SemiAnalysisAI/InferenceX-app
+li	doxcnyzXcz4p2ACAW7DOUxZa3SN	仓库：SemiAnalysisAI/InferenceX-app
+li	doxcnW37yO0OmliXD7wnQromW99	stars：36
+li	doxcnsVwHLJVsmWI6prh6H2u2Bb	更新时间：2026-07-13T19:05:32Z
+li	doxcnLQEHCV4yDIsFimbaSvVDVS	topics：agi, amd, benchmarking, cuda, deepseek, llm, nvidia, reactjs, rocm
+li	doxcnnh6eCdA7uxcMOe2fD6TDVb	重要性：P1
+li	doxcn2gAbezqlwyOwlq3O2obdue	主题标签：推理系统与工程工具；评测与基准
+li	doxcn0P6Ew845gxhJI1rqio7npB	核心变化：仓库在本窗口内更新，定位为 InferenceX Open Source Continuous Inference 的 dashboard；README 已确认是用于可视化 ML inference benchmark data 
+li	doxcnn8tfCLZNwhSbDB0eAFKSvg	一句话定位：面向持续推理基准数据的可视化仪表盘。
+li	doxcnhnG3cSBiDjawW4N6lpR6hh	解决的问题：推理平台需要持续比较不同硬件、模型、后端和配置下的吞吐、延迟与成本；dashboard 化有助于把 benchmark 数据转成工程决策依据。
+li	doxcnsYspxItay9zsA7RWeVlLld	工程影响：可参考其 benchmark 数据产品形态，用于内部推理服务、GPU/ROCm/CUDA 对比、模型服务回归监控和供应商/硬件选型展示。
+li	doxcns7RGRVfQ6kU9oUJ1Q8fIDc	成熟度判断：36 stars，早期/配套应用属性明显；前端和数据层线索清晰，但 benchmark 数据采集器、指标口径、开源数据覆盖范围未确认。
+li	doxcnyEJSSOppLfTUbxmmu8aeob	证据边界：证据来自候选更新时间、stars、topics、GitHub URL 与 README 片段；实际 benchmark 方法学、数据源、部署方式和 API 完整性未确认。
+li	doxcnPXpj0Aa1URCDL7WELJy47c	建议动作：今天应阅读。理由：P1 且与推理评测平台建设相关，建议阅读数据模型和指标口径。
+li	doxcnUW2SYI3q7Di2XXsG4xjB0c	URL：https://github.com/SemiAnalysisAI/InferenceX-app
+h3	doxcnacrhZqZV7gQUOkXwP2yojc	6. lukaszliniewicz/ChaReCo
+li	doxcnSDvsCkFOQlXnMbDiK2a1lg	仓库：lukaszliniewicz/ChaReCo
+li	doxcnYi6hUMoKt5VlkkJktb326c	stars：36
+li	doxcnV2vigfbMqNIpHKLV7quzwb	更新时间：2026-07-13T18:31:59Z
+li	doxcnyL3tfAHPR1oVMOchetVcPc	topics：ai-chat, llm, repo-tool, repository
+li	doxcnbdndBXhu9KFMGm8LsIB70c	重要性：P1
+li	doxcnuGnES9g0HpVWrI7fwDE9Uc	主题标签：RAG 与知识工程；数据集与数据工程
+li	doxcn3qkwMYhhm2dvjLR5U3TCHf	核心变化：仓库在本窗口内更新，README 已确认其为 GUI/CLI 工具，可从本地文件夹和 Git 仓库生成 bounded、searchable context，并输出 deterministic folder tree 与选中文本内
+li	doxcnPVg5LK6cGW677Gyz8sz2vg	一句话定位：把仓库/目录整理成可控 LLM 上下文包的轻量工具。
+li	doxcno9MXbB8a0hUr23H1DU5wQb	解决的问题：没有直接仓库访问或 API 集成时，开发者仍需要把代码上下文稳定、可复现地送入聊天式 LLM；该项目解决 repo-to-context 的整理和边界控制问题。
+li	doxcnIcnjZ9PcqalmRbCLhW0zEh	工程影响：适合用于代码审查、离线咨询、RAG 数据准备和 prompt context 打包流程；也可作为更完整代码知识库/RAG 管线的前置抽取工具参考。
+li	doxcnqngVepWixJkaxYrA07foov	成熟度判断：36 stars，轻量工具属性；README 明确 GUI/CLI 和输出目标，但大仓库性能、二进制/生成文件过滤策略、token 估算和增量模式未确认。
+li	doxcnaG4mxanTLILPWXQ9d0YnEb	证据边界：证据来自候选更新时间、stars、topics、GitHub URL 与 README 片段；安装方式、语言解析深度、搜索能力和输出格式兼容性未确认。
+li	doxcngLM1kqCNYo32DAUfTuB6vd	建议动作：持续观察。理由：P1 且实用，但替代方案多，先保留为 repo context 打包备选。
+li	doxcn87Awe11VtcEC1QyfirFB4g	URL：https://github.com/lukaszliniewicz/ChaReCo
+h3	doxcnNmffd9y09JNnxXr4878AGe	7. JamsusMaximus/trainingpeaks-mcp
+li	doxcnGIM2HVSODF5nm0w8QYQXJd	仓库：JamsusMaximus/trainingpeaks-mcp
+li	doxcntQT1I5MUPt99CkT1FeqMDb	stars：108
+li	doxcnSj7AJ12JOlS2oxJAwOIAke	更新时间：2026-07-13T19:04:33Z
+li	doxcnqU5k3f1TwGVyi87kMALseg	topics：claude, claude-desktop, cycling, fitness, mcp, mcp-server, model-context-protocol, running, training-load, traini
+li	doxcnGpDIw5rQF1kK82uD8aIPDd	重要性：P1
+li	doxcntHVa4FFQsiy37jnkJK8dQd	主题标签：Agent 与多智能体；产品与商业化
+li	doxcnH2fKmUnrwomDJvmsE6r7pd	核心变化：仓库在本窗口内更新，README 已确认是 TrainingPeaks MCP Server，并带有 Glama MCP server badge；候选摘要显示其面向 Claude Desktop/Code/Cowork 查询 w
+li	doxcnREIgXluFwMeEFVy4b7oHV9	一句话定位：垂直 SaaS 数据通过 MCP 暴露给 Claude/Agent 的案例。
+li	doxcnVSVfV9562hFDAx0hraUbUf	解决的问题：许多垂直产品没有面向 agent 的官方 API 或授权流程复杂；MCP server 为个人账户数据查询提供自然语言入口，但也会引入凭证、安全和 ToS 风险。
+li	doxcn5BKZMgVnfE00Ptad6Vay9b	工程影响：对构建企业内部 SaaS MCP connector 有参考价值，尤其是自然语言查询、账户授权绕过/替代方案、领域数据 schema 映射和客户端兼容性。
+li	doxcn4vQVzfWVSzpgkUwu7wka1d	成熟度判断：108 stars，垂直场景关注度尚可；但依赖具体第三方服务，API 稳定性、账号安全、合规边界和错误处理要谨慎。
+li	doxcnHw0l0WGfn3d69fhl2btVfh	证据边界：证据来自候选更新时间、stars、topics、GitHub URL、README 片段与候选摘要；“No API approval needed”的实现方式、安装步骤、认证安全性未确认。
+li	doxcn5SsBR9NazRE4HH9ovajkeh	建议动作：持续观察。理由：P1 但业务垂直，适合作为 MCP connector 设计参考，不作为通用基础设施优先 POC。
+li	doxcn7OszJhu6YNiquedrSICDnn	URL：https://github.com/JamsusMaximus/trainingpeaks-mcp
+h3	doxcncxB84M9DUviDVdyND0yCre	8. jianshuo/claude-skills
+li	doxcn22Vum9OKOQzwTxo3ppH6lg	仓库：jianshuo/claude-skills
+li	doxcniXLCgVN80z7CNAsCwHuX3e	stars：102
+li	doxcnRnQdnO7MXbhbq1KN2ou1He	更新时间：2026-07-13T19:02:44Z
+li	doxcnRMKM4jsZJYAFJYU5h8siSd	topics：agent-skills, ai-agent, claude, claude-code, claude-skills, codex, codex-skills, dubbing, ffmpeg, multicam, openc
+li	doxcn81Hjr3hI4arELeCqR0m9Jf	重要性：P1
+li	doxcnyZp5iQDSVbaD2KzVieXuAg	主题标签：Agent 与多智能体；多模态与生成媒体
+li	doxcnns8SLfPxp7U4z7KsW4lrEe	核心变化：仓库在本窗口内更新，README 已确认是作者日常 Claude Code skills 的镜像，候选摘要显示包含视频生产相关 skill：transcribe、translate、dub、multicam、subtitles、r
+li	doxcnBSwZm6hWrePce1rHGKu95e	一句话定位：把视频生产流程封装成 agent skill 的实践集合。
+li	doxcnWbPTwmEODFNrJho6vjPEnt	解决的问题：多媒体生产任务跨 ffmpeg、字幕、转写、翻译、配音和发布工具，手工流程复杂；skill 化可把操作流程、约束和工具调用沉淀为可复用 agent 能力。
+li	doxcnRAxSI8TMYnaBuNl12lB6Ne	工程影响：对多模态 Agent workflow、技能包格式、跨 CLI agent 兼容和内容生产自动化有参考价值；可借鉴其 skill-md/目录组织方式。
+li	doxcn1Tc1TfpIPuwM69y9FSVzqh	成熟度判断：102 stars，个人实践型仓库；可读性和真实使用痕迹较强，但通用性、测试覆盖、依赖安装和跨平台稳定性未确认。
+li	doxcnmqXD27xXpuBL5yNLnH4Uzf	证据边界：证据来自候选更新时间、stars、topics、GitHub URL、README 片段与候选摘要；每个 skill 的可执行性、依赖版本、授权/发布流程未确认。
+li	doxcn49pVYRqFZ8KfcwBhF1vJIh	建议动作：持续观察。理由：P1 且对 skill 生态有启发，但更偏工作流样例，短期不需 POC。
+li	doxcnRkFY1YvrC7CSDaZ8lutpug	URL：https://github.com/jianshuo/claude-skills
+li	doxcnhfv1MJuJOPnVk66f52LIuf	仓库：GreyDGL/PentestGPT
+li	doxcn3eppBM52IKpdkMeqj0gPxf	stars：14214
+li	doxcnwDqR7Ffl5tgUvbmz4hUNod	更新时间：2026-07-13T08:49:08Z
+li	doxcnJPMJe6LOJt90E2434pojhh	topics：large-language-models, llm, penetration-testing, python
+li	doxcn0tj1A3VmtZgOXFEsoqPBch	重要性：P1：高 star 的自动化渗透测试 Agent 框架，安全 Agent 方向成熟度和学术背书强，但本次只是窗口内更新，不代表新功能确认。
+li	doxcnUUre3ZNGbaHwEQdTRe9Hic	主题标签：Agent 与多智能体；评测与基准
+li	doxcnyKZPK1BiQ0lFkMJedvVnCg	核心变化：本窗口内有更新；README 已确认其定位为 AI-Powered Autonomous Penetration Testing Agent，并标注 USENIX Security 2024。
+li	doxcnA6QumOozwTYEyQs7Oy4mDh	一句话定位：面向渗透测试的 LLM Agent 框架。
+li	doxcnmtywLexvWDEa3KBnEMRmRg	解决的问题：解决安全测试中任务分解、工具调用、发现归纳与下一步攻击路径规划的问题。
+li	doxcnssiCKu1s2jVY9Oez7mb2pf	工程影响：对安全 Agent、红队自动化、工具使用评测和 LLM 安全边界设计有参考，但也需严格合规控制。
+li	doxcnwJm0xgpI0zO8jmWYnkubub	成熟度判断：14214 stars；论文与官网信号强；本次更新内容、当前维护状态、安装与模型兼容性未确认。
+li	doxcnwWaPTiqGN9cCFTrjdraZjg	证据边界：证据来自候选元数据与 README；未查看 commit diff，未运行工具；安全用途需限定授权环境。
+li	doxcnVqVoXzAHWENh4nQlmImFSg	建议动作：今天应阅读：只读架构与论文，不建议在未授权环境做执行型 POC。
+li	doxcn4RgUa5FKIEdzPHsctuhN7d	URL：https://github.com/GreyDGL/PentestGPT

@@ -1,0 +1,29 @@
+h2	doxcnNMwBtAUcOzJQO8GWqyahFh	2026-07-14 09:06 GitHub 项目
+li	doxcnEvwGxyrvrirTpmHNaiRFZc	[P0] MarcoPorcellato/matryca-plumber | RAG 与知识工程 | Local-first Logseq/Markdown AI daemon：本地语义索引、链接清理、CLI/MCP，适合评估个人知识库 A
+li	doxcnKl46YOuyrUtzy9Woqgspgh	[P0] antflydb/antfly | RAG 与知识工程 | 分布式多模态搜索引擎，组合 BM25、向量相似度、图遍历和内置 RAG agents，建议跑最小检索样例。 | 详情：https://my.feishu.cn/docx/
+li	doxcn9EgJpWjT1efaqdod6fBXGe	[P0] nambok/mentedb | Agent 与多智能体 | Rust Agent Memory 数据库：WAL、HNSW、知识图谱和上下文预组装，适合阅读 API 与持久化语义。 | 详情：https://my.feishu.c
+li	doxcnKhd1X8NghMppKZQ0AQZsqe	[P1] LeandroPG19/cuba-memorys | Agent 与多智能体 | Persistent memory MCP server，包含图谱记忆、情景记忆、矛盾检测等工具，建议先验证 Docker/工具列表。 | 详情：h
+li	doxcnoa2xownlTXU6Fpu489iJsc	[P1] the-open-engine/opcore | 推理系统与工程工具 | AI coding agents robustness engine：本地代码图、编辑前验证门禁和符号级安全编辑，值得阅读支持矩阵。 | 详情：https:
+li	doxcnd2c2aAN3Rb4ZGodKfN77nf	[P1] sssstwee/switch-plus-plus | 推理系统与工程工具 | 多 Agent/多模型配置切换、model router 和本地 OpenAI/Anthropic 兼容 gateway，先观察凭据处理。 | 详情：
+li	doxcnKKKS86kU9vuq8mdLf4xTjh	[P1] Aploide/spettro | Agent 与多智能体 | Go 终端 coding assistant，支持 multi-agent workflow、模型选择和本地/远端 provider；README 标注 experi
+li	doxcnSUej0BtFIEo4G6JjM089pc	[P1] jeremylongshore/claude-code-slack-channel | Agent 与多智能体 | Claude Code 的 Slack-native governance substrate，含分层策略门禁和 
+li	doxcnEXbjiOAWYCmlOh86RjgDoo	[P1] SuperBruceJia/Awesome-Mixture-of-Experts | 模型发布与模型能力 | MoE/MoME 资料和论文 curated list，可做模型能力和 benchmark 线索索引，不适合直接 POC
+li	doxcneJUqfAEQWR3hTqUQ252Rse	[P1] rajkripal/cashew | Agent 与多智能体 | Persistent thought-graph memory for AI agents，PyPI 发布信号已确认，适合与 MCP 记忆项目对比。 | 详情：ht
+li	doxcni0WBfycYJw3KWeqzCUl2jd	[P0] cordum-io/cordum | Agent 与多智能体；推理系统与工程工具 | Agent action firewall：在高风险工具调用、shell、workflow 和生产变更前加入策略、审批与审计门禁。详情：http
+li	doxcnI8fVhLVuTISEsKb779xeAb	[P0] universal-tool-calling-protocol/go-utcp | Agent 与多智能体；推理系统与工程工具 | UTCP 官方 Go 实现，用于评估 MCP 之外/之上的通用工具调用协议与 provider 抽
+li	doxcno2vnYkUd2FsbKn2ozI8RHg	[P0] xalgord/xalgorix | Agent 与多智能体；推理系统与工程工具 | Autonomous AI pentesting agents，把 recon、漏洞检测和利用编排 agent 化，适合安全 Agent 边界研
+li	doxcn9keUxcbgCPXtCVtBJvVx6f	[P1] eric-cielo/moflo | Agent 与多智能体；推理系统与工程工具 | Claude Code 本地优先编排工具，覆盖 memory、indexing、gates、routing 与 MCP 修复线索。详情：http
+li	doxcnknwMtG60Cxoj6IsypPHigf	[P1] SemiAnalysisAI/InferenceX-app | 推理系统与工程工具；评测与基准 | Continuous inference benchmark dashboard，适合作为推理评测数据产品和可视化形态参考。详情：
+li	doxcn34Uy1FxDZx3vVPXsB1keWf	[P1] lukaszliniewicz/ChaReCo | RAG 与知识工程；数据集与数据工程 | 将本地目录/Git 仓库整理为 bounded、searchable LLM chat context 的 GUI/CLI 工具。详情：
+li	doxcnMIJKy4NYilNbgLjiAEADOd	[P1] JamsusMaximus/trainingpeaks-mcp | Agent 与多智能体；产品与商业化 | 垂直 SaaS 数据 MCP server 案例，可参考其领域数据查询与 Claude 客户端接入方式。详情：https
+li	doxcnpNKCx26SQVfx52NOuYJ4ve	[P1] jianshuo/claude-skills | Agent 与多智能体；多模态与生成媒体 | 视频生产 Claude/Codex skill 集合，覆盖转写、翻译、配音、字幕、多机位和发布流程。详情：https://my.fei
+li	doxcnD92x10cLFGGD5NnXEGZPSc	[P0] alecs5am/ralphy | Agent 与多智能体；多模态与生成媒体；推理系统与工程工具 | 面向 AI Agent 的短视频生成运行时。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2o
+li	doxcnM3tYob1VFFtx6NwhxC12Jd	[P0] niaka3dayo/agent-skills-vrc-udon | Agent 与多智能体；推理系统与工程工具 | 面向 VRChat UdonSharp 的 AI 编码 Agent 技能与验证包。 | 详情：https://m
+li	doxcnPTw2kYgpmJ4zdJWewUhY9e	[P0] milisp/codexia | Agent 与多智能体；推理系统与工程工具 | Codex CLI + Claude Code 的桌面/工作站式 Agent 命令中心。 | 详情：https://my.feishu.cn/doc
+li	doxcn8XQW2nUCMSKi3JW3bF1apb	[P0] papadopouloskyriakos/agentic-chatops | Agent 与多智能体；推理系统与工程工具 | 面向自托管基础设施的三层 agentic ChatOps 案例。 | 详情：https://my.fei
+li	doxcnXk13FWpj1IG4kl0NSkRRYl	[P0] mirkobozzetto/flowflow | RAG 与知识工程；数据集与数据工程；产品与商业化 | 本地优先的语音笔记 RAG 应用。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKK
+li	doxcnycRLp3EctvIs6NV526RKqd	[P1] nagi-studio/nagi-bench | 评测与基准；Agent 与多智能体 | 面向 Agent/Harness 组合的 one-shot LLM 案例评测集。 | 详情：https://my.feishu.cn/doc
+li	doxcnUr4J1vU6u6LLiGvGbwgXjh	[P1] qlan-ro/mainframe | Agent 与多智能体；推理系统与工程工具 | 聚合多个 AI 编码 Agent 的开发环境。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxf
+li	doxcnTmXRu3Zd7PvV4cr7b2qi4g	[P1] dcc-mcp/dcc-mcp-blender | 多模态与生成媒体；Agent 与多智能体；推理系统与工程工具 | Blender 内嵌 MCP server 的 DCC 插件。 | 详情：https://my.feishu.c
+li	doxcnO4JvTXQeWQuMrQSayRtFlg	[P1] Hamster-Prime/Smart_Group_Bot | RAG 与知识工程；Agent 与多智能体；产品与商业化 | 基于 LLM/RAG 的 Telegram 群聊智能管理机器人。 | 详情：https://my.fei
+li	doxcn0vYlVUeU5VqUK2l8Qh7fUo	[P1] GreyDGL/PentestGPT | Agent 与多智能体；评测与基准 | 面向渗透测试的 LLM Agent 框架。 | 详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcr
