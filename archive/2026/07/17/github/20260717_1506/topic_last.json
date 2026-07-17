@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"section\" requested-start=\"doxcnPuW2G1eCZKmXqJebExibsf\"><h3 id=\"doxcnPuW2G1eCZKmXqJebExibsf\">数据集与数据工程</h3><ul><li id=\"doxcnI6DYQoibYUOHf59jiXnOrf\"><b>chefroger/smart-trade-ai</b>（P1）：适用场景为客户资料、OSINT、汇率/新闻/商品行情等多源数据进入 LLM 工作流；成熟度为早期应用，未验证数据管道稳定性和数据合规。详情：https://my.feishu.cn/docx/IXZGdmtp2oCKKJxfWsXcrBbTn0g；原文：https://github.com/chefroger/smart-trade-ai</li></ul></fragment>",
+      "document_id": "OeMPdOXCSoG6JDxWU3qc5fcRn1c",
+      "revision_id": 115
+    }
+  }
+}

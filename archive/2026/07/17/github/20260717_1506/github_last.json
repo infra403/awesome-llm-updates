@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"section\" requested-start=\"doxcndbWt9fyHy5CsJ749S6KWwg\"><h3 id=\"doxcndbWt9fyHy5CsJ749S6KWwg\">未纳入条目</h3><ul><li id=\"doxcnbQnuu4yfIAaOCeB7V6bLfg\"><b>blue-pen5805/llm-proxy-on-cloudflare-workers</b>：本周期内更新且 README 已确认是 Cloudflare Workers 上的 LLM API proxy，但候选质量信号显示 actionability_weak / actionability=0；与 Bifrost 等更完整 LLM gateway 相比，本轮工程增量较弱，因此暂不写入主清单，后续仅在需要 Cloudflare Workers 轻量代理方案时再回看。</li></ul></fragment>",
+      "document_id": "IXZGdmtp2oCKKJxfWsXcrBbTn0g",
+      "revision_id": 95
+    }
+  }
+}
