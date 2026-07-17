@@ -25,7 +25,7 @@
 
 ## 最新更新
 
-最新日期：[**2026-07-17 LLM 工程情报 Radar**](daily/2026/07/17/index.md)
+最新日期：[**2026-07-18 LLM 工程情报 Radar**](daily/2026/07/18/index.md)
 
 - 暂无可提取 Top Picks；请先查看最近的 daily 或 archive。
 
@@ -44,6 +44,7 @@
 
 ## 最近更新
 
+- [2026-07-18 Daily Radar](daily/2026/07/18/index.md) · [原始归档](archive/2026/07/18/README.md)
 - [2026-07-17 Daily Radar](daily/2026/07/17/index.md) · [原始归档](archive/2026/07/17/README.md)
 - [2026-07-16 Daily Radar](daily/2026/07/16/index.md) · [原始归档](archive/2026/07/16/README.md)
 - [2026-07-15 Daily Radar](daily/2026/07/15/index.md) · [原始归档](archive/2026/07/15/README.md)
