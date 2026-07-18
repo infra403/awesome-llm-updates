@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"2026-07-18 09:05\"><h2 id=\"doxcne9gnOch8TcsVZVEi4aBerc\">2026-07-18 09:05 北京时间 | GitHub 项目巡检</h2><p id=\"doxcnyGjQA3L6R8bd6MgZaPSUPk\">本次依据预运行脚本提供的 GitHub Search/updated 候选筛选，时间窗口为最近 8 小时；只写入 P0/P1 且具备明确工程价值的条目。GitHub 查询中有一次 403 rate limit，因此本文不使用失败查询补充旧项目。README 均未在本轮额外确认，证据以候选仓库元数据、topics、更新时间、stars、summary 与 reason_codes 为边界。</p></fragment>",
+      "document_id": "IXZGdmtp2oCKKJxfWsXcrBbTn0g",
+      "revision_id": 99
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.68",
+      "latest": "1.0.71",
+      "message": "lark-cli 1.0.71 available, current 1.0.68, run: lark-cli update"
+    }
+  }
+}
