@@ -1,0 +1,47 @@
+[
+  {
+    "repo": "asheshgoplani/agent-deck",
+    "readme_status": "README 已确认",
+    "readme_snippet": "<div align=\"center\"> <!-- Status Grid Logo --> <img src=\"site/logo.svg\" alt=\"Agent Deck Logo\" width=\"120\"> # Agent Deck **Your AI agent command center** [![GitHub Stars](https://img.shields.io/github/stars/asheshgoplani/"
+  },
+  {
+    "repo": "jgravelle/jdocmunch-mcp",
+    "readme_status": "README 已确认",
+    "readme_snippet": "<!-- mcp-name: io.github.jgravelle/jdocmunch-mcp --> ## You're Wasting Tokens... That Stops NOW Most AI agents still explore documentation the expensive way: open file → skim hundreds of irrelevant paragraphs → open anot"
+  },
+  {
+    "repo": "eastriverlee/LLM.swift",
+    "readme_status": "README 已确认",
+    "readme_snippet": "# LLM.swift [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Feastriverlee%2FLLM.swift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/eastriverlee/LLM.swift)"
+  },
+  {
+    "repo": "AliceLJY/recallnest",
+    "readme_status": "README 已确认",
+    "readme_snippet": "<div align=\"center\"> # RecallNest **Shared Memory Layer for Claude Code, Codex, and Gemini CLI** *One memory. Three terminals. Context that survives across windows.* A local-first memory system backed by LanceDB that tur"
+  },
+  {
+    "repo": "jyjeanne/crustly",
+    "readme_status": "README 已确认",
+    "readme_snippet": "# Crustly 🥐 **High-Performance Terminal AI Assistant for Software Development** > A blazingly fast, memory-efficient terminal-based AI assistant written in Rust. > Rust reimplementation of Crush with 95%+ feature parity "
+  },
+  {
+    "repo": "NotYuSheng/TracePcap",
+    "readme_status": "README 已确认",
+    "readme_snippet": "<h1 align=\"center\">TracePcap</h1> <p align=\"center\"> <strong>Black-box network analysis from PCAP captures — no prior knowledge of the network required</strong> </p> <p align=\"center\"> <a href=\"#features\">Features</a> • "
+  },
+  {
+    "repo": "theonlyamos/cognitrix",
+    "readme_status": "README 已确认",
+    "readme_snippet": "# Cognitrix Cognitrix is an open-source autonomous AI agents orchestrator built in Python. It allows you to create and manage AI agents with ease and integrates seamlessly with large language models (LLMs) from various p"
+  },
+  {
+    "repo": "exa-labs/exa-mcp-server",
+    "readme_status": "README 已确认",
+    "readme_snippet": "# Exa MCP Server [![Install in Cursor](https://img.shields.io/badge/Install_in-Cursor-000000?style=flat-square&logoColor=white)](https://cursor.com/en/install-mcp?name=exa&config=eyJuYW1lIjoiZXhhIiwidHlwZSI6Imh0dHAiLCJ1c"
+  },
+  {
+    "repo": "danielealbano/android-remote-control-mcp",
+    "readme_status": "README 已确认",
+    "readme_snippet": "# Android Remote Control MCP [![CI](https://github.com/danielealbano/android-remote-control-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/danielealbano/android-remote-control-mcp/actions/workflows/ci.yml) ["
+  }
+]
