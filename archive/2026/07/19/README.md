@@ -14,3 +14,6 @@
 - [github/20260719-1505/github.md](github/20260719-1505/github.md)
 - [github/20260719-1505/time.md](github/20260719-1505/time.md)
 - [github/20260719-1505/topic.md](github/20260719-1505/topic.md)
+- [github/20260719_2105/github_projects.md](github/20260719_2105/github_projects.md)
+- [github/20260719_2105/time_index.md](github/20260719_2105/time_index.md)
+- [github/20260719_2105/topic_index.md](github/20260719_2105/topic_index.md)
